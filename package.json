@@ -1,0 +1,36 @@
+{
+  "name": "codecats-academy-backend",
+  "version": "1.0.0",
+  "description": "Este repositorio de CodeCats Academy se dedica exclusivamente al desarrollo del backend la cueal sera realizada en Nodejs de nuestra plataforma educatival. CodeCats Academy es una página web que ofrece cursos digitales relacionados con la programación.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir build",
+    "dev": "nodemon src/app.js --exec babel-node",
+    "start": "node build/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "codecats-academy-backend"
+  },
+  "author": "GiulianoCharra",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.22.15",
+    "@babel/core": "^7.22.20",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.22.20",
+    "nodemon": "^3.0.1"
+  }
+}
