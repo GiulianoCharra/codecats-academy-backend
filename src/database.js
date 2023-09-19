@@ -3,7 +3,7 @@ import { MongoClient, ServerApiVersion } from "mongodb";
 import dotenv from "dotenv";
 dotenv.config({ path: "./.env" });
 
-const uri = process.env.MONGODB_URI;
+const uri = process.env.DB_URI;
 
 // Conexión a MongoDB
 const client = new MongoClient(uri, {
@@ -18,8 +18,8 @@ export default async function runDB() {
   try {
     // Connect the client to the server	(optional starting in v4.7)
     await client.connect();
-    const admin = client.db("admin");
-    const db = client.db("codecats-academy-db");
+    const admin = client.db(process.env.DB_USER);
+    const db = client.db(process.env.DB_NAME);
 
     // Send a ping to confirm a successful connection
     admin.command({ ping: 1 });
