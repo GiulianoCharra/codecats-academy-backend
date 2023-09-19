@@ -6,6 +6,7 @@ dotenv.config({ path: "./.env" });
 const uri = process.env.DB_URI;
 const user = process.env.DB_USER;
 const dbName = process.env.DB_NAME;
+const coleccionUsers = process.env.COLLECION_USERS;
 
 // Conexión a MongoDB
 const client = new MongoClient(uri, {
@@ -23,9 +24,6 @@ export default async function runDB() {
     const admin = client.db(user);
     const db = client.db(dbName);
 
-    console.log("user: ", user);
-    console.log("db: ", dbName);
-
     // Send a ping to confirm a successful connection
     admin.command({ ping: 1 });
     console.log("Pinged your deployment. You successfully connected to MongoDB!");
@@ -42,7 +40,7 @@ export default async function runDB() {
 
     // Listar las documentos
     console.log("Lista de usuarios: ");
-    let users = db.collection("users");
+    let users = db.collection(coleccionUsers);
     let resultado = users.find({});
     // Print returned documents
     for await (const doc of resultado) {
