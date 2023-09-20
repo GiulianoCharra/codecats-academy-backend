@@ -18,9 +18,6 @@ app.use(cors());
 app.use("/api/users", authRoutes);
 app.use("/api/courses", courseRoutes);
 
-app.get("/users", (req, res) => {
-  res.send("Lista de usuarios");
-});
 
 // Iniciar el servidor
 app.listen(port, () => {

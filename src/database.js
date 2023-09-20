@@ -3,13 +3,13 @@ import { MongoClient, ServerApiVersion } from "mongodb";
 import dotenv from "dotenv";
 dotenv.config({ path: "./.env" });
 
-const uri = process.env.DB_URI;
+const dbUri = process.env.DB_URI;
 const user = process.env.DB_USER;
 const dbName = process.env.DB_NAME;
 const coleccionUsers = process.env.COLLECION_USERS;
 
 // Conexión a MongoDB
-const client = new MongoClient(uri, {
+const client = new MongoClient(dbUri, {
   serverApi: {
     version: ServerApiVersion.v1,
     strict: true,
@@ -46,6 +46,12 @@ export default async function runDB() {
     for await (const doc of resultado) {
       console.log(doc);
     }
+    //add user to collection
+    console.log("Agregar nuevo usuario: ");
+    let newUser = await users.findOne({ email: "juan@gmail.com" });
+    console.log("Nuevo usuario:", newUser);
+    if (newUser === null)
+      await users.insertOne({ name: "Juan", email: "juan@gmail.com", password: "123" });
   } catch {
     console.error("No se pudo conectar con la db");
   } finally {
