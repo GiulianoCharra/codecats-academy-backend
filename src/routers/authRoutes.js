@@ -1,6 +1,7 @@
 import { Router } from "express";
-const router = Router();
 import { register, login, getUsers } from "../controllers/authController.js";
+
+const router = Router();
 
 // Rutas de autenticación
 router.get("/", getUsers);

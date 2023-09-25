@@ -1,20 +1,26 @@
 import bcryptjs from "bcryptjs";
 import jsonwebtoken from "jsonwebtoken";
-import User from "../models/UserModel.js";
+import User from "../models/user.js";
+import { verifyEmail } from "../services/email-verifier.js";
 
 export async function register(req, res) {
   console.log("register a new user");
   try {
     const { username, email, password } = req.body;
+
     // Verificar si el correo electrónico ya está en uso
     const existingUser = await User.findOne({ email });
     if (existingUser) {
-      return res.status(400).json({ message: "El correo electrónico ya está en uso" });
+      return res.status(400).json({ message: "Email is already in use" });
+    }
+    // Verificar si el correo electrónico es válido
+    if (!(await verifyEmail(email))) {
+      return res.status(400).json({ message: "Email is invalid" });
     }
     // Encriptar la contraseña
     const hashedPassword = await bcryptjs.hash(password, 10);
     // Crear un nuevo usuario
-    const newUser = new User({
+    const newUser = await User.create({
       username,
       email,
       password: hashedPassword,
@@ -29,7 +35,6 @@ export async function register(req, res) {
     console.error(error);
     res.status(500).json({ message: "Error en el servidor" });
   }
-  return res.send("hola tonto");
 }
 
 export async function login(req, res) {
@@ -60,7 +65,6 @@ export async function login(req, res) {
 //Get all users from MongoDB
 export async function getUsers(req, res) {
   console.log("get all users");
-  return res.status(500).json({ message: "hola tonto " });
 
   try {
     const users = await User.find();
