@@ -1,22 +1,11 @@
 import bcryptjs from "bcryptjs";
 import jsonwebtoken from "jsonwebtoken";
-import User from "../models/user.js";
-import { verifyEmail } from "../services/email-verifier.js";
+import User from "../models/UserModel.js";
 
 export async function register(req, res) {
   console.log("register a new user");
   try {
     const { username, email, password } = req.body;
-
-    // Verificar si el correo electrónico ya está en uso
-    const existingUser = await User.findOne({ email });
-    if (existingUser) {
-      return res.status(400).json({ message: "Email is already in use" });
-    }
-    // Verificar si el correo electrónico es válido
-    if (!(await verifyEmail(email))) {
-      return res.status(400).json({ message: "Email is invalid" });
-    }
     // Encriptar la contraseña
     const hashedPassword = await bcryptjs.hash(password, 10);
     // Crear un nuevo usuario
@@ -25,15 +14,12 @@ export async function register(req, res) {
       email,
       password: hashedPassword,
     });
-    await newUser
-      .save()
-      .then((user) => console.log("User created: ", user))
-      .catch((error) => console.error(error));
+    await newUser.save().catch((error) => console.error(error));
 
-    res.status(201).json({ message: "Usuario registrado con éxito" });
+    res.status(201).json({ message: "User created successfully" });
   } catch (error) {
     console.error(error);
-    res.status(500).json({ message: "Error en el servidor" });
+    res.status(500).json({ message: "Error in the server" });
   }
 }
 
@@ -41,20 +27,28 @@ export async function login(req, res) {
   console.log("login a user");
   try {
     const { email, password } = req.body;
-    // Verificar si el usuario existe
+
+    // Verify if the email exists
     const user = await User.findOne({ email });
     if (!user) {
-      return res.status(401).json({ message: "Credenciales inválidas" });
+      return res.status(401).json({ message: "Credentials are invalid" });
     }
-    // Verificar la contraseña
+    // Verify if the password is correct
     const passwordMatch = await bcryptjs.compare(password, user.password);
     if (!passwordMatch) {
-      return res.status(401).json({ message: "Credenciales inválidas" });
+      return res.status(401).json({ message: "Credentials are invalid" });
     }
-    // Generar y enviar un token JWT
-    const token = jsonwebtoken.sign({ userId: user._id }, "tu_secreto_secreto", {
-      expiresIn: "1h",
-    });
+
+    // Generate a JWT
+    const token = jsonwebtoken.sign(
+      {
+        name: user.username,
+        userMail: user.email,
+        userRol: user.role,
+        exp: Math.floor(Date.now() / 1000) + 60 * 60,
+      },
+      "tu_secreto_secreto"
+    );
     res.status(200).json({ token });
   } catch (error) {
     console.error(error);
@@ -65,12 +59,11 @@ export async function login(req, res) {
 //Get all users from MongoDB
 export async function getUsers(req, res) {
   console.log("get all users");
-
   try {
     const users = await User.find();
     res.status(200).json(users);
   } catch (error) {
     console.error(error);
-    res.status(500).json({ message: "Error en el servidor" });
+    res.status(500).json({ message: "Error in the server" });
   }
 }
