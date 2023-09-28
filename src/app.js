@@ -1,19 +1,16 @@
 import express from "express";
-import dotenv from "dotenv";
 import cors from "cors";
-import { dbConnection } from "./database.js";
+import { database, server } from "./config/config.js";
+import { dbConnection } from "./config/database.js";
 import authRoutes from "./routers/authRoutes.js";
 import courseRoutes from "./routers/courseRoutes.js";
-
-// Load environment variables from an .env file
-dotenv.config({ path: "./.env" });
+import secretRotation from "./config/rotationSecret.js";
 
 // Config the express app
 const app = express();
-const port = process.env.PORT || 3000;
-
 // Import the connection to the database from the connection module
-await dbConnection(process.env.DB_URI);
+await dbConnection(database.url);
+secretRotation();
 
 // Middleware
 app.use(express.urlencoded({ extended: true }));
@@ -28,6 +25,6 @@ app.use("/api/users", authRoutes);
 app.use("/api/courses", courseRoutes);
 
 // Init the server
-app.listen(port, () => {
-  console.log(`Server running on port ${port}`);
+app.listen(server.port, () => {
+  console.log(`Server running on port ${server.port}`);
 });

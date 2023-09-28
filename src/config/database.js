@@ -1,6 +1,5 @@
 import mongoose from "mongoose";
 import { MongoClient, ServerApiVersion } from "mongodb";
-import UserModel from "./models/UserModel.js";
 
 export async function dbConnection(dbURL) {
   mongoose.connect(dbURL);
