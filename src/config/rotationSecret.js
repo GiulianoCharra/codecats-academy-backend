@@ -1,4 +1,4 @@
-import { jwtAuth } from "./config.js";
+import { jwtConfig } from "./config.js";
 import { secretGenerator } from "../utils/secretGenerator.js";
 
 function secretRotation() {
@@ -7,7 +7,7 @@ function secretRotation() {
     const newSecret = secretGenerator();
     process.env.JWT_SECRET = newSecret;
     console.log("New secret: ", newSecret);
-  }, jwtAuth.jwtRotationTime); // 7 days
+  }, jwtConfig.jwtRotationTime); // 7 days
 }
 
 export default secretRotation;

@@ -1,10 +1,19 @@
 import dotenv from "dotenv";
 dotenv.config({ path: "./.env" });
 
-export const jwtAuth = {
+export const roles = {
+  admin: process.env.ROLE_ADMIN,
+  user: process.env.ROLE_USER,
+};
+
+export const cookieNames = {
+  authTokenCookie: process.env.COOKIE_AUTH_TOKEN,
+};
+
+export const jwtConfig = {
   jwtSecretSize: process.env.JWT_SECRET_SIZE,
   jwtSecret: process.env.JWT_SECRET,
-  jwtExpiresIn: process.env.JWT_EXPIRES_IN,
+  jwtExpiration: process.env.JWT_EXPIRES_IN,
   jwtRotationTime: process.env.JWT_ROTATION_TIME,
 };
 
@@ -20,9 +29,4 @@ export const externalServices = {
   verifierAPiKey: process.env.VERIFIER_API_KEY,
 };
 
-export default {
-  jwtAuth,
-  server,
-  database,
-  externalServices,
-};
+export default { roles, cookieNames, jwtConfig, server, database, externalServices };

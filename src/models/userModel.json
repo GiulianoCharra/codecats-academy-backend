@@ -1,0 +1,51 @@
+{
+  "email": { "type": "String", "required": true, "unique": true },
+  "password": { "type": "String", "required": true, "minLength": 8 },
+  "username": {
+    "type": "String",
+    "required": true,
+    "minLength": 3,
+    "maxLength": 30,
+    "unique": true
+  },
+  "role": { "type": "String", "enum": ["admin", "user"], "default": "user" },
+  "description": { "type": "String", "default": "" },
+  "inscribedCourses": {
+    "showCompletedCourses": { "type": "Boolean", "default": false },
+    "courses": [
+      {
+        "course": { "type": "ObjectId", "ref": "Course" },
+        "purchasedAt": { "type": "Date", "default": "Date.now" },
+        "progress": { "type": "Number", "default": 0, "min": 0, "max": 100 }
+      }
+    ]
+  },
+  "createdCourses": [{ "type": "ObjectId", "ref": "Course" }],
+  "desiredCourses": [{ "type": "ObjectId", "ref": "Course" }],
+  "shoppingCart": [{ "type": "ObjectId", "ref": "Course" }],
+  "image": { "type": "String" },
+  "createdAt": { "type": "Date", "default": "Date.now" },
+  "updatedAt": { "type": "Date", "default": "Date.now" },
+  "biography": { "type": "String", "default": "" },
+  "socialLinks": {
+    "linkedin": { "type": "String", "default": "" },
+    "facebook": { "type": "String", "default": "" },
+    "instagram": { "type": "String", "default": "" }
+  },
+  "contactInfo": {
+    "phone": {
+      "show": { "type": "Boolean", "default": false },
+      "value": { "type": "String", "default": "" }
+    },
+    "email": {
+      "show": { "type": "Boolean", "default": false },
+      "value": { "type": "String", "default": "" }
+    }
+  },
+  "achievements": [
+    {
+      "title": { "type": "String" },
+      "showInProfile": { "type": "Boolean", "default": false }
+    }
+  ]
+}
