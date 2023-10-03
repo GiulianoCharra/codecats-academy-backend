@@ -14,6 +14,7 @@ const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutos
   limit: 40, // Máximo de 100 solicitudes por ventana
   message: "Demasiadas solicitudes desde esta IP. Por favor, inténtalo de nuevo más tarde.",
+  validate: { xForwardedForHeader: false },
 });
 
 // Import the connection to the database from the connection module

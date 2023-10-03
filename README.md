@@ -9,6 +9,7 @@ Tecnologías y metodologías usadas:
 ## Este proyecto utiliza variables de entorno, se deberan configurar las siguientes variables:
     ## Configurations for the server
     PORT=
+    NODE_VERSION=
 
     ## Configurations for the database
     DB_URL=
