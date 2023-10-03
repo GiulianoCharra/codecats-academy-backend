@@ -4,14 +4,17 @@ import { Schema, model } from "mongoose";
 const courseSchema = new Schema({
   idCourse: {
     type: String,
+    unique: true,
     required: true,
   },
+  number: { type: Number, required: true, unique: true },
   title: {
     type: String,
     required: true,
   },
   description: {
     type: String,
+    default: "No description provided.",
   },
   price: {
     type: Number,
@@ -25,6 +28,8 @@ const courseSchema = new Schema({
   difficulty: {
     type: String,
     enum: ["beginner", "intermediate", "advanced", "expert"],
+
+    default: "beginner",
   },
   category: {
     type: String,
@@ -40,13 +45,15 @@ const courseSchema = new Schema({
       "Database Management",
       "Cloud Computing",
     ],
+    default: "Introduction to Programming",
   },
   language: {
     type: String,
+    default: "English",
   },
   courseDurationMinutes: {
     type: Number,
-    required: true,
+    default: 0,
   },
   courseModality: {
     type: String,
@@ -55,6 +62,7 @@ const courseSchema = new Schema({
   creator: {
     type: Schema.Types.ObjectId,
     ref: "User",
+    required: true,
   },
   instructors: [
     {
@@ -82,6 +90,7 @@ const courseSchema = new Schema({
   },
   image: {
     type: String,
+    default: "",
   },
   cantModules: {
     type: Number,
@@ -93,17 +102,21 @@ const courseSchema = new Schema({
   },
   modules: [
     {
+      number: {
+        type: Number,
+        default: 0,
+      },
       title: {
         type: String,
-        required: true,
+        default: "Module.",
       },
       description: {
         type: String,
-        required: true,
+        default: "No description provided.",
       },
       durationMinutes: {
         type: Number,
-        required: true,
+        default: 0,
       },
       cantClasses: {
         type: Number,
@@ -113,15 +126,15 @@ const courseSchema = new Schema({
         {
           number: {
             type: Number,
-            required: true,
+            default: 0,
           },
           name: {
             type: String,
-            required: true,
+            default: "Class.",
           },
           durationMinutes: {
             type: Number,
-            required: true,
+            default: 0,
           },
           additionalMaterial: {
             type: String, // URLs for additional resources.

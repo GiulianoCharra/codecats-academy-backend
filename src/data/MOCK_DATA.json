@@ -1,0 +1,901 @@
+[
+  {
+    "title": "Angular",
+    "description": "Primary atelectasis of newborn",
+    "price": 20.5,
+    "certification": true,
+    "difficulty": "beginner",
+    "category": "Cloud Computing",
+    "language": "German",
+    "courseDurationMinutes": 9,
+    "courseModality": "modules",
+    "creator": { "$oid": "651af971fc13ae089bfd54d4" },
+    "instructors": [
+      { "$oid": "651af971fc13ae089bfd54d5" },
+      { "$oid": "651af971fc13ae089bfd54d6" },
+      { "$oid": "651af971fc13ae089bfd54d7" },
+      { "$oid": "651af971fc13ae089bfd54d8" }
+    ],
+    "createdAt": "1/16/2023",
+    "updatedAt": "10/9/2022",
+    "numberOfStudents": 83,
+    "rating": 5,
+    "image": "http://dummyimage.com/197x100.png/dddddd/000000",
+    "cantModules": 2,
+    "cantClasses": 1,
+    "modules": [
+      {
+        "number": 1,
+        "title": "Cloud Computing",
+        "description": "Nondisplaced segmental fracture of shaft of radius, left arm, subsequent encounter for closed fracture with malunion",
+        "durationMinutes": 83,
+        "cantClasses": 3,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 14 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 54 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 53 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 49 }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "User Interface Design",
+        "description": "Unspecified injury of unspecified urinary and pelvic organ, sequela",
+        "durationMinutes": 15,
+        "cantClasses": 17,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 82 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 17 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 6 }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Cybersecurity Fundamentals",
+        "description": "Struck by macaw",
+        "durationMinutes": 71,
+        "cantClasses": 77,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 77 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 56 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 20 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 77 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 29 },
+          { "number": 6, "name": "Class 6", "durationMinutes": 33 },
+          { "number": 7, "name": "Class 7", "durationMinutes": 20 },
+          { "number": 8, "name": "Class 8", "durationMinutes": 58 },
+          { "number": 9, "name": "Class 9", "durationMinutes": 50 },
+          { "number": 10, "name": "Class 10", "durationMinutes": 88 }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Data Structures and Algorithms",
+        "description": "Displaced fracture (avulsion) of medial epicondyle of left humerus, subsequent encounter for fracture with nonunion",
+        "durationMinutes": 92,
+        "cantClasses": 68,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 17 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 81 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 60 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 86 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 9 },
+          { "number": 6, "name": "Class 6", "durationMinutes": 69 },
+          { "number": 7, "name": "Class 7", "durationMinutes": 33 }
+        ]
+      },
+      {
+        "number": 5,
+        "title": "Artificial Intelligence",
+        "description": "Nondisplaced articular fracture of head of left femur, subsequent encounter for closed fracture with malunion",
+        "durationMinutes": 60,
+        "cantClasses": 99,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 41 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 79 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 54 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 41 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 36 }
+        ]
+      },
+      {
+        "number": 6,
+        "title": "Database Management",
+        "description": "Partial traumatic transphalangeal amputation of thumb",
+        "durationMinutes": 95,
+        "cantClasses": 53,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 7 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 77 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 7 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 70 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 100 },
+          { "number": 6, "name": "Class 6", "durationMinutes": 60 },
+          { "number": 7, "name": "Class 7", "durationMinutes": 59 },
+          { "number": 8, "name": "Class 8", "durationMinutes": 27 },
+          { "number": 9, "name": "Class 9", "durationMinutes": 16 }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Bootstrap",
+    "description": "Puncture wound with foreign body of abdominal wall, periumbilic region with penetration into peritoneal cavity, subsequent encounter",
+    "price": 0.52,
+    "certification": false,
+    "difficulty": "expert",
+    "category": "Database Management",
+    "language": "Zulu",
+    "courseDurationMinutes": 56,
+    "courseModality": "activities",
+    "creator": { "$oid": "651af971fc13ae089bfd54d9" },
+    "instructors": [{ "$oid": "651af971fc13ae089bfd54da" }],
+    "createdAt": "5/10/2023",
+    "updatedAt": "9/15/2023",
+    "numberOfStudents": 69,
+    "rating": 2,
+    "image": "http://dummyimage.com/129x100.png/cc0000/ffffff",
+    "cantModules": 4,
+    "cantClasses": 86,
+    "modules": [
+      {
+        "number": 1,
+        "title": "Database Management",
+        "description": "Puncture wound without foreign body of unspecified shoulder, subsequent encounter",
+        "durationMinutes": 97,
+        "cantClasses": 71,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 23 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 99 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 36 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 51 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 60 },
+          { "number": 6, "name": "Class 6", "durationMinutes": 84 }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "C++",
+    "description": "Multiple fractures of ribs, bilateral",
+    "price": 18.77,
+    "certification": false,
+    "difficulty": "advanced",
+    "category": "Game Development",
+    "language": "Malayalam",
+    "courseDurationMinutes": 33,
+    "courseModality": "classes",
+    "creator": { "$oid": "651af971fc13ae089bfd54db" },
+    "instructors": [{ "$oid": "651af971fc13ae089bfd54dc" }],
+    "createdAt": "1/1/2023",
+    "updatedAt": "1/2/2023",
+    "numberOfStudents": 28,
+    "rating": 1,
+    "image": "http://dummyimage.com/199x100.png/5fa2dd/ffffff",
+    "cantModules": 5,
+    "cantClasses": 31,
+    "modules": [
+      {
+        "number": 1,
+        "title": "Web Development Basics",
+        "description": "Unspecified occupant of pick-up truck or van injured in collision with other and unspecified motor vehicles in nontraffic accident",
+        "durationMinutes": 32,
+        "cantClasses": 52,
+        "classes": [{ "number": 1, "name": "Class 1", "durationMinutes": 70 }]
+      },
+      {
+        "number": 2,
+        "title": "Artificial Intelligence",
+        "description": "Nondisplaced fracture of proximal phalanx of left thumb, subsequent encounter for fracture with nonunion",
+        "durationMinutes": 90,
+        "cantClasses": 19,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 34 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 35 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 35 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 14 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 62 }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Web Development Basics",
+        "description": "Acute nephritic syndrome with diffuse crescentic glomerulonephritis",
+        "durationMinutes": 99,
+        "cantClasses": 80,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 70 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 13 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 35 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 65 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 90 },
+          { "number": 6, "name": "Class 6", "durationMinutes": 58 },
+          { "number": 7, "name": "Class 7", "durationMinutes": 14 },
+          { "number": 8, "name": "Class 8", "durationMinutes": 59 }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Database Management",
+        "description": "Superficial foreign body, left lower leg, initial encounter",
+        "durationMinutes": 34,
+        "cantClasses": 1,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 53 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 79 }
+        ]
+      },
+      {
+        "number": 5,
+        "title": "Cybersecurity Fundamentals",
+        "description": "Assault by other firearm discharge",
+        "durationMinutes": 85,
+        "cantClasses": 29,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 64 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 33 }
+        ]
+      },
+      {
+        "number": 6,
+        "title": "Web Development Basics",
+        "description": "Incompetence or weakening of rectovaginal tissue",
+        "durationMinutes": 65,
+        "cantClasses": 61,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 46 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 27 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 51 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 70 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 58 }
+        ]
+      },
+      {
+        "number": 7,
+        "title": "Cybersecurity Fundamentals",
+        "description": "External constriction of right wrist, sequela",
+        "durationMinutes": 76,
+        "cantClasses": 55,
+        "classes": [{ "number": 1, "name": "Class 1", "durationMinutes": 78 }]
+      },
+      {
+        "number": 8,
+        "title": "Introduction to Programming",
+        "description": "Displacement of other urinary devices and implants, sequela",
+        "durationMinutes": 4,
+        "cantClasses": 59,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 12 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 97 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 68 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 74 }
+        ]
+      },
+      {
+        "number": 9,
+        "title": "Mobile App Development",
+        "description": "Melanocytic nevi, unspecified",
+        "durationMinutes": 77,
+        "cantClasses": 42,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 79 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 8 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 42 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 10 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 23 },
+          { "number": 6, "name": "Class 6", "durationMinutes": 71 },
+          { "number": 7, "name": "Class 7", "durationMinutes": 64 },
+          { "number": 8, "name": "Class 8", "durationMinutes": 70 }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "C#",
+    "description": "Collapsed vertebra, not elsewhere classified, thoracolumbar region, sequela of fracture",
+    "price": 56.64,
+    "certification": false,
+    "difficulty": "beginner",
+    "category": "Mobile App Development",
+    "language": "Bislama",
+    "courseDurationMinutes": 55,
+    "courseModality": "classes",
+    "creator": { "$oid": "651af971fc13ae089bfd54dd" },
+    "instructors": [
+      { "$oid": "651af971fc13ae089bfd54de" },
+      { "$oid": "651af971fc13ae089bfd54df" },
+      { "$oid": "651af971fc13ae089bfd54e0" },
+      { "$oid": "651af971fc13ae089bfd54e1" }
+    ],
+    "createdAt": "4/17/2023",
+    "updatedAt": "9/9/2023",
+    "numberOfStudents": 26,
+    "rating": 4,
+    "image": "http://dummyimage.com/206x100.png/cc0000/ffffff",
+    "cantModules": 1,
+    "cantClasses": 99,
+    "modules": [
+      {
+        "number": 1,
+        "title": "Cybersecurity Fundamentals",
+        "description": "Unspecified fracture of right lower leg, initial encounter for open fracture type IIIA, IIIB, or IIIC",
+        "durationMinutes": 14,
+        "cantClasses": 31,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 22 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 58 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 5 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 5 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 41 },
+          { "number": 6, "name": "Class 6", "durationMinutes": 30 },
+          { "number": 7, "name": "Class 7", "durationMinutes": 55 },
+          { "number": 8, "name": "Class 8", "durationMinutes": 77 },
+          { "number": 9, "name": "Class 9", "durationMinutes": 6 },
+          { "number": 10, "name": "Class 10", "durationMinutes": 79 }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "User Interface Design",
+        "description": "Partial traumatic amputation of unspecified hip and thigh, level unspecified, sequela",
+        "durationMinutes": 11,
+        "cantClasses": 18,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 13 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 89 }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "CSS",
+    "description": "Unspecified occupant of bus injured in collision with heavy transport vehicle or bus in nontraffic accident, initial encounter",
+    "price": 44.46,
+    "certification": true,
+    "difficulty": "beginner",
+    "category": "Game Development",
+    "language": "Arabic",
+    "courseDurationMinutes": 97,
+    "courseModality": "classes",
+    "creator": { "$oid": "651af971fc13ae089bfd54e2" },
+    "instructors": [
+      { "$oid": "651af971fc13ae089bfd54e3" },
+      { "$oid": "651af971fc13ae089bfd54e4" },
+      { "$oid": "651af971fc13ae089bfd54e5" },
+      { "$oid": "651af971fc13ae089bfd54e6" }
+    ],
+    "createdAt": "1/27/2023",
+    "updatedAt": "6/25/2023",
+    "numberOfStudents": 20,
+    "rating": 2,
+    "image": "http://dummyimage.com/132x100.png/cc0000/ffffff",
+    "cantModules": 10,
+    "cantClasses": 58,
+    "modules": [
+      {
+        "number": 1,
+        "title": "Data Structures and Algorithms",
+        "description": "Laceration without foreign body of other finger without damage to nail, sequela",
+        "durationMinutes": 85,
+        "cantClasses": 21,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 41 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 78 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 55 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 9 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 75 },
+          { "number": 6, "name": "Class 6", "durationMinutes": 53 },
+          { "number": 7, "name": "Class 7", "durationMinutes": 47 },
+          { "number": 8, "name": "Class 8", "durationMinutes": 5 },
+          { "number": 9, "name": "Class 9", "durationMinutes": 37 }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Web Design",
+    "description": "Toxic effect of other insecticides, accidental (unintentional), sequela",
+    "price": 36.36,
+    "certification": true,
+    "difficulty": "beginner",
+    "category": "Software Engineering",
+    "language": "Tsonga",
+    "courseDurationMinutes": 27,
+    "courseModality": "modules",
+    "creator": { "$oid": "651af971fc13ae089bfd54e7" },
+    "instructors": [{ "$oid": "651af971fc13ae089bfd54e8" }],
+    "createdAt": "1/6/2023",
+    "updatedAt": "11/8/2022",
+    "numberOfStudents": 33,
+    "rating": 5,
+    "image": "http://dummyimage.com/213x100.png/dddddd/000000",
+    "cantModules": 9,
+    "cantClasses": 99,
+    "modules": [
+      {
+        "number": 1,
+        "title": "Artificial Intelligence",
+        "description": "Occupant of aircraft injured in other specified air transport accidents, sequela",
+        "durationMinutes": 44,
+        "cantClasses": 77,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 25 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 33 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 6 }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Cybersecurity Fundamentals",
+        "description": "Other physeal fracture of lower end of left tibia, sequela",
+        "durationMinutes": 3,
+        "cantClasses": 61,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 55 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 58 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 69 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 35 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 56 },
+          { "number": 6, "name": "Class 6", "durationMinutes": 14 }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Artificial Intelligence",
+        "description": "Acute Eustachian salpingitis, unspecified ear",
+        "durationMinutes": 41,
+        "cantClasses": 7,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 68 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 70 }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Data Structures and Algorithms",
+        "description": "Maternal care for hydrops fetalis, second trimester, fetus 2",
+        "durationMinutes": 18,
+        "cantClasses": 10,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 7 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 8 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 85 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 61 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 49 },
+          { "number": 6, "name": "Class 6", "durationMinutes": 59 },
+          { "number": 7, "name": "Class 7", "durationMinutes": 67 },
+          { "number": 8, "name": "Class 8", "durationMinutes": 37 }
+        ]
+      },
+      {
+        "number": 5,
+        "title": "Software Engineering Principles",
+        "description": "Syphilitic alopecia",
+        "durationMinutes": 83,
+        "cantClasses": 29,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 17 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 44 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 71 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 98 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 9 },
+          { "number": 6, "name": "Class 6", "durationMinutes": 42 },
+          { "number": 7, "name": "Class 7", "durationMinutes": 85 },
+          { "number": 8, "name": "Class 8", "durationMinutes": 87 },
+          { "number": 9, "name": "Class 9", "durationMinutes": 70 },
+          { "number": 10, "name": "Class 10", "durationMinutes": 17 }
+        ]
+      },
+      {
+        "number": 6,
+        "title": "Database Management",
+        "description": "Multiple cranial nerve palsies in sarcoidosis",
+        "durationMinutes": 10,
+        "cantClasses": 28,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 93 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 7 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 62 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 26 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 41 },
+          { "number": 6, "name": "Class 6", "durationMinutes": 75 },
+          { "number": 7, "name": "Class 7", "durationMinutes": 15 }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Django",
+    "description": "Displaced fracture of neck of fifth metacarpal bone, right hand, subsequent encounter for fracture with nonunion",
+    "price": 46.09,
+    "certification": true,
+    "difficulty": "intermediate",
+    "category": "Database Management",
+    "language": "Arabic",
+    "courseDurationMinutes": 32,
+    "courseModality": "classes",
+    "creator": { "$oid": "651af971fc13ae089bfd54e9" },
+    "instructors": [
+      { "$oid": "651af971fc13ae089bfd54ea" },
+      { "$oid": "651af971fc13ae089bfd54eb" },
+      { "$oid": "651af971fc13ae089bfd54ec" },
+      { "$oid": "651af971fc13ae089bfd54ed" }
+    ],
+    "createdAt": "10/13/2022",
+    "updatedAt": "6/22/2023",
+    "numberOfStudents": 86,
+    "rating": 3,
+    "image": "http://dummyimage.com/248x100.png/ff4444/ffffff",
+    "cantModules": 9,
+    "cantClasses": 58,
+    "modules": [
+      {
+        "number": 1,
+        "title": "Cloud Computing",
+        "description": "Military operations involving fragments of improvised explosive device [IED], military personnel",
+        "durationMinutes": 37,
+        "cantClasses": 1,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 65 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 100 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 56 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 64 }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Introduction to Programming",
+        "description": "Chronic osteomyelitis with draining sinus, unspecified site",
+        "durationMinutes": 19,
+        "cantClasses": 45,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 10 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 12 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 8 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 89 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 64 },
+          { "number": 6, "name": "Class 6", "durationMinutes": 90 },
+          { "number": 7, "name": "Class 7", "durationMinutes": 63 },
+          { "number": 8, "name": "Class 8", "durationMinutes": 32 },
+          { "number": 9, "name": "Class 9", "durationMinutes": 100 },
+          { "number": 10, "name": "Class 10", "durationMinutes": 31 }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "User Interface Design",
+        "description": "Personal history of malignant melanoma of skin",
+        "durationMinutes": 51,
+        "cantClasses": 55,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 75 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 34 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 21 }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Cloud Computing",
+        "description": "Displaced avulsion fracture of left ischium, initial encounter for open fracture",
+        "durationMinutes": 48,
+        "cantClasses": 16,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 74 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 99 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 57 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 38 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 18 },
+          { "number": 6, "name": "Class 6", "durationMinutes": 72 },
+          { "number": 7, "name": "Class 7", "durationMinutes": 90 },
+          { "number": 8, "name": "Class 8", "durationMinutes": 30 }
+        ]
+      },
+      {
+        "number": 5,
+        "title": "Web Development Basics",
+        "description": "Yaws, unspecified",
+        "durationMinutes": 84,
+        "cantClasses": 92,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 8 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 20 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 4 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 51 }
+        ]
+      },
+      {
+        "number": 6,
+        "title": "Database Management",
+        "description": "Contusion of heart with hemopericardium",
+        "durationMinutes": 78,
+        "cantClasses": 56,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 36 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 92 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 16 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 16 }
+        ]
+      },
+      {
+        "number": 7,
+        "title": "Cloud Computing",
+        "description": "Displaced fracture of distal pole of navicular [scaphoid] bone of left wrist, subsequent encounter for fracture with delayed healing",
+        "durationMinutes": 16,
+        "cantClasses": 80,
+        "classes": [{ "number": 1, "name": "Class 1", "durationMinutes": 41 }]
+      },
+      {
+        "number": 8,
+        "title": "Mobile App Development",
+        "description": "Poisoning by predominantly beta-adrenoreceptor agonists, undetermined",
+        "durationMinutes": 33,
+        "cantClasses": 12,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 15 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 57 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 40 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 94 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 21 },
+          { "number": 6, "name": "Class 6", "durationMinutes": 17 },
+          { "number": 7, "name": "Class 7", "durationMinutes": 92 }
+        ]
+      },
+      {
+        "number": 9,
+        "title": "Mobile App Development",
+        "description": "Nystagmus and other irregular eye movements",
+        "durationMinutes": 1,
+        "cantClasses": 19,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 66 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 21 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 34 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 33 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 96 },
+          { "number": 6, "name": "Class 6", "durationMinutes": 49 },
+          { "number": 7, "name": "Class 7", "durationMinutes": 21 }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "HTML",
+    "description": "Other mechanical complication of unspecified internal joint prosthesis",
+    "price": 8.76,
+    "certification": false,
+    "difficulty": "beginner",
+    "category": "Cloud Computing",
+    "language": "Gagauz",
+    "courseDurationMinutes": 88,
+    "courseModality": "modules",
+    "creator": { "$oid": "651af971fc13ae089bfd54ee" },
+    "instructors": [
+      { "$oid": "651af971fc13ae089bfd54ef" },
+      { "$oid": "651af971fc13ae089bfd54f0" },
+      { "$oid": "651af971fc13ae089bfd54f1" }
+    ],
+    "createdAt": "11/9/2022",
+    "updatedAt": "1/3/2023",
+    "numberOfStudents": 50,
+    "rating": 3,
+    "image": "http://dummyimage.com/241x100.png/cc0000/ffffff",
+    "cantModules": 1,
+    "cantClasses": 12,
+    "modules": [
+      {
+        "number": 1,
+        "title": "Database Management",
+        "description": "Displaced midcervical fracture of right femur, subsequent encounter for open fracture type IIIA, IIIB, or IIIC with delayed healing",
+        "durationMinutes": 11,
+        "cantClasses": 9,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 41 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 42 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 42 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 50 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 18 },
+          { "number": 6, "name": "Class 6", "durationMinutes": 33 },
+          { "number": 7, "name": "Class 7", "durationMinutes": 39 },
+          { "number": 8, "name": "Class 8", "durationMinutes": 4 },
+          { "number": 9, "name": "Class 9", "durationMinutes": 87 },
+          { "number": 10, "name": "Class 10", "durationMinutes": 64 }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "User Interface Design",
+        "description": "Injury of cutaneous sensory nerve at ankle and foot level, left leg, initial encounter",
+        "durationMinutes": 80,
+        "cantClasses": 69,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 92 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 38 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 20 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 20 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 20 },
+          { "number": 6, "name": "Class 6", "durationMinutes": 78 },
+          { "number": 7, "name": "Class 7", "durationMinutes": 38 }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Java",
+    "description": "Other superficial bite of unspecified finger, initial encounter",
+    "price": 55.34,
+    "certification": false,
+    "difficulty": "beginner",
+    "category": "Artificial Intelligence",
+    "language": "Belarusian",
+    "courseDurationMinutes": 53,
+    "courseModality": "modules",
+    "creator": { "$oid": "651af971fc13ae089bfd54f2" },
+    "instructors": [
+      { "$oid": "651af971fc13ae089bfd54f3" },
+      { "$oid": "651af971fc13ae089bfd54f4" },
+      { "$oid": "651af971fc13ae089bfd54f5" },
+      { "$oid": "651af971fc13ae089bfd54f6" }
+    ],
+    "createdAt": "3/15/2023",
+    "updatedAt": "9/10/2023",
+    "numberOfStudents": 68,
+    "rating": 5,
+    "image": "http://dummyimage.com/190x100.png/cc0000/ffffff",
+    "cantModules": 9,
+    "cantClasses": 66,
+    "modules": [
+      {
+        "number": 1,
+        "title": "Introduction to Programming",
+        "description": "Effusion, left elbow",
+        "durationMinutes": 61,
+        "cantClasses": 32,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 71 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 71 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 41 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 92 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 38 },
+          { "number": 6, "name": "Class 6", "durationMinutes": 16 },
+          { "number": 7, "name": "Class 7", "durationMinutes": 62 },
+          { "number": 8, "name": "Class 8", "durationMinutes": 40 }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Cloud Computing",
+        "description": "Toxic effect of other specified noxious substances eaten as food",
+        "durationMinutes": 16,
+        "cantClasses": 37,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 67 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 77 }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Software Engineering Principles",
+        "description": "Poisoning by unspecified agents primarily affecting the gastrointestinal system, accidental (unintentional), sequela",
+        "durationMinutes": 22,
+        "cantClasses": 64,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 65 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 37 }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "JavaScript",
+    "description": "Nondisplaced comminuted fracture of shaft of humerus, unspecified arm",
+    "price": 64.47,
+    "certification": true,
+    "difficulty": "expert",
+    "category": "Game Development",
+    "language": "Hindi",
+    "courseDurationMinutes": 44,
+    "courseModality": "classes",
+    "creator": { "$oid": "651af971fc13ae089bfd54f7" },
+    "instructors": [
+      { "$oid": "651af971fc13ae089bfd54f8" },
+      { "$oid": "651af971fc13ae089bfd54f9" },
+      { "$oid": "651af971fc13ae089bfd54fa" },
+      { "$oid": "651af971fc13ae089bfd54fb" }
+    ],
+    "createdAt": "7/30/2023",
+    "updatedAt": "4/12/2023",
+    "numberOfStudents": 47,
+    "rating": 5,
+    "image": "http://dummyimage.com/164x100.png/cc0000/ffffff",
+    "cantModules": 10,
+    "cantClasses": 13,
+    "modules": [
+      {
+        "number": 1,
+        "title": "Artificial Intelligence",
+        "description": "Toxic effect of venom of gila monster, undetermined, sequela",
+        "durationMinutes": 2,
+        "cantClasses": 78,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 39 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 56 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 9 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 22 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 48 },
+          { "number": 6, "name": "Class 6", "durationMinutes": 36 }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Software Engineering Principles",
+        "description": "Diverticulosis of small intestine without perforation or abscess with bleeding",
+        "durationMinutes": 37,
+        "cantClasses": 43,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 30 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 41 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 57 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 4 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 25 },
+          { "number": 6, "name": "Class 6", "durationMinutes": 55 },
+          { "number": 7, "name": "Class 7", "durationMinutes": 50 },
+          { "number": 8, "name": "Class 8", "durationMinutes": 4 },
+          { "number": 9, "name": "Class 9", "durationMinutes": 57 }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Cybersecurity Fundamentals",
+        "description": "Pathological fracture in other disease, left foot, subsequent encounter for fracture with delayed healing",
+        "durationMinutes": 81,
+        "cantClasses": 88,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 85 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 73 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 88 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 15 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 84 },
+          { "number": 6, "name": "Class 6", "durationMinutes": 43 },
+          { "number": 7, "name": "Class 7", "durationMinutes": 32 },
+          { "number": 8, "name": "Class 8", "durationMinutes": 44 },
+          { "number": 9, "name": "Class 9", "durationMinutes": 81 }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Data Structures and Algorithms",
+        "description": "Unspecified fracture of unspecified thoracic vertebra, subsequent encounter for fracture with nonunion",
+        "durationMinutes": 46,
+        "cantClasses": 29,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 3 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 67 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 55 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 79 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 81 },
+          { "number": 6, "name": "Class 6", "durationMinutes": 12 },
+          { "number": 7, "name": "Class 7", "durationMinutes": 79 },
+          { "number": 8, "name": "Class 8", "durationMinutes": 34 },
+          { "number": 9, "name": "Class 9", "durationMinutes": 15 }
+        ]
+      },
+      {
+        "number": 5,
+        "title": "User Interface Design",
+        "description": "Unspecified car occupant injured in collision with car, pick-up truck or van in nontraffic accident",
+        "durationMinutes": 50,
+        "cantClasses": 11,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 83 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 68 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 61 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 83 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 3 },
+          { "number": 6, "name": "Class 6", "durationMinutes": 85 },
+          { "number": 7, "name": "Class 7", "durationMinutes": 66 },
+          { "number": 8, "name": "Class 8", "durationMinutes": 3 }
+        ]
+      }
+    ]
+  }
+]

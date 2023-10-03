@@ -8,32 +8,55 @@
     "required": true
   },
   "description": {
-    "type": "String"
-  },
-
-  "difficulty": {
     "type": "String",
-    "enum": ["beginner", "intermediate", "advanced", "expert"]
+    "default": "No description provided."
   },
-  "category": {
-    "type": "String",
-    "enum": ["Introduction to Programming", "Web Development", "Data Science", "Mobile App Development", "Game Development", "Artificial Intelligence", "Cybersecurity", "Software Engineering", "Database Management", "Cloud Computing"
-    ]
-  },
-  "language": {
-    "type": "String"
+  "price": {
+    "type": "Number",
+    "required": true,
+    "default": 0
   },
   "certification": {
     "type": "Boolean",
     "default": false
   },
+  "difficulty": {
+    "type": "String",
+    "enum": ["beginner", "intermediate", "advanced", "expert"],
+    "default": "beginner"
+  },
+  "category": {
+    "type": "String",
+    "enum": [
+      "Introduction to Programming",
+      "Web Development",
+      "Data Science",
+      "Mobile App Development",
+      "Game Development",
+      "Artificial Intelligence",
+      "Cybersecurity",
+      "Software Engineering",
+      "Database Management",
+      "Cloud Computing"
+    ],
+    "default": ""
+  },
+  "language": {
+    "type": "String",
+    "default": "English"
+  },
   "courseDurationMinutes": {
     "type": "Number",
-    "required": true
+    "default": 0
   },
   "courseModality": {
     "type": "String",
     "enum": ["modules", "classes", "activities"]
+  },
+  "creator": {
+    "type": "Schema.Types.ObjectId",
+    "ref": "User",
+    "required": true
   },
   "instructors": [
     {
@@ -49,14 +72,6 @@
     "type": "Date",
     "default": "Date.now"
   },
-  "creator": {
-    "type": "Schema.Types.ObjectId",
-    "ref": "User"
-  },
-  "price": {
-    "type": "Number",
-    "required": true
-  },
   "numberOfStudents": {
     "type": "Number",
     "default": 0
@@ -68,7 +83,8 @@
     "max": 5
   },
   "image": {
-    "type": "String"
+    "type": "String",
+    "default": ""
   },
   "cantModules": {
     "type": "Number",
@@ -80,17 +96,21 @@
   },
   "modules": [
     {
+      "number": {
+        "type": "Number",
+        "default": 0
+      },
       "title": {
         "type": "String",
-        "required": true
+        "default": "Module."
       },
       "description": {
         "type": "String",
-        "required": true
+        "default": "No description provided."
       },
       "durationMinutes": {
         "type": "Number",
-        "required": true
+        "default": 0
       },
       "cantClasses": {
         "type": "Number",
@@ -100,15 +120,18 @@
         {
           "number": {
             "type": "Number",
-            "required": true
+            "default": 0
           },
           "name": {
             "type": "String",
-            "required": true
+            "default": "Class."
           },
           "durationMinutes": {
             "type": "Number",
-            "required": true
+            "default": 0
+          },
+          "additionalMaterial": {
+            "type": "String"
           }
         }
       ]

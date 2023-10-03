@@ -1,74 +1,9 @@
-import { cookieNames } from "../config/config.js";
+import Course from "../models/CourseModel.js";
 import User from "../models/UserModel.js";
 import auth from "../utils/securityService.js";
 
-export async function register(req, res) {
-  console.log("register a new user");
-  try {
-    const { username, email, password } = req.body;
-
-    // Create the new user
-    const newUser = await User.create({
-      idUser: auth.generateUuid(),
-      username,
-      email,
-      password: await auth.generateEncryptedPassword(password), // Encrypt the password
-    });
-    await newUser.save().catch((error) => console.error(error));
-
-    res.status(201).json({ message: "User created successfully" });
-  } catch (error) {
-    console.error(error);
-    res.status(500).json({ message: "Error in the server" });
-  }
-}
-
-export async function login(req, res) {
-  console.log("login a user");
-  try {
-    const { email, password } = req.body;
-
-    // Verify if the email exists
-    const user = await User.findOne({ email });
-    if (!user) {
-      return res.status(401).json({ message: "Credentials are invalid" });
-    }
-    // Verify if the password is correct
-    if (!auth.comparePassword(password, user.password)) {
-      return res.status(401).json({ message: "Credentials are invalid" });
-    }
-
-    // Generate a JWT
-    const token = auth.generateJwtToken({
-      name: user.name,
-      username: user.username,
-      email: user.email,
-      role: user.role,
-    });
-    res
-      .header("authorization", `Bearer ${token}`)
-      .status(200)
-      .json({ message: "User logged successfully" });
-  } catch (error) {
-    console.error(error);
-    res.status(500).json({ message: "Error in the server" });
-  }
-}
-
-// logout
-export async function logout(req, res) {
-  console.log("logout a user");
-  res.clearCookie(cookieNames.authTokenCookie);
-  try {
-    res.status(200).json({ message: "User logged out successfully" });
-  } catch (error) {
-    console.error(error);
-    res.status(500).json({ message: "Error in the server" });
-  }
-}
-
 //Get all users from MongoDB
-export async function getUsers(req, res) {
+export async function getAllUsers(req, res) {
   console.log("get all users");
   try {
     const users = await User.find();
@@ -78,7 +13,6 @@ export async function getUsers(req, res) {
     res.status(500).json({ message: "Error in the server" });
   }
 }
-
 // Get a profile user by username
 export async function getPublicProfile(req, res) {
   console.log("get the public profile");
@@ -148,14 +82,24 @@ export async function getPublicProfile(req, res) {
         },
       },
     ]);
-
-    if (!user) {
+    if (user.length === 0) {
       return res.status(404).json({ message: "User not found" });
     }
     res.status(200).json(user);
   } catch (error) {
     console.error(error);
     res.status(500).json({ message: "Error in the server" });
+  }
+}
+
+export async function getUserCourses(req, res) {
+  console.log("get all courses");
+  try {
+    const courses = await Course.find();
+    res.status(200).json(courses);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: "Error en el servidor" });
   }
 }
 
@@ -179,7 +123,6 @@ export async function getProfile(req, res) {
     res.status(500).json({ message: "Error in the server" });
   }
 }
-
 // Update a profile user by username
 export async function editProfile(req, res) {
   console.log("update profile");
@@ -190,7 +133,7 @@ export async function editProfile(req, res) {
     const payload = auth.verifyJwtToken(token);
     const user = await User.findOne({ email: payload.email });
 
-    if (!user) {
+    if (!user || user.leghth === 0) {
       return res.status(404).json({ message: "User not found" });
     }
 
@@ -210,12 +153,176 @@ export async function editProfile(req, res) {
   }
 }
 
+export async function createCourse(req, res) {
+  console.log("create course");
+  try {
+    const token = req.headers.authorization.split(" ")[1];
+    const payload = auth.verifyJwtToken(token);
+    const user = await User.findOne({ email: payload.email }).select("_id createdCourses");
+    if (!user || user.leghth === 0) {
+      return res.status(404).json({ message: "User not found" });
+    }
+    const body = req.body;
+    if (!body || body.length === 0) {
+      return res.status(400).json({ message: "it was expected an array" });
+    }
+    await Course.deleteMany({}); // Delete all courses
+    user.createdCourses.listCourses = [];
+    await user.save();
+
+    let number = user.createdCourses.listCourses.length;
+    const coursePromises = body.map(async (course) => {
+      if (!course.instructors) {
+        course.instructors = [user._id];
+      }
+      if (!course.idCourse) {
+        course.idCourse = auth.generateUuid();
+      }
+      let newCourse = await Course.create({
+        number: ++number,
+        ...course,
+        creator: user._id,
+      });
+      return newCourse._id;
+    });
+
+    const courseIds = await Promise.all(coursePromises);
+    user.createdCourses.listCourses = user.createdCourses.listCourses.concat(courseIds);
+    await user.save();
+
+    res.status(201).json({
+      message: "Course created successfully",
+      numberCoursesCreated: "It was created " + body.length + " courses",
+    });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: "Error in the server" });
+  }
+}
+
+export async function getAllMyCourses(req, res) {
+  console.log("get all my courses");
+  try {
+    const username = req.params.username;
+    const token = req.headers.authorization.split(" ")[1];
+    const payload = auth.verifyJwtToken(token);
+    const user = await User.findOne({ email: payload.email }).select(
+      "-_id username createdCourses"
+    );
+
+    if (!user || user.leghth === 0) {
+      return res.status(404).json({ message: "User not found" });
+    }
+    if (user.username !== username) {
+      return res.status(401).json({ message: "Unauthorized" });
+    }
+
+    //find courses by id in the list of courses created by the user
+    const courses = await Course.find({
+      _id: { $in: user.createdCourses.listCourses },
+    }).select("-_id");
+    res.status(200).json(courses);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: "Error ir the server" });
+  }
+}
+
+export async function getMyCourseById(req, res) {
+  console.log("get one of my courses by id");
+  try {
+    const token = req.headers.authorization.split(" ")[1];
+    const payload = auth.verifyJwtToken(token);
+    const user = await User.findOne({ email: payload.email }).select("_id");
+    const course = await Course.findOne(req.body.idCourse).select("-_id");
+
+    if (!user || user.length === 0) {
+      return res.status(404).json({ message: "User not found" });
+    }
+
+    if (!course || course.length === 0) {
+      return res.status(404).json({ message: "Course not found" });
+    }
+
+    if (user._id.toString() !== course.creator.toString()) {
+      return res.status(404).json({ message: "Resource not found" });
+    }
+
+    res.status(200).json(course);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: "Error in the server" });
+  }
+}
+
+export async function updateCourse(req, res) {
+  console.log("update course");
+  try {
+    const body = req.body;
+    const token = req.headers.authorization.split(" ")[1];
+    const payload = auth.verifyJwtToken(token);
+    const user = await User.findOne({ email: payload.email }).select("_id");
+    const course = await Course.findOne({ idCourse: body.idCourse });
+
+    if (!user || user.length === 0) {
+      return res.status(404).json({ message: "User not found" });
+    }
+
+    if (!course || course.length === 0) {
+      return res.status(404).json({ message: "Course not found" });
+    }
+
+    if (user._id.toString() !== course.creator.toString()) {
+      return res.status(404).json({ message: "Resource not found" });
+    }
+
+    for (const key in body) {
+      course[key] = body[key];
+    }
+    await course.save();
+    res.status(200).json({ message: "Course updated successfully" });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: "Error in the server" });
+  }
+}
+
+export async function deleteCourse(req, res) {
+  console.log("delete course");
+  try {
+    const { idCourse } = req.body;
+    const token = req.headers.authorization.split(" ")[1];
+    const payload = auth.verifyJwtToken(token);
+    const user = await User.findOne({ email: payload.email }).select("_id");
+    const course = await Course.findOne({ idCourse });
+
+    if (!user || user.length === 0) {
+      return res.status(404).json({ message: "User not found" });
+    }
+    if (!course || course.length === 0) {
+      return res.status(404).json({ message: "Course not found" });
+    }
+    if (user._id.toString() !== course.creator.toString()) {
+      return res.status(404).json({ message: "Resource not found" });
+    }
+
+    await course.deleteOne();
+    res.status(200).json({ message: "Course deleted successfully" });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: "Error in the server" });
+  }
+}
+
 export default {
-  register,
-  login,
-  logout,
-  getUsers,
+  getUsers: getAllUsers,
   getPublicProfile,
+  getUserCourses,
   getProfile,
   editProfile,
+  createCourse,
+  getAllMyCourses,
+  getMyCourseById,
+  updateCourse,
+  deleteCourse,
 };

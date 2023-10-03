@@ -128,8 +128,3 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
-
-# Personal
-/src/models/courseModel.json
-/src/models/userModel.json
-/src/data/courses_MOCK_DATA.json
