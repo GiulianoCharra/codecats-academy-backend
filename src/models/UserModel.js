@@ -21,6 +21,18 @@ const userSchema = new Schema({
         course: { type: Schema.Types.ObjectId, ref: "Course" },
         purchasedAt: { type: Date, default: Date.now },
         progress: { type: Number, default: 0, min: 0, max: 100 },
+        moduleProgress: [
+          {
+            moduleId: { type: Schema.Types.ObjectId },
+            progress: { type: Number, default: 0, min: 0, max: 100 },
+            classProgress: [
+              {
+                classId: { type: Schema.Types.ObjectId },
+                progress: { type: Number, default: 0, min: 0, max: 100 },
+              },
+            ],
+          },
+        ],
       },
     ],
   },

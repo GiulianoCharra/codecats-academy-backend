@@ -13,13 +13,15 @@ router.get("/:username/courses", user.getUserCourses);
 router.get("/:username", user.getPublicProfile);
 
 // Private routes
+
+router.get("/username/purchase/:courseId", user.registerPurchase);
 router.get("/:username/profile", user.getProfile);
 router.put("/:username/profile/edit", user.editProfile);
 
 router.post("/:username/profile/courses", user.createCourse);
 router.get("/:username/profile/courses", user.getAllMyCourses);
-router.get("/:username/profile/courses/:id", user.getMyCourseById);
-router.put("/:username/profile/courses/:id", user.updateCourse);
-router.delete("/:username/profile/courses/:id", user.deleteCourse);
+router.get("/:username/profile/courses/:courseId", user.getMyCourseById);
+router.put("/:username/profile/courses/:courseId", user.updateCourse);
+router.delete("/:username/profile/courses/:courseId", user.deleteCourse);
 
 export default router;

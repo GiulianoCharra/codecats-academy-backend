@@ -103,6 +103,33 @@ export async function getUserCourses(req, res) {
   }
 }
 
+export async function registerPurchase(req, res) {
+  console.log("register purchase");
+  try {
+    const { idCourse } = req.body;
+    const token = req.headers.authorization.split(" ")[1];
+    const payload = auth.verifyJwtToken(token);
+    const user = await User.findOne({ email: payload.email });
+
+    if (!user || user.leghth === 0) {
+      return res.status(404).json({ message: "User not found" });
+    }
+    if (user.inscribedCourses.listCourses.includes(idCourse)) {
+      return res.status(409).json({ message: "Course already purchased" });
+    }
+    await Course.findOneAndUpdate(idCourse, {
+      $inc: {
+        numberOfStudents: 1,
+      },
+    });
+    user.inscribedCourses.listCourses.push(idCourse);
+    await user.save();
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: "Error en el servidor" });
+  }
+}
+
 // Get ther user's profile
 export async function getProfile(req, res) {
   console.log("get profile");
@@ -111,7 +138,7 @@ export async function getProfile(req, res) {
     const token = req.headers.authorization.split(" ")[1];
     const payload = auth.verifyJwtToken(token);
     const user = await User.findOne({ username }).select("-password");
-    if (!user) {
+    if (!user || user.leghth === 0) {
       return res.status(404).json({ message: "User not found" });
     }
     if (user.email !== payload.email) {
@@ -234,7 +261,7 @@ export async function getMyCourseById(req, res) {
     const token = req.headers.authorization.split(" ")[1];
     const payload = auth.verifyJwtToken(token);
     const user = await User.findOne({ email: payload.email }).select("_id");
-    const course = await Course.findOne(req.body.idCourse).select("-_id");
+    const course = await Course.findOne({ idCourse: req.body.idCourse }).select("-_id");
 
     if (!user || user.length === 0) {
       return res.status(404).json({ message: "User not found" });
@@ -318,6 +345,7 @@ export default {
   getUsers: getAllUsers,
   getPublicProfile,
   getUserCourses,
+  registerPurchase,
   getProfile,
   editProfile,
   createCourse,

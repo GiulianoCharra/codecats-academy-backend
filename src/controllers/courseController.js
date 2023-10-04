@@ -1,11 +1,13 @@
 import Course from "../models/CourseModel.js";
-import User from "../models/UserModel.js";
-import auth from "../utils/securityService.js";
 
 export async function getAllCourses(req, res) {
   console.log("get all courses");
   try {
-    const courses = await Course.find().select("-_id");
+    const courses = await Course.aggregate([
+      {
+        $unset: ["_id", "modules._id", "modules.classes._id"],
+      },
+    ]);
     res.status(200).json(courses);
   } catch (error) {
     console.error(error);
@@ -16,8 +18,13 @@ export async function getAllCourses(req, res) {
 export async function getCourseById(req, res) {
   console.log("get course by id");
   try {
-    const {idCourse} = req.body;
-    const course = await Course.findOne({ idCourse }).select("-_id");
+    const course = await Course.aggregate([
+      { $match: { idCourse: req.body.idCourse } },
+      {
+        $unset: ["_id", "modules._id", "modules.classes._id"],
+      },
+    ]);
+
     if (!course || course.length === 0) {
       return res.status(404).json({ message: "Course not found" });
     }
