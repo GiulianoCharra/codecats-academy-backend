@@ -33,7 +33,6 @@
       }
 
       .container {
-        text-align: center;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -47,10 +46,43 @@
       }
 
       p {
+        text-align: center;
+        font-size: 1.3rem;
+        max-width: 70%;
+        color: #ffffff;
+      }
+      .tittle {
         font-size: 1.5rem;
         max-width: 70%;
-
         color: #ffffff;
+      }
+      ul {
+        list-style: none;
+        margin-top: 20px;
+        padding: 0;
+      }
+      ul li {
+        margin-bottom: 10px;
+        position: relative;
+      }
+
+      ul li:before {
+        position: absolute;
+        top: 5px;
+        left: -20px;
+        content: "";
+        width: 10px;
+        height: 10px;
+        background-color: white;
+      }
+
+      a {
+        color: #ffffff;
+        font-size: 1.4rem;
+      }
+
+      a:hover {
+        color: #749ae0;
       }
     </style>
   </head>
@@ -63,22 +95,48 @@
     <div class="container">
       <h1>Welcome to the Codecats Academy API</h1>
       <p>
-        This is the official API for Codecats Academy. Explore our endpoints and start building
-        amazing applications.
+        This is the official API for Codecats Academy. You can test some of our endpoints by
+        clicking on the links below.
       </p>
-      <p>Here are some of our endpoints:</p>
+      <p>
+        Here is the link of
+        <a
+          href="https://elements.getpostman.com/redirect?entityId=29892749-114f1725-2ac0-4c85-be0a-6bd291c566e2&entityType=collection"
+          target="_blank"
+          >Postman</a
+        >
+        where you try some of our endpoints.
+      </p>
+
+      <p class="tittle">Here are some of our public endpoints:</p>
       <ul>
         <li>
-          <a href="/api/courses">Courses</a>
+          <a
+            href="/api/courses"
+            target="_blank"
+            >Courses</a
+          >
         </li>
         <li>
-          <a href="/api/users/pepe">Lessons</a>
+          <a
+            href="/api/courses/9fb8ca7f-40b8-47b6-bf7c-a5f058ddb1f3"
+            target="_blank"
+            >Course by Id</a
+          >
         </li>
         <li>
-          <a href="/api/users">Users</a>
+          <a
+            href="/api/users/pepe"
+            target="_blank"
+            >Public user profile</a
+          >
         </li>
         <li>
-          <a href="/api/lessons/2">Lesson 2</a>
+          <a
+            href="/api/users/pepe/courses"
+            target="_blank"
+            >User's courses</a
+          >
         </li>
       </ul>
     </div>

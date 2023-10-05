@@ -19,7 +19,7 @@ export async function getCourseById(req, res) {
   console.log("get course by id");
   try {
     const course = await Course.aggregate([
-      { $match: { idCourse: req.body.idCourse } },
+      { $match: { idCourse: req.params.idCourse } },
       {
         $unset: ["_id", "modules._id", "modules.classes._id"],
       },

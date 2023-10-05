@@ -4,6 +4,6 @@ import courses from "../controllers/courseController.js";
 
 // Public routes
 router.get("/", courses.getAllCourses);
-router.get("/:id", courses.getCourseById);
+router.get("/:idCourse", courses.getCourseById);
 
 export default router;

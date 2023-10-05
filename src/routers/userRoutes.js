@@ -14,14 +14,38 @@ router.get("/:username", user.getPublicProfile);
 
 // Private routes
 
-router.post("/:username/purchase/:courseId", user.registerPurchase);
-router.get("/:username/profile", user.getProfile);
+router.post(
+  "/:username/purchase/:courseId",
+  authValidation([roles.user, roles.admin]),
+  user.registerPurchase
+);
+router.get("/:username/profile", authValidation([roles.user, roles.admin]), user.getProfile);
 router.put("/:username/profile/edit", user.editProfile);
 
-router.post("/:username/profile/courses", user.createCourse);
-router.get("/:username/profile/courses", user.getAllMyCourses);
-router.get("/:username/profile/courses/:courseId", user.getMyCourseById);
-router.put("/:username/profile/courses/:courseId", user.updateCourse);
-router.delete("/:username/profile/courses/:courseId", user.deleteCourse);
+router.post(
+  "/:username/profile/courses",
+  authValidation([roles.user, roles.admin]),
+  user.createCourse
+);
+router.get(
+  "/:username/profile/courses",
+  authValidation([roles.user, roles.admin]),
+  user.getAllMyCourses
+);
+router.get(
+  "/:username/profile/courses/:courseId",
+  authValidation([roles.user, roles.admin]),
+  user.getMyCourseById
+);
+router.put(
+  "/:username/profile/courses/:courseId",
+  authValidation([roles.user, roles.admin]),
+  user.updateCourse
+);
+router.delete(
+  "/:username/profile/courses/:courseId",
+  authValidation([roles.user, roles.admin]),
+  user.deleteCourse
+);
 
 export default router;
