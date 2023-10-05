@@ -1,0 +1,695 @@
+[
+  {
+    "title": "Angular",
+    "description": "Diverticulitis of colon (without mention of hemorrhage)",
+    "price": 172.05,
+    "certification": false,
+    "difficulty": "intermediate",
+    "category": "Data Science",
+    "language": "Icelandic",
+    "courseDurationMinutes": 347,
+    "courseModality": "video",
+    "creator": "300c4486-42ba-4c8b-b90f-789a26b7c975",
+    "instructors": [
+      "5865b30c-f809-4022-b8a1-9e5c9cd35124",
+      "e1ba059c-682a-4db1-9b1f-bc8acbcde6d8",
+      "9d98eb2f-2058-48b6-b5c5-940328789eb1"
+    ],
+    "createdAt": "8/26/2023",
+    "updatedAt": "6/8/2023",
+    "numberOfStudents": 466,
+    "rating": 3,
+    "image": "http://dummyimage.com/137x100.png/ff4444/ffffff",
+    "modules": [
+      {
+        "number": 1,
+        "title": "Module 1",
+        "durationMinutes": 4,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 858 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 809 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 7 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 576 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 772 },
+          { "number": 6, "name": "Class 6", "durationMinutes": 976 },
+          { "number": 7, "name": "Class 7", "durationMinutes": 303 },
+          { "number": 8, "name": "Class 8", "durationMinutes": 647 },
+          { "number": 9, "name": "Class 9", "durationMinutes": 355 }
+        ],
+        "cantClasses": 9
+      },
+      {
+        "number": 2,
+        "title": "Module 2",
+        "durationMinutes": 904,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 117 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 53 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 621 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 221 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 858 },
+          { "number": 6, "name": "Class 6", "durationMinutes": 400 },
+          { "number": 7, "name": "Class 7", "durationMinutes": 172 },
+          { "number": 8, "name": "Class 8", "durationMinutes": 719 }
+        ],
+        "cantClasses": 8
+      },
+      {
+        "number": 3,
+        "title": "Module 3",
+        "durationMinutes": 833,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 554 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 622 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 815 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 353 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 115 },
+          { "number": 6, "name": "Class 6", "durationMinutes": 267 }
+        ],
+        "cantClasses": 6
+      },
+      {
+        "number": 4,
+        "title": "Module 4",
+        "durationMinutes": 119,
+        "classes": [{ "number": 1, "name": "Class 1", "durationMinutes": 150 }],
+        "cantClasses": 1
+      },
+      {
+        "number": 5,
+        "title": "Module 5",
+        "durationMinutes": 682,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 443 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 87 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 168 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 500 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 611 },
+          { "number": 6, "name": "Class 6", "durationMinutes": 259 },
+          { "number": 7, "name": "Class 7", "durationMinutes": 250 },
+          { "number": 8, "name": "Class 8", "durationMinutes": 884 }
+        ],
+        "cantClasses": 8
+      }
+    ],
+    "cantModules": 5,
+    "cantClasses": 32
+  },
+  {
+    "title": "Bootstrap",
+    "description": "Open fracture of phalanx or phalanges of hand, unspecified",
+    "price": 540.11,
+    "certification": true,
+    "difficulty": "expert",
+    "category": "Data Science",
+    "language": "Portuguese",
+    "courseDurationMinutes": 181,
+    "courseModality": "activities",
+    "creator": "9b9268fe-5ae0-49fb-bd9c-fd82e25337c1",
+    "instructors": ["d2d8e074-6a9a-4e77-881d-199963f9e1b7"],
+    "createdAt": "9/5/2023",
+    "updatedAt": "6/16/2023",
+    "numberOfStudents": 596,
+    "rating": 1,
+    "image": "http://dummyimage.com/203x100.png/5fa2dd/ffffff",
+    "modules": [
+      {
+        "number": 1,
+        "title": "Module 1",
+        "durationMinutes": 961,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 949 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 563 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 581 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 84 }
+        ],
+        "cantClasses": 4
+      },
+      {
+        "number": 2,
+        "title": "Module 2",
+        "durationMinutes": 668,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 15 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 857 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 958 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 619 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 564 },
+          { "number": 6, "name": "Class 6", "durationMinutes": 638 },
+          { "number": 7, "name": "Class 7", "durationMinutes": 109 }
+        ],
+        "cantClasses": 7
+      }
+    ],
+    "cantModules": 2,
+    "cantClasses": 11
+  },
+  {
+    "title": "C++",
+    "description": "Aftercare for healing traumatic fracture of other bone",
+    "price": 172.27,
+    "certification": true,
+    "difficulty": "expert",
+    "category": "Web Development",
+    "language": "Korean",
+    "courseDurationMinutes": 662,
+    "courseModality": "activities",
+    "creator": "9e2e923f-569b-4145-8f09-44559636f6b8",
+    "instructors": [
+      "eeda4045-a5da-45db-be8a-df683ee7f8b3",
+      "aa8bf21f-7bb4-4e96-87d5-86e0d2ed959d",
+      "1e9f1791-c5c7-4db1-8fd9-048d3f0e7dfb",
+      "8ddc8ac6-bba1-40f3-b389-d45c20dcc837",
+      "29857cf5-a254-4900-a287-36f116d32369"
+    ],
+    "createdAt": "6/23/2023",
+    "updatedAt": "5/31/2023",
+    "numberOfStudents": 529,
+    "rating": 0,
+    "image": "http://dummyimage.com/192x100.png/5fa2dd/ffffff",
+    "modules": [
+      {
+        "number": 1,
+        "title": "Module 1",
+        "durationMinutes": 62,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 156 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 8 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 466 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 205 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 979 },
+          { "number": 6, "name": "Class 6", "durationMinutes": 548 },
+          { "number": 7, "name": "Class 7", "durationMinutes": 760 },
+          { "number": 8, "name": "Class 8", "durationMinutes": 200 },
+          { "number": 9, "name": "Class 9", "durationMinutes": 19 }
+        ],
+        "cantClasses": 9
+      },
+      {
+        "number": 2,
+        "title": "Module 2",
+        "durationMinutes": 28,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 800 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 911 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 994 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 120 }
+        ],
+        "cantClasses": 4
+      }
+    ],
+    "cantModules": 2,
+    "cantClasses": 13
+  },
+  {
+    "title": "C#",
+    "description": "Arsenical anti-infectives causing adverse effects in therapeutic use",
+    "price": 286.71,
+    "certification": true,
+    "difficulty": "advanced",
+    "category": "Data Science",
+    "language": "Macedonian",
+    "courseDurationMinutes": 124,
+    "courseModality": "activities",
+    "creator": "b84dab75-3fe1-46c4-882d-da20011e0426",
+    "instructors": ["b4bf1686-bc3c-4390-850c-a4fdcf0b1717", "9fad7697-b69a-4fd1-aa19-3abf11619555"],
+    "createdAt": "8/18/2023",
+    "updatedAt": "7/7/2023",
+    "numberOfStudents": 734,
+    "rating": 0,
+    "image": "http://dummyimage.com/180x100.png/dddddd/000000",
+    "modules": [
+      {
+        "number": 1,
+        "title": "Module 1",
+        "durationMinutes": 521,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 553 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 259 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 572 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 511 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 828 },
+          { "number": 6, "name": "Class 6", "durationMinutes": 831 },
+          { "number": 7, "name": "Class 7", "durationMinutes": 194 }
+        ],
+        "cantClasses": 7
+      },
+      {
+        "number": 2,
+        "title": "Module 2",
+        "durationMinutes": 916,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 233 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 927 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 303 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 168 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 113 },
+          { "number": 6, "name": "Class 6", "durationMinutes": 847 },
+          { "number": 7, "name": "Class 7", "durationMinutes": 496 }
+        ],
+        "cantClasses": 7
+      },
+      {
+        "number": 3,
+        "title": "Module 3",
+        "durationMinutes": 527,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 52 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 115 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 691 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 625 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 135 },
+          { "number": 6, "name": "Class 6", "durationMinutes": 351 },
+          { "number": 7, "name": "Class 7", "durationMinutes": 596 },
+          { "number": 8, "name": "Class 8", "durationMinutes": 345 },
+          { "number": 9, "name": "Class 9", "durationMinutes": 895 },
+          { "number": 10, "name": "Class 10", "durationMinutes": 212 }
+        ],
+        "cantClasses": 10
+      },
+      {
+        "number": 4,
+        "title": "Module 4",
+        "durationMinutes": 923,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 20 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 209 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 958 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 53 }
+        ],
+        "cantClasses": 4
+      },
+      {
+        "number": 5,
+        "title": "Module 5",
+        "durationMinutes": 737,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 880 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 27 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 414 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 443 }
+        ],
+        "cantClasses": 4
+      }
+    ],
+    "cantModules": 5,
+    "cantClasses": 32
+  },
+  {
+    "title": "CSS",
+    "description": "Aneurysm of artery of lower extremity",
+    "price": 225.67,
+    "certification": true,
+    "difficulty": "expert",
+    "category": "Web Development",
+    "language": "French",
+    "courseDurationMinutes": 32,
+    "courseModality": "quiz",
+    "creator": "0a5d7c74-f1dd-4d21-9ac8-91f82d42c353",
+    "instructors": ["35496e33-3d47-469e-ac85-09a2d743e922"],
+    "createdAt": "7/8/2023",
+    "updatedAt": "8/14/2023",
+    "numberOfStudents": 351,
+    "rating": 1,
+    "image": "http://dummyimage.com/146x100.png/cc0000/ffffff",
+    "modules": [
+      {
+        "number": 1,
+        "title": "Module 1",
+        "durationMinutes": 731,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 205 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 782 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 541 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 40 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 164 },
+          { "number": 6, "name": "Class 6", "durationMinutes": 359 },
+          { "number": 7, "name": "Class 7", "durationMinutes": 555 }
+        ],
+        "cantClasses": 7
+      },
+      {
+        "number": 2,
+        "title": "Module 2",
+        "durationMinutes": 348,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 926 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 523 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 919 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 219 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 117 },
+          { "number": 6, "name": "Class 6", "durationMinutes": 381 },
+          { "number": 7, "name": "Class 7", "durationMinutes": 375 },
+          { "number": 8, "name": "Class 8", "durationMinutes": 974 },
+          { "number": 9, "name": "Class 9", "durationMinutes": 408 }
+        ],
+        "cantClasses": 9
+      },
+      {
+        "number": 3,
+        "title": "Module 3",
+        "durationMinutes": 54,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 535 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 919 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 313 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 423 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 959 }
+        ],
+        "cantClasses": 5
+      },
+      {
+        "number": 4,
+        "title": "Module 4",
+        "durationMinutes": 508,
+        "classes": [{ "number": 1, "name": "Class 1", "durationMinutes": 728 }],
+        "cantClasses": 1
+      }
+    ],
+    "cantModules": 4,
+    "cantClasses": 22
+  },
+  {
+    "title": "Web Design",
+    "description": "Cervical incompetence, unspecified as to episode of care or not applicable",
+    "price": 431.31,
+    "certification": true,
+    "difficulty": "advanced",
+    "category": "Web Development",
+    "language": "Arabic",
+    "courseDurationMinutes": 76,
+    "courseModality": "quiz",
+    "creator": "fb6d0042-bedb-48b0-a610-b36854da5212",
+    "instructors": [
+      "8b967a4e-7a41-4580-9491-20e9a33b9e19",
+      "b23b82d1-a2b1-4ec7-92a8-6c7d474caf3f",
+      "21056c44-01e3-4ae7-a2c7-63fd28c362ba"
+    ],
+    "createdAt": "8/30/2023",
+    "updatedAt": "7/1/2023",
+    "numberOfStudents": 592,
+    "rating": 1,
+    "image": "http://dummyimage.com/141x100.png/cc0000/ffffff",
+    "modules": [
+      {
+        "number": 1,
+        "title": "Module 1",
+        "durationMinutes": 530,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 17 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 918 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 102 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 445 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 417 },
+          { "number": 6, "name": "Class 6", "durationMinutes": 144 },
+          { "number": 7, "name": "Class 7", "durationMinutes": 578 },
+          { "number": 8, "name": "Class 8", "durationMinutes": 130 },
+          { "number": 9, "name": "Class 9", "durationMinutes": 147 }
+        ],
+        "cantClasses": 9
+      },
+      {
+        "number": 2,
+        "title": "Module 2",
+        "durationMinutes": 396,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 561 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 533 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 697 }
+        ],
+        "cantClasses": 3
+      }
+    ],
+    "cantModules": 2,
+    "cantClasses": 12
+  },
+  {
+    "title": "Django",
+    "description": "Carbuncle and furuncle of hand",
+    "price": 885.68,
+    "certification": false,
+    "difficulty": "expert",
+    "category": "Web Development",
+    "language": "Irish Gaelic",
+    "courseDurationMinutes": 999,
+    "courseModality": "quiz",
+    "creator": "7a050b04-c297-4be1-ba9d-3ddaa3356d77",
+    "instructors": [
+      "73143f5b-72cc-4f86-a72c-88e22cb03865",
+      "4293699c-125b-4ec4-9186-ee8ff7293ef3",
+      "2be60137-5f85-4e55-a14f-00610a6e804a",
+      "55374428-266d-4b94-a8ac-18586c961641"
+    ],
+    "createdAt": "7/9/2023",
+    "updatedAt": "6/9/2023",
+    "numberOfStudents": 290,
+    "rating": 1,
+    "image": "http://dummyimage.com/143x100.png/dddddd/000000",
+    "modules": [
+      {
+        "number": 1,
+        "title": "Module 1",
+        "durationMinutes": 977,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 102 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 891 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 652 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 820 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 504 }
+        ],
+        "cantClasses": 5
+      },
+      {
+        "number": 2,
+        "title": "Module 2",
+        "durationMinutes": 380,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 360 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 514 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 670 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 562 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 245 },
+          { "number": 6, "name": "Class 6", "durationMinutes": 769 },
+          { "number": 7, "name": "Class 7", "durationMinutes": 233 },
+          { "number": 8, "name": "Class 8", "durationMinutes": 2 }
+        ],
+        "cantClasses": 8
+      },
+      {
+        "number": 3,
+        "title": "Module 3",
+        "durationMinutes": 578,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 630 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 950 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 949 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 842 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 215 }
+        ],
+        "cantClasses": 5
+      },
+      {
+        "number": 4,
+        "title": "Module 4",
+        "durationMinutes": 280,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 568 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 818 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 502 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 839 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 140 }
+        ],
+        "cantClasses": 5
+      },
+      {
+        "number": 5,
+        "title": "Module 5",
+        "durationMinutes": 401,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 961 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 796 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 417 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 81 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 921 },
+          { "number": 6, "name": "Class 6", "durationMinutes": 940 },
+          { "number": 7, "name": "Class 7", "durationMinutes": 950 },
+          { "number": 8, "name": "Class 8", "durationMinutes": 614 },
+          { "number": 9, "name": "Class 9", "durationMinutes": 919 },
+          { "number": 10, "name": "Class 10", "durationMinutes": 497 }
+        ],
+        "cantClasses": 10
+      }
+    ],
+    "cantModules": 5,
+    "cantClasses": 33
+  },
+  {
+    "title": "HTML",
+    "description": "Traumatic amputation of other finger(s) (complete) (partial), complicated",
+    "price": 912.64,
+    "certification": false,
+    "difficulty": "intermediate",
+    "category": "Data Science",
+    "language": "Kurdish",
+    "courseDurationMinutes": 714,
+    "courseModality": "quiz",
+    "creator": "f0fba5b5-723f-4bab-b81f-282e9b3d6229",
+    "instructors": [
+      "2d51de82-29fd-48a2-b80f-4ffa19a6192c",
+      "f080bf2f-7428-4e0f-97d1-3098b9b2cc92",
+      "914315db-ddee-45f5-ba25-e18ced0e804c"
+    ],
+    "createdAt": "6/15/2023",
+    "updatedAt": "8/16/2023",
+    "numberOfStudents": 266,
+    "rating": 4,
+    "image": "http://dummyimage.com/246x100.png/ff4444/ffffff",
+    "modules": [
+      {
+        "number": 1,
+        "title": "Module 1",
+        "durationMinutes": 81,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 901 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 747 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 231 }
+        ],
+        "cantClasses": 3
+      }
+    ],
+    "cantModules": 1,
+    "cantClasses": 3
+  },
+  {
+    "title": "Java",
+    "description": "Secondary malignant neoplasm of genital organs",
+    "price": 803.6,
+    "certification": false,
+    "difficulty": "beginner",
+    "category": "Mobile App Development",
+    "language": "Swati",
+    "courseDurationMinutes": 88,
+    "courseModality": "quiz",
+    "creator": "be6e3a20-494d-4370-b2a8-cb3731aa96c4",
+    "instructors": [
+      "145c1a3b-d545-43dd-b726-5612a4cf9245",
+      "902b5b57-01c0-4875-8fe6-3c7e152bcd23",
+      "a33eb1a3-6824-44bc-945a-ed866ce2f382",
+      "22389fc3-875e-4b8f-9903-48bafe469d16"
+    ],
+    "createdAt": "8/31/2023",
+    "updatedAt": "8/25/2023",
+    "numberOfStudents": 770,
+    "rating": 2,
+    "image": "http://dummyimage.com/122x100.png/5fa2dd/ffffff",
+    "modules": [
+      {
+        "number": 1,
+        "title": "Module 1",
+        "durationMinutes": 214,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 470 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 493 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 99 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 115 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 743 },
+          { "number": 6, "name": "Class 6", "durationMinutes": 890 },
+          { "number": 7, "name": "Class 7", "durationMinutes": 417 }
+        ],
+        "cantClasses": 7
+      },
+      {
+        "number": 2,
+        "title": "Module 2",
+        "durationMinutes": 125,
+        "classes": [{ "number": 1, "name": "Class 1", "durationMinutes": 990 }],
+        "cantClasses": 1
+      },
+      {
+        "number": 3,
+        "title": "Module 3",
+        "durationMinutes": 336,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 447 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 989 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 181 }
+        ],
+        "cantClasses": 3
+      },
+      {
+        "number": 4,
+        "title": "Module 4",
+        "durationMinutes": 839,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 513 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 489 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 653 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 243 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 435 },
+          { "number": 6, "name": "Class 6", "durationMinutes": 861 },
+          { "number": 7, "name": "Class 7", "durationMinutes": 69 },
+          { "number": 8, "name": "Class 8", "durationMinutes": 517 }
+        ],
+        "cantClasses": 8
+      },
+      {
+        "number": 5,
+        "title": "Module 5",
+        "durationMinutes": 82,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 894 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 177 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 140 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 830 }
+        ],
+        "cantClasses": 4
+      }
+    ],
+    "cantModules": 5,
+    "cantClasses": 23
+  },
+  {
+    "title": "JavaScript",
+    "description": "Syphilis, unspecified",
+    "price": 554.72,
+    "certification": false,
+    "difficulty": "expert",
+    "category": "Data Science",
+    "language": "Pashto",
+    "courseDurationMinutes": 214,
+    "courseModality": "activities",
+    "creator": "2d763a87-9e9d-47b9-9f5b-ddc7511072ae",
+    "instructors": [
+      "c52e8529-c756-4b9c-8f39-b02820671a30",
+      "f0659c3c-9e01-4557-86c2-27fde595af86",
+      "bc48283d-c855-4fd1-a9eb-f68c7c116f36"
+    ],
+    "createdAt": "6/4/2023",
+    "updatedAt": "9/8/2023",
+    "numberOfStudents": 433,
+    "rating": 4,
+    "image": "http://dummyimage.com/216x100.png/dddddd/000000",
+    "modules": [
+      {
+        "number": 1,
+        "title": "Module 1",
+        "durationMinutes": 420,
+        "classes": [
+          { "number": 1, "name": "Class 1", "durationMinutes": 166 },
+          { "number": 2, "name": "Class 2", "durationMinutes": 74 },
+          { "number": 3, "name": "Class 3", "durationMinutes": 742 },
+          { "number": 4, "name": "Class 4", "durationMinutes": 836 },
+          { "number": 5, "name": "Class 5", "durationMinutes": 470 },
+          { "number": 6, "name": "Class 6", "durationMinutes": 426 },
+          { "number": 7, "name": "Class 7", "durationMinutes": 27 },
+          { "number": 8, "name": "Class 8", "durationMinutes": 178 },
+          { "number": 9, "name": "Class 9", "durationMinutes": 509 },
+          { "number": 10, "name": "Class 10", "durationMinutes": 642 }
+        ],
+        "cantClasses": 10
+      }
+    ],
+    "cantModules": 1,
+    "cantClasses": 10
+  }
+]

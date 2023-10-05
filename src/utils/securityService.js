@@ -2,6 +2,7 @@ import bcryptjs from "bcryptjs";
 import jsonwebtoken from "jsonwebtoken";
 import { jwtConfig } from "../config/config.js";
 import { v4 as uuidv4 } from "uuid";
+import { nanoid } from "nanoid";
 
 export function generateJwtToken(payload) {
   return jsonwebtoken.sign(payload, jwtConfig.jwtSecret, { expiresIn: jwtConfig.jwtExpiration });
@@ -23,6 +24,10 @@ export function comparePassword(password, hashedPassword) {
 export function generateUuid() {
   return uuidv4();
 }
+// generate nanoid
+export function generateNanoId() {
+  return nanoid();
+}
 
 export default {
   generateJwtToken,
@@ -30,4 +35,5 @@ export default {
   generateEncryptedPassword,
   comparePassword,
   generateUuid,
+  generateNanoId,
 };

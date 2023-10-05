@@ -1,5 +1,49 @@
 import { Schema, model } from "mongoose";
 
+const classSchema = new Schema(
+  {
+    classNumber: {
+      type: Number,
+      default: 0,
+    },
+    name: {
+      type: String,
+      default: "Class.",
+    },
+    durationMinutes: {
+      type: Number,
+      default: 0,
+    },
+    additionalMaterial: {
+      type: String, // URLs for additional resources.
+    },
+  },
+  {
+    _id: false,
+  }
+);
+
+const moduleSchema = new Schema(
+  {
+    moduleNumber: {
+      type: Number,
+      default: 0,
+    },
+    title: {
+      type: String,
+      default: "Module.",
+    },
+    description: {
+      type: String,
+      default: "No description provided.",
+    },
+    classes: [classSchema],
+  },
+  {
+    _id: false,
+  }
+);
+
 //Schema of a course
 const courseSchema = new Schema({
   idCourse: {
@@ -7,7 +51,6 @@ const courseSchema = new Schema({
     unique: true,
     required: true,
   },
-  number: { type: Number, required: true, unique: true },
   title: {
     type: String,
     required: true,
@@ -57,19 +100,10 @@ const courseSchema = new Schema({
   },
   courseModality: {
     type: String,
-    enum: ["modules", "classes", "activities"],
+    enum: ["modules", "classes", "activities", "video", "quiz"],
   },
-  creator: {
-    type: Schema.Types.ObjectId,
-    ref: "User",
-    required: true,
-  },
-  instructors: [
-    {
-      type: Schema.Types.ObjectId,
-      ref: "User",
-    },
-  ],
+  creator: { type: String, required: true, ref: "User" },
+  instructors: [{ type: String, required: true, ref: "User" }],
   createdAt: {
     type: Date,
     default: Date.now,
@@ -100,49 +134,7 @@ const courseSchema = new Schema({
     type: Number,
     default: 0,
   },
-  modules: [
-    {
-      number: {
-        type: Number,
-        default: 0,
-      },
-      title: {
-        type: String,
-        default: "Module.",
-      },
-      description: {
-        type: String,
-        default: "No description provided.",
-      },
-      durationMinutes: {
-        type: Number,
-        default: 0,
-      },
-      cantClasses: {
-        type: Number,
-        default: 0,
-      },
-      classes: [
-        {
-          number: {
-            type: Number,
-            default: 0,
-          },
-          name: {
-            type: String,
-            default: "Class.",
-          },
-          durationMinutes: {
-            type: Number,
-            default: 0,
-          },
-          additionalMaterial: {
-            type: String, // URLs for additional resources.
-          },
-        },
-      ],
-    },
-  ],
+  modules: [moduleSchema],
 });
 
 export default model("Course", courseSchema);

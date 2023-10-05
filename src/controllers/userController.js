@@ -109,21 +109,47 @@ export async function registerPurchase(req, res) {
     const { idCourse } = req.body;
     const token = req.headers.authorization.split(" ")[1];
     const payload = auth.verifyJwtToken(token);
-    const user = await User.findOne({ email: payload.email });
+    const user = await User.findOne({ email: payload.email }).select("inscribedCourses");
 
     if (!user || user.leghth === 0) {
       return res.status(404).json({ message: "User not found" });
     }
-    if (user.inscribedCourses.listCourses.includes(idCourse)) {
+    const isCoursePurchased = user.inscribedCourses.listCourses.find(
+      (course) => course.idCourse === idCourse
+    );
+    if (isCoursePurchased) {
       return res.status(409).json({ message: "Course already purchased" });
     }
-    await Course.findOneAndUpdate(idCourse, {
-      $inc: {
-        numberOfStudents: 1,
-      },
-    });
-    user.inscribedCourses.listCourses.push(idCourse);
+
+    const curso = await Course.findOne({ idCourse: req.body.idCourse });
+    if (!curso || curso.leghth === 0) {
+      return res.status(404).json({ message: "Course not found" });
+    }
+    curso.numberOfStudents += 1;
+
+    const coursePurchased = {
+      idCourse: curso.idCourse,
+      modulesProgress: [],
+    };
+
+    for (const mod of curso.modules) {
+      const module = {
+        number: mod.number,
+        classesProgress: [],
+      };
+      for (const cls of mod.classes) {
+        const clase = {
+          number: cls.number,
+        };
+        module.classesProgress.push(clase);
+      }
+      coursePurchased.modulesProgress.push(module);
+    }
+
+    user.inscribedCourses.listCourses.push(coursePurchased);
+    await curso.save();
     await user.save();
+    res.status(200).json({ message: "Course purchased successfully" });
   } catch (error) {
     console.error(error);
     res.status(500).json({ message: "Error en el servidor" });
@@ -185,7 +211,7 @@ export async function createCourse(req, res) {
   try {
     const token = req.headers.authorization.split(" ")[1];
     const payload = auth.verifyJwtToken(token);
-    const user = await User.findOne({ email: payload.email }).select("_id createdCourses");
+    const user = await User.findOne({ email: payload.email }).select("idUser createdCourses");
     if (!user || user.leghth === 0) {
       return res.status(404).json({ message: "User not found" });
     }
@@ -197,20 +223,18 @@ export async function createCourse(req, res) {
     user.createdCourses.listCourses = [];
     await user.save();
 
-    let number = user.createdCourses.listCourses.length;
     const coursePromises = body.map(async (course) => {
       if (!course.instructors) {
         course.instructors = [user._id];
       }
       if (!course.idCourse) {
-        course.idCourse = auth.generateUuid();
+        course.idCourse = auth.generateNanoId();
       }
       let newCourse = await Course.create({
-        number: ++number,
         ...course,
-        creator: user._id,
+        creator: user.idUser,
       });
-      return newCourse._id;
+      return newCourse.idCourse;
     });
 
     const courseIds = await Promise.all(coursePromises);
@@ -246,7 +270,7 @@ export async function getAllMyCourses(req, res) {
 
     //find courses by id in the list of courses created by the user
     const courses = await Course.find({
-      _id: { $in: user.createdCourses.listCourses },
+      idCourse: { $in: user.createdCourses.listCourses },
     }).select("-_id");
     res.status(200).json(courses);
   } catch (error) {
@@ -260,7 +284,7 @@ export async function getMyCourseById(req, res) {
   try {
     const token = req.headers.authorization.split(" ")[1];
     const payload = auth.verifyJwtToken(token);
-    const user = await User.findOne({ email: payload.email }).select("_id");
+    const user = await User.findOne({ email: payload.email }).select("idUser");
     const course = await Course.findOne({ idCourse: req.body.idCourse }).select("-_id");
 
     if (!user || user.length === 0) {
@@ -271,7 +295,7 @@ export async function getMyCourseById(req, res) {
       return res.status(404).json({ message: "Course not found" });
     }
 
-    if (user._id.toString() !== course.creator.toString()) {
+    if (user.idUser !== course.creator) {
       return res.status(404).json({ message: "Resource not found" });
     }
 

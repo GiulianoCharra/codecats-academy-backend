@@ -1,0 +1,256 @@
+{
+  "id": 562309,
+  "num_rows": 10,
+  "file_format": "json",
+  "name": "courses",
+  "array": false,
+  "columns": [
+    {
+      "name": "title",
+      "null_percentage": 0,
+      "type": "Custom List",
+      "values": [
+        "Angular",
+        "Bootstrap",
+        "C++",
+        "C#",
+        "CSS",
+        "Web Design",
+        "Django",
+        "HTML",
+        "Java",
+        "JavaScript",
+        "Laravel",
+        "MEAN",
+        "MongoDB",
+        "MySQL",
+        "Nodejs",
+        "PHP",
+        "PostgresSQL",
+        "Python",
+        "React",
+        "Sring Boot",
+        "SQL Server",
+        "Vue.js"
+      ],
+      "selectionStyle": "sequential",
+      "distribution": null,
+      "formula": null
+    },
+    {
+      "name": "description",
+      "null_percentage": 0,
+      "type": "ICD9 Dx Desc (Long)",
+      "formula": null
+    },
+    {
+      "name": "price",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 0,
+      "max": 1000,
+      "decimals": 2,
+      "formula": null
+    },
+    {
+      "name": "certification",
+      "null_percentage": 0,
+      "type": "Boolean",
+      "formula": null
+    },
+    {
+      "name": "difficulty",
+      "null_percentage": 0,
+      "type": "Custom List",
+      "values": [
+        "beginner",
+        "intermediate",
+        "advanced",
+        "expert"
+      ],
+      "selectionStyle": "random",
+      "distribution": null,
+      "formula": null
+    },
+    {
+      "name": "category",
+      "null_percentage": 0,
+      "type": "Custom List",
+      "values": [
+        "Database Management",
+        "Web Development",
+        "Data Science",
+        "Mobile App Development"
+      ],
+      "selectionStyle": "random",
+      "distribution": null,
+      "formula": null
+    },
+    {
+      "name": "language",
+      "null_percentage": 0,
+      "type": "Language",
+      "formula": null
+    },
+    {
+      "name": "courseModality",
+      "null_percentage": 0,
+      "type": "Custom List",
+      "values": [
+        "activities",
+        "video",
+        "quiz"
+      ],
+      "selectionStyle": "random",
+      "distribution": null,
+      "formula": null
+    },
+    {
+      "name": "creator",
+      "null_percentage": 0,
+      "type": "GUID",
+      "formula": null
+    },
+    {
+      "name": "instructors[0-5]",
+      "null_percentage": 0,
+      "type": "GUID",
+      "formula": null
+    },
+    {
+      "name": "createdAt",
+      "null_percentage": 0,
+      "type": "Datetime",
+      "min": "05/10/2015",
+      "max": "05/03/2023",
+      "format": "%Y-%m-%d",
+      "formula": null
+    },
+    {
+      "name": "updatedAt",
+      "null_percentage": 0,
+      "type": "Formula",
+      "value": "(createdAt + days(random(14,14))).to_date",
+      "formula": ""
+    },
+    {
+      "name": "numberOfStudents",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 0,
+      "max": 1000,
+      "decimals": 0,
+      "formula": null
+    },
+    {
+      "name": "rating",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 0,
+      "max": 5,
+      "decimals": 0,
+      "formula": null
+    },
+    {
+      "name": "image",
+      "null_percentage": 0,
+      "type": "Dummy Image URL",
+      "minHeight": 100,
+      "maxHeight": null,
+      "minWidth": 100,
+      "maxWidth": 250,
+      "format": "png",
+      "formula": null
+    },
+    {
+      "name": "modules",
+      "null_percentage": 0,
+      "type": "JSON Array",
+      "minItems": 1,
+      "maxItems": 0,
+      "formula": null
+    },
+    {
+      "name": "modules.number",
+      "null_percentage": 0,
+      "type": "Row Number",
+      "formula": ""
+    },
+    {
+      "name": "modules.title",
+      "null_percentage": 0,
+      "type": "Row Number",
+      "formula": "concat(\"Module \", this)"
+    },
+    {
+      "name": "modules.description",
+      "null_percentage": 0,
+      "type": "ICD10 Dx Desc (Long)",
+      "formula": null
+    },
+    {
+      "name": "modules.classes",
+      "null_percentage": 0,
+      "type": "JSON Array",
+      "minItems": 1,
+      "maxItems": 3,
+      "formula": null
+    },
+    {
+      "name": "modules.classes.number",
+      "null_percentage": 0,
+      "type": "Row Number",
+      "formula": null
+    },
+    {
+      "name": "modules.classes.name",
+      "null_percentage": 0,
+      "type": "Row Number",
+      "formula": "concat(\"Class \", this)"
+    },
+    {
+      "name": "modules.classes.durationMinutes",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 1,
+      "max": 300,
+      "decimals": 0,
+      "formula": null
+    },
+    {
+      "name": "modules.durationMinutes",
+      "null_percentage": 0,
+      "type": "Formula",
+      "value": "classes.map {|l| l['durationMinutes']}.sum",
+      "formula": null
+    },
+    {
+      "name": "modules.cantClasses",
+      "null_percentage": 0,
+      "type": "Formula",
+      "value": "classes.length",
+      "formula": ""
+    },
+    {
+      "name": "cantModules",
+      "null_percentage": 0,
+      "type": "Formula",
+      "value": "modules.length",
+      "formula": ""
+    },
+    {
+      "name": "cantClasses",
+      "null_percentage": 0,
+      "type": "Formula",
+      "value": "modules.map {|l| l['cantClasses']}.sum",
+      "formula": ""
+    },
+    {
+      "name": "courseDurationMinutes",
+      "null_percentage": 0,
+      "type": "Formula",
+      "value": "modules.map {|l| l['durationMinutes']}.sum",
+      "formula": null
+    }
+  ]
+}

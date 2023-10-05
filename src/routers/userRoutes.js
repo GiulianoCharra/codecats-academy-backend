@@ -14,7 +14,7 @@ router.get("/:username", user.getPublicProfile);
 
 // Private routes
 
-router.get("/username/purchase/:courseId", user.registerPurchase);
+router.post("/:username/purchase/:courseId", user.registerPurchase);
 router.get("/:username/profile", user.getProfile);
 router.put("/:username/profile/edit", user.editProfile);
 

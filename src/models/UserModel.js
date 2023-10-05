@@ -1,6 +1,33 @@
 import { Schema, model } from "mongoose";
 import { roles } from "../config/config.js";
 
+const classProgressSchema = new Schema(
+  {
+    classNumber: { type: Number, required: true, default: 0 },
+    progress: { type: Number, default: 0, min: 0, max: 100 },
+  },
+  { _id: false }
+);
+
+const moduleProgressSchema = new Schema(
+  {
+    moduleNumber: { type: Number, required: true, default: 0 },
+    progress: { type: Number, default: 0, min: 0, max: 100 },
+    classesProgress: [classProgressSchema],
+  },
+  { _id: false }
+);
+
+const courseProgressSchema = new Schema(
+  {
+    idCourse: { type: String, required: true, ref: "Course" },
+    purchasedAt: { type: Date, default: Date.now },
+    progress: { type: Number, default: 0, min: 0, max: 100 },
+    modulesProgress: [moduleProgressSchema],
+  },
+  { _id: false }
+);
+
 const userSchema = new Schema({
   idUser: { type: String, required: true, unique: true },
   email: { type: String, required: true, unique: true },
@@ -16,32 +43,14 @@ const userSchema = new Schema({
   description: { type: String, default: "" },
   inscribedCourses: {
     show: { type: Boolean, default: false },
-    listCourses: [
-      {
-        course: { type: Schema.Types.ObjectId, ref: "Course" },
-        purchasedAt: { type: Date, default: Date.now },
-        progress: { type: Number, default: 0, min: 0, max: 100 },
-        moduleProgress: [
-          {
-            moduleId: { type: Schema.Types.ObjectId },
-            progress: { type: Number, default: 0, min: 0, max: 100 },
-            classProgress: [
-              {
-                classId: { type: Schema.Types.ObjectId },
-                progress: { type: Number, default: 0, min: 0, max: 100 },
-              },
-            ],
-          },
-        ],
-      },
-    ],
+    listCourses: [courseProgressSchema],
   },
   createdCourses: {
     show: { type: Boolean, default: false },
-    listCourses: [{ type: Schema.Types.ObjectId, ref: "Course" }],
+    listCourses: [{ type: String, ref: "Course" }],
   },
-  desiredCourses: [{ type: Schema.Types.ObjectId, ref: "Course" }],
-  shoppingCart: [{ type: Schema.Types.ObjectId, ref: "Course" }],
+  desiredCourses: [{ type: String, ref: "Course" }],
+  shoppingCart: [{ type: String, ref: "Course" }],
   image: { type: String, default: "" },
   createdAt: { type: Date, default: Date.now },
   updatedAt: { type: Date, default: Date.now },
