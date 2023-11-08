@@ -46,7 +46,7 @@ export async function login(req, res) {
     });
     res
       .header("authorization", `Bearer ${token}`)
-      .header.add("Access-Control-Expose-Headers", "Authorization")
+      .add("Access-Control-Expose-Headers", "Authorization")
       .status(200)
       .json({ message: "User logged successfully" });
   } catch (error) {
