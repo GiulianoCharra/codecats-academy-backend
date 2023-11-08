@@ -46,9 +46,10 @@ export async function login(req, res) {
     });
     res
       .header("authorization", `Bearer ${token}`)
-      .add("Access-Control-Expose-Headers", "Authorization")
       .status(200)
       .json({ message: "User logged successfully" });
+
+    res.header("Access-Control-Expose-Headers", "Authorization");
   } catch (error) {
     console.error(error);
     res.status(500).json({ message: "Error in the server" });
