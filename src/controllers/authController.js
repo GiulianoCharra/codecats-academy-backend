@@ -51,6 +51,7 @@ export async function login(req, res) {
 
     // Set access exposed headers
     res.header("Access-Control-Expose-Headers", "Authorization");
+    
   } catch (error) {
     console.error(error);
     res.status(500).json({ message: "Error in the server" });
