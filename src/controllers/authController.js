@@ -44,14 +44,16 @@ export async function login(req, res) {
       email: user.email,
       role: user.role,
     });
+    
+    // Set access exposed headers
+    res.header("Access-Control-Expose-Headers", "Authorization");
+
     res
       .header("authorization", `Bearer ${token}`)
       .status(200)
       .json({ message: "User logged successfully" });
 
-    // Set access exposed headers
-    res.header("Access-Control-Expose-Headers", "Authorization");
-    
+
   } catch (error) {
     console.error(error);
     res.status(500).json({ message: "Error in the server" });
