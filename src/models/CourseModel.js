@@ -101,6 +101,7 @@ const courseSchema = new Schema({
   courseModality: {
     type: String,
     enum: ["modules", "classes", "activities", "video", "quiz"],
+    default: "modules",
   },
   creator: { type: String, required: true, ref: "User" },
   instructors: [{ type: String, required: true, ref: "User" }],

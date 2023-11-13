@@ -47,6 +47,19 @@ window.addEventListener("DOMContentLoaded", () => {
   }
   urlActual = pages[paginaActual];
   cargarPagina(urlActual, paginaActual);
+
+  const token = localStorage.getItem("token");
+  if (token) {
+    isLoggedIn = true;
+    const button = document.getElementById("openModal");
+    button.innerHTML = `<img class="login__image" src="./assets/images/integrantes/integrante-foto-1.png" alt="User Profile" class="profile-image">`;
+
+    const isAdmin = JSON.parse(localStorage.getItem("userData")).role === "admin";
+    const viewUsersButton = document.getElementById("viewUsers");
+    if (viewUsersButton) {
+      viewUsersButton.style.display = isAdmin ? "block" : "none";
+    }
+  }
 });
 
 addEventListenerWithCheck(document, "click", async (e) => {
@@ -297,17 +310,14 @@ document.getElementById("login-form").addEventListener("submit", async function 
       const userData = await response.json();
       const authorizationHeader = response.headers.get("Authorization");
       const token = authorizationHeader ? authorizationHeader.split(" ")[1] : null;
-      console.log(userData.message); // Mensaje de éxito
+      console.log(userData.message);
 
       if (!token) {
         throw new Error("Token not found in response");
       }
 
       localStorage.setItem("token", token);
-
-      if (userData.user) {
-        localStorage.setItem("user", JSON.stringify(userData.user));
-      }
+      localStorage.setItem("userData", JSON.stringify(userData));
 
       document.getElementById("loginModal").style.display = "none";
       document.getElementById("login-form").reset();
@@ -391,6 +401,7 @@ document.getElementById("logout").addEventListener("click", logout);
 function logout() {
   // Elimina el token del localStorage
   localStorage.removeItem("token");
+  localStorage.removeItem("userData");
 
   // Restaura la imagen de perfil por defecto
   openModalButton.innerHTML = `<svg
