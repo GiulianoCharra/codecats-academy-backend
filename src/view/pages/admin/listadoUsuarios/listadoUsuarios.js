@@ -2,7 +2,7 @@ export default async function cargarUsuarios() {
   const listaUsuarios = document.getElementById("listado-usuarios__container");
 
   try {
-    const response = await fetch("http://localhost:5000/api/users/all", {
+    const response = await fetch("https://codecats-academy-backend.onrender.com/api/users/all", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",

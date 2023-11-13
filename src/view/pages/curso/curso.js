@@ -2,7 +2,9 @@ export default async function cargarCurso(idCurso) {
   const cursoContainer = document.getElementById("curso");
   try {
     // Realiza una solicitud al backend para obtener la información del curso específico
-    const response = await fetch(`http://localhost:5000/api/courses/${idCurso}`);
+    const response = await fetch(
+      `https://codecats-academy-backend.onrender.com/api/courses/${idCurso}`
+    );
     const curso = await response.json();
 
     // Llama a una función para renderizar el curso en el contenedor

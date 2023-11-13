@@ -278,7 +278,7 @@ document.getElementById("login-form").addEventListener("submit", async function 
   event.preventDefault();
   let email = document.getElementById("email").value;
   let password = document.getElementById("password").value;
-  let url = "http://localhost:5000/api/auth/login";
+  let url = "https://codecats-academy-backend.onrender.com/api/auth/login";
   let data = {
     email,
     password,

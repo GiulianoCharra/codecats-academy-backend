@@ -4,7 +4,7 @@ export default async function cargarCursos() {
   contenedorCursos.innerHTML = "";
 
   try {
-    const response = await fetch("http://localhost:5000/api/courses", {
+    const response = await fetch("https://codecats-academy-backend.onrender.com/api/courses", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
