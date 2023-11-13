@@ -1,0 +1,203 @@
+@import url(../../css/form-input.css);
+@import url(../../css/form-input-desplegable.css);
+@import url(../../css/calendario.css);
+@import url(../../css/boton-principal.css);
+
+:root {
+  --color-celeste: #5cddeb;
+}
+
+.seccion_perfil {
+  flex-direction: column;
+}
+
+.titulo {
+  /* width: 535px;
+  height: 113px; */
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.perfil__datos {
+  /* width: 1142px;
+  height: 962px; */
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: clamp(20px, calc(5vw + 10px), 100px);
+}
+
+.navegacion {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(20px, calc(5vw + 10px), 50px);
+}
+
+.perfil__imagen {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.perfil__imagen img {
+  width: clamp(100px, calc(10vw + 80px), 300px);
+  max-width: 200px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  object-position: 70% 10px;
+  object-fit: cover;
+}
+.imagen__input {
+  color: transparent;
+  width: min-content;
+  height: 30px;
+  width: 100px;
+}
+.imagen__input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.imagen__input::before {
+  height: 30px;
+
+  content: "change";
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  background: var(--color-input);
+  /* padding: 10px; */
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  font-size: 1rem;
+  display: grid;
+  place-items: center;
+}
+.imagen__input:hover::before {
+  border-color: black;
+}
+.imagen__input:active {
+  outline: 0;
+}
+.imagen__input:active::before {
+  color: #ffffff;
+  background: var(--color-celeste);
+}
+
+.configuraciones {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.configuracion {
+  width: 100%;
+  transition: padding-left 500ms;
+  cursor: pointer;
+}
+
+.configuracion__nombre {
+  text-align: left;
+  font-size: 1rem;
+  text-transform: capitalize;
+  transition-property: padding-left, color, font-size, font-weight;
+  transition-duration: 500ms;
+}
+
+.configuracion.actual {
+  padding-left: 30px;
+}
+.configuracion.actual .configuracion__nombre {
+  color: var(--color-celeste);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.perfil__atributos {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 30px;
+}
+
+.formulario-datos-personales {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-input.descripcion {
+  width: 100%;
+  height: 100%;
+  padding-block: 20px;
+}
+
+.botones {
+  display: flex;
+  gap: 20px;
+}
+
+.btn {
+  display: flex;
+  align-items: flex-end;
+}
+
+.btn,
+.btn:focus-visible,
+.btn:focus-within {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  transition-duration: scale, box-shadow;
+  transition-duration: 300ms;
+}
+
+.btn:hover {
+  scale: 1.2;
+}
+.btn--guadar:hover {
+  text-shadow: 0 0 20px #12d152, 0 0 30px #12d152;
+}
+.btn--cancelar:hover {
+  text-shadow: 0 0 20px #d11212, 0 0 30px #d11212;
+}
+
+.btn--guadar {
+  color: #00ac60;
+  text-align: left;
+  font-size: 35px;
+}
+
+.btn--cancelar {
+  color: #b60000;
+  text-align: left;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 750px) {
+  .perfil__datos {
+    flex-direction: column;
+  }
+
+  .navegacion {
+    width: 100%;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+  .formulario-datos-personales {
+    width: 100%;
+  }
+}

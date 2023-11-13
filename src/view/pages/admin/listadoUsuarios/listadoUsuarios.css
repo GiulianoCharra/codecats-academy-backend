@@ -1,0 +1,35 @@
+.titulo {
+  font-size: 3rem;
+}
+
+.seccion-listado-usuarios {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.listado-usuarios__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.listado-usuarios__container-header,
+.usuario {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.listado-usuarios__container-header {
+  font-size: 1.2rem;
+}

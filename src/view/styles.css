@@ -1,0 +1,33 @@
+@import url(./css/cuerpo-pagina.css);
+@import url(./css/header.css);
+@import url(./css/footer.css);
+@import url(./css/curso-card.css);
+
+:root {
+  --color-principal: #2e4052;
+  --color-logos: #cad6e2;
+  --color-input: #507da1;
+  --color-secundario: #507da1;
+
+  --bg-color-header-gradient: linear-gradient(to right, #517fa4 0%, #243949 100%);
+  --bg-color-curso-card-gradient: linear-gradient(180deg, #507da1 0%, #507da100 100%);
+  --bg-color-curso-card-datos-gradient: linear-gradient(180deg, #507da1 0%, #507da1e6 100%);
+
+  --animacion-rebote: cubic-bezier(0.47, 1.64, 0.41, 0.8);
+  --duracion-animacion: 800ms;
+
+  --bg-color-boton-secundario: #2d3f5066;
+  --bg-color-boton-principal: #05a5d1;
+}
+
+/* Para la animación de entrada */
+.animacion-entrada {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+/* Para la animación de salida */
+.animacion-salida {
+  opacity: 0;
+  transform: translateY(-20px);
+}

@@ -1,0 +1,143 @@
+@import url(../../css/form-input.css);
+@import url(../../css/form-input-desplegable.css);
+@import url(../../css/calendario.css);
+@import url(../../css/boton-principal.css);
+
+.seccion-formulario-pago {
+  gap: clamp(20px, calc(5vw + 20px), 100px);
+  flex-direction: column;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.formulario_datos_tarjeta {
+  display: grid;
+  width: 100%;
+  max-width: 1300px;
+  /* max-height: 800px; */
+
+  grid-template:
+    "datos-tarjeta tarjeta " 50px
+    "datos-tarjeta tarjeta " 50px
+    "datos-tarjeta tarjeta " 50px
+    "datos-tarjeta datos-contacto " 50px
+    "datos-tarjeta datos-contacto " 50px
+    "boton boton " 50px / 1fr 1fr;
+  gap: clamp(20px, calc(5vw + 10px), 50px);
+
+  /* padding-inline: 5vw; */
+}
+
+.datos_tarjeta,
+.datos_adicionales {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.datos_tarjeta {
+  grid-area: datos-tarjeta;
+}
+
+.datos_adicionales {
+  grid-area: datos-contacto;
+}
+
+.tarjeta {
+  grid-area: tarjeta;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  background: #3054b1;
+  position: relative;
+}
+
+.logo_tarjeta {
+  background-image: url(../../assets/images/general/logo_tarjeta.png);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: 10% 10%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.nombre {
+  width: 232px;
+  height: 30px;
+  text-align: left;
+  font-size: 25px;
+  letter-spacing: 0;
+  position: absolute;
+  bottom: 100px;
+  left: 50px;
+}
+
+.numero {
+  width: 228px;
+  height: 30px;
+  text-align: left;
+  font-size: 25px;
+  letter-spacing: 0;
+  position: absolute;
+  bottom: 30px;
+  left: 50px;
+}
+
+.expiration_date {
+  width: 120px;
+  height: 30px;
+  text-align: left;
+  font-size: 25px;
+  letter-spacing: 0;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+
+.tarjeta__fecha-cvv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.fecha_vencimiento {
+  width: 70%;
+}
+
+.cvv {
+  width: 30%;
+  text-transform: uppercase;
+}
+
+.btn_pricipal {
+  grid-area: boton;
+}
+
+@media screen and (max-width: 1000px) {
+  .formulario_datos_tarjeta {
+    grid-template:
+      "tarjeta" 50px
+      "tarjeta" 50px
+      "tarjeta" 50px
+      "datos-tarjeta" 50px
+      "datos-tarjeta" 50px
+      "datos-tarjeta" 50px
+      "datos-tarjeta" 50px
+      "datos-tarjeta" 50px
+      "datos-contacto" 50px
+      "datos-contacto" 50px
+      "boton" 50px / 1fr;
+  }
+}

@@ -1,0 +1,195 @@
+@import url(../../css/curso-card.css);
+@import url(../../css/form-input.css);
+@import url(../../css/form-input-desplegable.css);
+@import url(../../css/curso-card.css);
+
+:root {
+  --color-html: 228, 77, 38;
+
+  --color-css: 2, 119, 189;
+
+  --color-javascript: 239, 199, 37;
+
+  --color-csharp: 77, 24, 125;
+
+  --color-java: 224, 31, 34;
+
+  --color-python: 255, 214, 81;
+
+  --color-react: 5, 165, 209;
+}
+
+.cursos_recomendados {
+  flex-direction: column;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.titulo {
+  font-size: 40px;
+  letter-spacing: 0;
+}
+
+.contenedor-listado {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.listado_cursos_recomendados {
+  display: flex;
+  width: 100%;
+  padding-block: 10px 50px;
+  padding-inline: 40px 500px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  overflow-x: auto;
+}
+
+.html {
+  background-image: linear-gradient(rgba(var(--color-html), 1), rgba(var(--color-html), 0));
+}
+.html .curso_datos {
+  background-image: linear-gradient(rgba(var(--color-html), 1), rgba(var(--color-html), 0.9));
+}
+.html .btn_add_to_cart {
+  /* background-color: rgba(var(--color-html), 0.4); */
+}
+.html .btn_comprar {
+  background-color: rgba(var(--color-html), 0.8);
+}
+
+.javascript {
+  background-image: linear-gradient(
+    rgba(var(--color-javascript), 1),
+    rgba(var(--color-javascript), 0)
+  );
+}
+.javascript .curso_datos {
+  background-image: linear-gradient(
+    rgba(var(--color-javascript), 1),
+    rgba(var(--color-javascript), 0.9)
+  );
+}
+.javascript .btn_add_to_cart {
+  /* background-color: rgba(var(--color-javascript), 0.4); */
+}
+.javascript .btn_comprar {
+  background-color: rgba(var(--color-javascript), 8);
+}
+
+.css {
+  background-image: linear-gradient(rgba(var(--color-css), 1), rgba(var(--color-css), 0));
+}
+.css .curso_datos {
+  background-image: linear-gradient(rgba(var(--color-css), 1), rgba(var(--color-css), 0.9));
+}
+.css .btn_add_to_cart {
+  /* background-color: rgba(var(--color-css), 0.4); */
+}
+.css .btn_comprar {
+  background-color: rgba(var(--color-css), 0.8);
+}
+
+.csharp {
+  background-image: linear-gradient(rgba(var(--color-csharp), 1), rgba(var(--color-csharp), 0));
+}
+.csharp .curso_datos {
+  background-image: linear-gradient(rgba(var(--color-csharp), 1), rgba(var(--color-csharp), 0.9));
+}
+.csharp .btn_add_to_cart {
+  /* background-color: rgba(var(--color-csharp), 0.4); */
+}
+.csharp .btn_comprar {
+  background-color: rgba(var(--color-csharp), 0.8);
+}
+
+.python {
+  background-image: linear-gradient(rgba(var(--color-python), 1), rgba(var(--color-python), 0));
+}
+.python .curso_datos {
+  background-image: linear-gradient(rgba(var(--color-python), 1), rgba(var(--color-python), 0.9));
+}
+.python .btn_add_to_cart {
+  /* background-color: rgba(var(--color-python), 0.4); */
+}
+.python .btn_comprar {
+  background-color: rgba(var(--color-python), 0.8);
+}
+
+.java {
+  background-image: linear-gradient(rgba(var(--color-java), 1), rgba(var(--color-java), 0));
+}
+.java .curso_datos {
+  background-image: linear-gradient(rgba(var(--color-java), 1), rgba(var(--color-java), 0.9));
+}
+.java .btn_add_to_cart {
+  /* background-color: rgba(var(--color-java), 0.4); */
+}
+.java .btn_comprar {
+  background-color: rgba(var(--color-java), 0.8);
+}
+
+.seccion_filtros.contenedor {
+  flex-direction: column;
+}
+
+.filtros {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.buscador-curso {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.form-input-select {
+  width: 30%;
+}
+
+.seccion_cursos {
+  overflow: hidden;
+}
+
+.listado_cursos {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+@media screen and ((min-width: 751px) and (max-width: 1100px)) {
+  .form-input-select {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .listado_cursos {
+    justify-content: flex-start;
+  }
+
+  .listado_cursos .curso {
+    /* flex-direction: column; */
+    align-content: flex-start;
+
+    /* width: 30%; */
+  }
+  .listado_cursos .curso .curso_datos {
+    /* width: 70%; */
+  }
+
+  .form-input-select {
+    width: 100%;
+  }
+}

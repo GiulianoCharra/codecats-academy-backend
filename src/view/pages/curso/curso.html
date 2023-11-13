@@ -1,0 +1,453 @@
+<div id="curso">
+  <section class="seccion_descripcion contenedor">
+    <img
+      class="imagen_curso"
+      src="../../assets/images/cursos/react.png"
+      alt=""
+    />
+    <div class="contenedor__descripcion">
+      <span class="nombre_curso">Course name</span
+      ><span class="descripcion"
+        >Lorem ipsum dolor sit amet consectetur. Sed ultrices feugiat imperdiet quam cursus. Id
+        quisque nunc et elit bibendum placerat adipiscing egestas vitae. Faucibus in phasellus justo
+        ac. Lectus quam gravida et pulvinar. Nulla donec velit eget tincidunt quam quis diam quam
+        diam. Placerat ut a pellentesque elit aliquet. Non tortor id et nec massa integer quis
+        lorem. Eleifend auctor id ac quam maecenas. Ut dui fames feugiat nulla cras. Rutrum proin
+        commodo commodo suspendisse dolor. Ipsum iaculis maecenas eu at nulla tellus lobortis
+        tellus. A suscipit pulvinar aliquam morbi viverra vitae neque orci. Lacus nisl quam pharetra
+        varius.</span
+      >
+    </div>
+  </section>
+  <section class="seccion_informacion_curso">
+    <div class="atributo">
+      <span class="atributo__nombre">Price:</span>
+      <span class="atributo__valor">$${curso.price.toFixed(2)}</span>
+    </div>
+    <div class="atributo">
+      <span class="atributo__nombre">Certification:</span>
+      <span class="atributo__valor">${curso.certification ? 'Yes' : 'No'}</span>
+    </div>
+    <div class="atributo">
+      <span class="atributo__nombre">Difficulty:</span>
+      <span class="atributo__valor">${curso.difficulty}</span>
+    </div>
+    <div class="atributo">
+      <span class="atributo__nombre">Category:</span>
+      <span class="atributo__valor">${curso.category}</span>
+    </div>
+    <div class="atributo">
+      <span class="atributo__nombre">Language:</span>
+      <span class="atributo__valor">${curso.language}</span>
+    </div>
+    <div class="atributo">
+      <span class="atributo__nombre">Course Duration:</span>
+      <span class="atributo__valor">${curso.courseDurationMinutes} minutes</span>
+    </div>
+    <div class="atributo">
+      <span class="atributo__nombre">Course Modality:</span>
+      <span class="atributo__valor">${curso.courseModality}</span>
+    </div>
+    <div class="atributo">
+      <span class="atributo__nombre">Number of Students:</span>
+      <span class="atributo__valor">${curso.numberOfStudents}</span>
+    </div>
+    <div class="atributo">
+      <span class="atributo__nombre">Rating:</span>
+      <span class="atributo__valor">${curso.rating}</span>
+    </div>
+  </section>
+  <section class="seccion_modulos contenedor">
+    <span class="titulo">modules</span>
+    <div class="listado_modulos">
+      <div class="contenedor-modulo">
+        <div class="modulo">
+          <div class="modulo__descripcion">
+            <h2 class="">Module <span class="modulo__numer">1</span>:</h2>
+            <span class="modulo__nombre">Introduction to the React framework</span>
+          </div>
+          <svg
+            class="arrow"
+            xmlns="http://www.w3.org/2000/svg"
+            height="1em"
+            viewBox="0 0 512 512"
+          >
+            <path
+              d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
+            />
+          </svg>
+        </div>
+        <div class="modulo__datos">
+          <div class="modulo__atributos">
+            <div class="atributos__basicos">
+              <div class="atributo">
+                <span class="atributo__nombre">Duration:</span>
+                <span class="atributo__valor">8 Hs</span>
+              </div>
+              <div class="atributo">
+                <span class="atributo__nombre">Classes:</span>
+                <span class="atributo__valor">10</span>
+              </div>
+            </div>
+            <div class="atributo flex-start">
+              <span class="atributo__nombre">Description:</span>
+              <span class="atributo__valor"
+                >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos ad incidunt
+                similique harum. Assumenda optio, ad sunt id culpa labore aspernatur necessitatibus
+                quam cumque. Qui possimus optio nemo provident nihil!</span
+              >
+            </div>
+          </div>
+          <div class="modulo__clases">
+            <div class="desplegable__clases">
+              <span>Class list</span>
+              <svg
+                class="arrow"
+                xmlns="http://www.w3.org/2000/svg"
+                height="1em"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
+                />
+              </svg>
+            </div>
+            <div class="listado__clases">
+              <div class="clase">
+                <div class="clase_descripcion">
+                  <span>Class <span class="clase__numero">1</span>:</span>
+                  <span class="clase__nombre">Class name</span>
+                </div>
+                <div class="clase_duracion">
+                  <span class="duracion__valor">40</span>
+                  <span class="duracion__unidad">min</span>
+                </div>
+              </div>
+              <div class="clase">
+                <div class="clase_descripcion">
+                  <span>Class <span class="clase__numero">1</span>:</span>
+                  <span class="clase__nombre">Class name</span>
+                </div>
+                <div class="clase_duracion">
+                  <span class="duracion__valor">40</span>
+                  <span class="duracion__unidad">min</span>
+                </div>
+              </div>
+              <div class="clase">
+                <div class="clase_descripcion">
+                  <span>Class <span class="clase__numero">1</span>:</span>
+                  <span class="clase__nombre">Class name</span>
+                </div>
+                <div class="clase_duracion">
+                  <span class="duracion__valor">40</span>
+                  <span class="duracion__unidad">min</span>
+                </div>
+              </div>
+              <div class="clase">
+                <div class="clase_descripcion">
+                  <span>Class <span class="clase__numero">1</span>:</span>
+                  <span class="clase__nombre">Class name</span>
+                </div>
+                <div class="clase_duracion">
+                  <span class="duracion__valor">40</span>
+                  <span class="duracion__unidad">min</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contenedor-modulo">
+        <div class="modulo">
+          <div class="modulo__descripcion">
+            <h2 class="">Module <span class="modulo__numer">1</span>:</h2>
+            <span class="modulo__nombre">Introduction to the React framework</span>
+          </div>
+          <svg
+            class="arrow"
+            xmlns="http://www.w3.org/2000/svg"
+            height="1em"
+            viewBox="0 0 512 512"
+          >
+            <path
+              d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
+            />
+          </svg>
+        </div>
+        <div class="modulo__datos">
+          <div class="modulo__atributos">
+            <div class="atributos__basicos">
+              <div class="atributo">
+                <span class="atributo__nombre">Duration:</span>
+                <span class="atributo__valor">8 Hs</span>
+              </div>
+              <div class="atributo">
+                <span class="atributo__nombre">Classes:</span>
+                <span class="atributo__valor">10</span>
+              </div>
+            </div>
+            <div class="atributo flex-start">
+              <span class="atributo__nombre">Description:</span>
+              <span class="atributo__valor"
+                >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos ad incidunt
+                similique harum. Assumenda optio, ad sunt id culpa labore aspernatur necessitatibus
+                quam cumque. Qui possimus optio nemo provident nihil!</span
+              >
+            </div>
+          </div>
+          <div class="modulo__clases">
+            <div class="desplegable__clases">
+              <span>Class list</span>
+              <svg
+                class="arrow"
+                xmlns="http://www.w3.org/2000/svg"
+                height="1em"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
+                />
+              </svg>
+            </div>
+            <div class="listado__clases">
+              <div class="clase">
+                <div class="clase_descripcion">
+                  <span>Class <span class="clase__numero">1</span>:</span>
+                  <span class="clase__nombre">Class name</span>
+                </div>
+                <div class="clase_duracion">
+                  <span class="duracion__valor">40</span>
+                  <span class="duracion__unidad">min</span>
+                </div>
+              </div>
+              <div class="clase">
+                <div class="clase_descripcion">
+                  <span>Class <span class="clase__numero">1</span>:</span>
+                  <span class="clase__nombre">Class name</span>
+                </div>
+                <div class="clase_duracion">
+                  <span class="duracion__valor">40</span>
+                  <span class="duracion__unidad">min</span>
+                </div>
+              </div>
+              <div class="clase">
+                <div class="clase_descripcion">
+                  <span>Class <span class="clase__numero">1</span>:</span>
+                  <span class="clase__nombre">Class name</span>
+                </div>
+                <div class="clase_duracion">
+                  <span class="duracion__valor">40</span>
+                  <span class="duracion__unidad">min</span>
+                </div>
+              </div>
+              <div class="clase">
+                <div class="clase_descripcion">
+                  <span>Class <span class="clase__numero">1</span>:</span>
+                  <span class="clase__nombre">Class name</span>
+                </div>
+                <div class="clase_duracion">
+                  <span class="duracion__valor">40</span>
+                  <span class="duracion__unidad">min</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contenedor-modulo">
+        <div class="modulo">
+          <div class="modulo__descripcion">
+            <h2 class="">Module <span class="modulo__numer">1</span>:</h2>
+            <span class="modulo__nombre">Introduction to the React framework</span>
+          </div>
+          <svg
+            class="arrow"
+            xmlns="http://www.w3.org/2000/svg"
+            height="1em"
+            viewBox="0 0 512 512"
+          >
+            <path
+              d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
+            />
+          </svg>
+        </div>
+        <div class="modulo__datos">
+          <div class="modulo__atributos">
+            <div class="atributos__basicos">
+              <div class="atributo">
+                <span class="atributo__nombre">Duration:</span>
+                <span class="atributo__valor">8 Hs</span>
+              </div>
+              <div class="atributo">
+                <span class="atributo__nombre">Classes:</span>
+                <span class="atributo__valor">10</span>
+              </div>
+            </div>
+            <div class="atributo flex-start">
+              <span class="atributo__nombre">Description:</span>
+              <span class="atributo__valor"
+                >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos ad incidunt
+                similique harum. Assumenda optio, ad sunt id culpa labore aspernatur necessitatibus
+                quam cumque. Qui possimus optio nemo provident nihil!</span
+              >
+            </div>
+          </div>
+          <div class="modulo__clases">
+            <div class="desplegable__clases">
+              <span>Class list</span>
+              <svg
+                class="arrow"
+                xmlns="http://www.w3.org/2000/svg"
+                height="1em"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
+                />
+              </svg>
+            </div>
+            <div class="listado__clases">
+              <div class="clase">
+                <div class="clase_descripcion">
+                  <span>Class <span class="clase__numero">1</span>:</span>
+                  <span class="clase__nombre">Class name</span>
+                </div>
+                <div class="clase_duracion">
+                  <span class="duracion__valor">40</span>
+                  <span class="duracion__unidad">min</span>
+                </div>
+              </div>
+              <div class="clase">
+                <div class="clase_descripcion">
+                  <span>Class <span class="clase__numero">1</span>:</span>
+                  <span class="clase__nombre">Class name</span>
+                </div>
+                <div class="clase_duracion">
+                  <span class="duracion__valor">40</span>
+                  <span class="duracion__unidad">min</span>
+                </div>
+              </div>
+              <div class="clase">
+                <div class="clase_descripcion">
+                  <span>Class <span class="clase__numero">1</span>:</span>
+                  <span class="clase__nombre">Class name</span>
+                </div>
+                <div class="clase_duracion">
+                  <span class="duracion__valor">40</span>
+                  <span class="duracion__unidad">min</span>
+                </div>
+              </div>
+              <div class="clase">
+                <div class="clase_descripcion">
+                  <span>Class <span class="clase__numero">1</span>:</span>
+                  <span class="clase__nombre">Class name</span>
+                </div>
+                <div class="clase_duracion">
+                  <span class="duracion__valor">40</span>
+                  <span class="duracion__unidad">min</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contenedor-modulo">
+        <div class="modulo">
+          <div class="modulo__descripcion">
+            <h2 class="">Module <span class="modulo__numer">4</span>:</h2>
+            <span class="modulo__nombre">Introduction to the React framework</span>
+          </div>
+          <svg
+            class="arrow"
+            xmlns="http://www.w3.org/2000/svg"
+            height="1em"
+            viewBox="0 0 512 512"
+          >
+            <path
+              d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
+            />
+          </svg>
+        </div>
+        <div class="modulo__datos">
+          <div class="modulo__atributos">
+            <div class="atributos__basicos">
+              <div class="atributo">
+                <span class="atributo__nombre">Duration:</span>
+                <span class="atributo__valor">8 Hs</span>
+              </div>
+              <div class="atributo">
+                <span class="atributo__nombre">Classes:</span>
+                <span class="atributo__valor">10</span>
+              </div>
+            </div>
+            <div class="atributo flex-start">
+              <span class="atributo__nombre">Description:</span>
+              <span class="atributo__valor"
+                >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos ad incidunt
+                similique harum. Assumenda optio, ad sunt id culpa labore aspernatur necessitatibus
+                quam cumque. Qui possimus optio nemo provident nihil!</span
+              >
+            </div>
+          </div>
+          <div class="modulo__clases">
+            <div class="desplegable__clases">
+              <span>Class list</span>
+              <svg
+                class="arrow"
+                xmlns="http://www.w3.org/2000/svg"
+                height="1em"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
+                />
+              </svg>
+            </div>
+            <div class="listado__clases">
+              <div class="clase">
+                <div class="clase_descripcion">
+                  <span>Class <span class="clase__numero">1</span>:</span>
+                  <span class="clase__nombre">Class name</span>
+                </div>
+                <div class="clase_duracion">
+                  <span class="duracion__valor">40</span>
+                  <span class="duracion__unidad">min</span>
+                </div>
+              </div>
+              <div class="clase">
+                <div class="clase_descripcion">
+                  <span>Class <span class="clase__numero">1</span>:</span>
+                  <span class="clase__nombre">Class name</span>
+                </div>
+                <div class="clase_duracion">
+                  <span class="duracion__valor">40</span>
+                  <span class="duracion__unidad">min</span>
+                </div>
+              </div>
+              <div class="clase">
+                <div class="clase_descripcion">
+                  <span>Class <span class="clase__numero">1</span>:</span>
+                  <span class="clase__nombre">Class name</span>
+                </div>
+                <div class="clase_duracion">
+                  <span class="duracion__valor">40</span>
+                  <span class="duracion__unidad">min</span>
+                </div>
+              </div>
+              <div class="clase">
+                <div class="clase_descripcion">
+                  <span>Class <span class="clase__numero">1</span>:</span>
+                  <span class="clase__nombre">Class name</span>
+                </div>
+                <div class="clase_duracion">
+                  <span class="duracion__valor">40</span>
+                  <span class="duracion__unidad">min</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

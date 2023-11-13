@@ -28,7 +28,7 @@ export async function getCourseById(req, res) {
     if (!course || course.length === 0) {
       return res.status(404).json({ message: "Course not found" });
     }
-    res.status(200).json(course);
+    res.status(200).json(course[0]);
   } catch (error) {
     console.error(error);
     res.status(500).json({ message: "Error in the server" });
