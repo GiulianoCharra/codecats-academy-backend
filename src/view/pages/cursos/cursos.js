@@ -22,7 +22,9 @@ export default async function cargarCursos() {
 
         // Añade el contenido del curso utilizando el template proporcionado
         cursoElemento.innerHTML = `
-          <a data-name="curso" data-id-curso=${curso.idCourse} href="./pages/curso.html" class="curso_card">
+          <a data-name="curso" data-id-curso=${
+            curso.idCourse
+          } href="./pages/curso.html" class="curso_card">
           <img src="${curso.image}" alt="" loading="lazy" class="curso_imagen" />
           <span class="curso_nombre">${curso.title}</span>
           </a>
@@ -47,8 +49,10 @@ export default async function cargarCursos() {
               </svg>
             </div>
             <div class="curso__propiedad curso_duracion">
-              <span class="propiedad__nombre">Durations</span>
-              <span class="propiedad__valor">${curso.courseDurationMinutes}</span>
+              <span class="propiedad__nombre">Duration</span>
+              <span class="propiedad__valor">${(curso.courseDurationMinutes / 60).toFixed(
+                1
+              )} Hs</span>
             </div>
             <div class="curso__propiedad curso_modalidad">
               <span class="propiedad__nombre">Modality:</span>
