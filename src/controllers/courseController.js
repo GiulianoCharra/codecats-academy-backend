@@ -49,7 +49,7 @@ export async function getCoursesByUser(req, res) {
     const createdCourseIds = user.createdCourses.listCourses;
 
     // Buscar los cursos correspondientes a esos IDs
-    const courses = await Course.find({ _id: { $in: createdCourseIds } });
+    const courses = await Course.find({ idCourse: { $in: createdCourseIds } });
 
     if (!courses || courses.length === 0) {
       return res.status(404).json({ message: "Courses not found" });
