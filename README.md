@@ -63,6 +63,8 @@ El propósito de CodeCats Academy es proporcionar una plataforma de aprendizaje 
 - `GET /api/courses`: Obtiene una lista de todos los cursos disponibles en la plataforma. Este endpoint se puede utilizar para mostrar todos los cursos en el frontend.
 
 - `GET /api/courses/:idCourse`: Obtiene un curso específico por su ID. Proporciona detalles sobre el curso seleccionado, como el título, la descripción y el contenido del curso.
+-
+- `GET /api/courses/user/:username`: Obtiene una lista de cursos creados por un usuario específico. Este endpoint se puede utilizar para mostrar todos los cursos creados por un usuario en el frontend.
 
 ### Rutas de Administrador
 
