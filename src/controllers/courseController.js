@@ -39,7 +39,7 @@ export async function getCourseById(req, res) {
 export async function getCoursesByUser(req, res) {
   console.log("get courses by user");
   try {
-    const user = await User.findOne({ idUser: req.params.idUser });
+    const user = await User.findOne({ username: req.params.username });
 
     if (!user) {
       return res.status(404).json({ message: "User not found" });
