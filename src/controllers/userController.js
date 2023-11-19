@@ -219,9 +219,10 @@ export async function createCourse(req, res) {
     if (!body || body.length === 0) {
       return res.status(400).json({ message: "it was expected an array" });
     }
-    await Course.deleteMany({}); // Delete all courses
-    user.createdCourses.listCourses = [];
-    await user.save();
+
+    // await Course.deleteMany({}); // Delete all courses
+    // user.createdCourses.listCourses = [];
+    // await user.save();
 
     const coursePromises = body.map(async (course) => {
       if (!course.instructors) {
@@ -242,7 +243,7 @@ export async function createCourse(req, res) {
     await user.save();
 
     res.status(201).json({
-      message: "Course created successfully",
+      message: "Courses created successfully",
       numberCoursesCreated: "It was created " + body.length + " courses",
     });
   } catch (error) {
