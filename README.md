@@ -34,7 +34,7 @@ El proyecto se desarrolló utilizando las siguientes herramientas y tecnologías
 **Otros Detalles:**
 
 - **Tipo de Aplicación:** SPA (Single Page Application)
-- **Desplegado en:** [Render](https://render.com/)
+- **Desplegado en:** [Render]([https://render.com/](https://codecats-academy-backend.onrender.com/))
 - **Diseño de Interfaz:** [Figma Design](https://www.figma.com/file/zRP0YVd9PcDjgJvhrRR0Ca/CodeCats-Academy?type=design&node-id=0%3A1&mode=design&t=jdeM5LQ6CMRlthzb-1)
 - **Postamas para pruebas:** [Probar el Backend en Postman](https://elements.getpostman.com/redirect?entityId=29892749-114f1725-2ac0-4c85-be0a-6bd291c566e2&entityType=collection)
 
