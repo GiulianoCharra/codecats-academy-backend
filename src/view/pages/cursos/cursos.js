@@ -60,11 +60,13 @@ export default async function cargarCursos() {
             </div>
             <div class="curso__propiedad curso_certificado">
               <span class="propiedad__nombre">Certification:</span
-              ><span class="propiedad__valor">${curso.certification}</span>
+              ><span class="propiedad__valor">${curso.certification ? "Si" : "No"}</span>
             </div>
             <div class="curso__propiedad curso_descripcion">
               <span class="propiedad__nombre">Description:</span
-              ><span class="propiedad__valor propiedad__valor--descripcion">${curso.description}</span
+              ><span class="propiedad__valor propiedad__valor--descripcion">${
+                curso.description
+              }</span
               >
             </div>
             <div class="curso__botones">

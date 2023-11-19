@@ -49,6 +49,10 @@
   overflow-x: auto;
 }
 
+.listado_cursos_recomendados::-webkit-scrollbar {
+  height: 5px;
+}
+
 .listado_cursos_recomendados .curso {
   --bg-color-scroll-bar: #ffffff;
 }
