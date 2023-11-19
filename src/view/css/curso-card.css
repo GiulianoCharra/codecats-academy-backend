@@ -145,6 +145,21 @@
   line-height: normal;
 }
 
+.propiedad__valor--descripcion{
+  max-height: 170px;
+  overflow-y: auto;
+  justify-content: flex-start;
+}
+
+.propiedad__valor--descripcion::-webkit-scrollbar {
+  width: 5px;
+}
+
+.propiedad__valor--descripcion::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: var(--bg-color-scroll-bar);
+}
+
 .curso_duracion {
   translate: 100px -100px;
 }

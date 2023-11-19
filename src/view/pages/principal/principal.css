@@ -173,6 +173,10 @@
   transition: transform 0.3s ease-in-out;
 }
 
+.listado-integrantes::-webkit-scrollbar {
+  height: 5px;
+}
+
 .integrante {
   /* * background-color: #00a2ff47; * */
   display: flex;

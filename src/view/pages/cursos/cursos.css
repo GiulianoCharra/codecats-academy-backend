@@ -49,6 +49,10 @@
   overflow-x: auto;
 }
 
+.listado_cursos_recomendados .curso {
+  --bg-color-scroll-bar: #ffffff;
+}
+
 .html {
   background-image: linear-gradient(rgba(var(--color-html), 1), rgba(var(--color-html), 0));
 }
