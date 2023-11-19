@@ -6,15 +6,20 @@ export async function register(req, res) {
   console.log("register a new user");
   try {
     const { username, email, password } = req.body;
+    const existingUser = await User.findOne({ $or: [{ email }, { username }] });
+    if (existingUser) {
+      const message =
+        existingUser.email === email ? "Email is already in use" : "Username is already in use";
+      return res.status(400).json({ message });
+    }
 
-    // Create the new user
     const newUser = await User.create({
       idUser: auth.generateUuid(),
       username,
       email,
-      password: await auth.generateEncryptedPassword(password), // Encrypt the password
+      password: await auth.generateEncryptedPassword(password),
     });
-    await newUser.save().catch((error) => console.error(error));
+    await newUser.save();
 
     res.status(201).json({ message: "User created successfully" });
   } catch (error) {

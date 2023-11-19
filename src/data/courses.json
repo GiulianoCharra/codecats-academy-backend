@@ -1,695 +1,1807 @@
 [
   {
     "title": "Angular",
-    "description": "Diverticulitis of colon (without mention of hemorrhage)",
-    "price": 172.05,
-    "certification": false,
-    "difficulty": "intermediate",
+    "description": "Unspecified failed trial of labor, unspecified as to episode of care or not applicable",
+    "price": 188.3,
+    "certification": true,
+    "difficulty": "expert",
     "category": "Data Science",
-    "language": "Icelandic",
-    "courseDurationMinutes": 347,
+    "language": "Lithuanian",
     "courseModality": "video",
-    "creator": "300c4486-42ba-4c8b-b90f-789a26b7c975",
+    "creator": "257eef07-2e20-4e8a-a777-fb4c02f62627",
     "instructors": [
-      "5865b30c-f809-4022-b8a1-9e5c9cd35124",
-      "e1ba059c-682a-4db1-9b1f-bc8acbcde6d8",
-      "9d98eb2f-2058-48b6-b5c5-940328789eb1"
+      "9c1b9817-e037-4844-b435-788d95400f05",
+      "97389789-b6dc-4899-8128-6c2b369b5bc8",
+      "f1534bf6-7f45-4d23-ab97-a4f6a8dc72a1",
+      "8b092815-37c0-4465-9ca0-d1a62d0c1bc7",
+      "08d6843e-9a65-4e0f-b155-3fb8435a34d0"
     ],
-    "createdAt": "8/26/2023",
-    "updatedAt": "6/8/2023",
-    "numberOfStudents": 466,
-    "rating": 3,
-    "image": "http://dummyimage.com/137x100.png/ff4444/ffffff",
+    "createdAt": "2016-10-30",
+    "updatedAt": "2016-11-13",
+    "numberOfStudents": 509,
+    "rating": 5,
+    "image": "http://dummyimage.com/140x100.png/dddddd/000000",
     "modules": [
       {
-        "number": 1,
+        "moduleNumber": 1,
         "title": "Module 1",
-        "durationMinutes": 4,
+        "description": "Toxic effect of contact with stingray, accidental (unintentional), subsequent encounter",
         "classes": [
-          { "number": 1, "name": "Class 1", "durationMinutes": 858 },
-          { "number": 2, "name": "Class 2", "durationMinutes": 809 },
-          { "number": 3, "name": "Class 3", "durationMinutes": 7 },
-          { "number": 4, "name": "Class 4", "durationMinutes": 576 },
-          { "number": 5, "name": "Class 5", "durationMinutes": 772 },
-          { "number": 6, "name": "Class 6", "durationMinutes": 976 },
-          { "number": 7, "name": "Class 7", "durationMinutes": 303 },
-          { "number": 8, "name": "Class 8", "durationMinutes": 647 },
-          { "number": 9, "name": "Class 9", "durationMinutes": 355 }
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 200 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 29 },
+          { "classNumber": 3, "name": "Class 3", "durationMinutes": 268 }
         ],
-        "cantClasses": 9
+        "durationMinutes": 497,
+        "cantClasses": 3
       },
       {
-        "number": 2,
+        "moduleNumber": 2,
         "title": "Module 2",
-        "durationMinutes": 904,
+        "description": "Biliary acute pancreatitis with infected necrosis",
         "classes": [
-          { "number": 1, "name": "Class 1", "durationMinutes": 117 },
-          { "number": 2, "name": "Class 2", "durationMinutes": 53 },
-          { "number": 3, "name": "Class 3", "durationMinutes": 621 },
-          { "number": 4, "name": "Class 4", "durationMinutes": 221 },
-          { "number": 5, "name": "Class 5", "durationMinutes": 858 },
-          { "number": 6, "name": "Class 6", "durationMinutes": 400 },
-          { "number": 7, "name": "Class 7", "durationMinutes": 172 },
-          { "number": 8, "name": "Class 8", "durationMinutes": 719 }
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 41 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 256 },
+          { "classNumber": 3, "name": "Class 3", "durationMinutes": 3 }
         ],
-        "cantClasses": 8
+        "durationMinutes": 300,
+        "cantClasses": 3
       },
       {
-        "number": 3,
+        "moduleNumber": 3,
         "title": "Module 3",
-        "durationMinutes": 833,
+        "description": "Constant exophthalmos, right eye",
         "classes": [
-          { "number": 1, "name": "Class 1", "durationMinutes": 554 },
-          { "number": 2, "name": "Class 2", "durationMinutes": 622 },
-          { "number": 3, "name": "Class 3", "durationMinutes": 815 },
-          { "number": 4, "name": "Class 4", "durationMinutes": 353 },
-          { "number": 5, "name": "Class 5", "durationMinutes": 115 },
-          { "number": 6, "name": "Class 6", "durationMinutes": 267 }
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 199 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 101 }
         ],
-        "cantClasses": 6
+        "durationMinutes": 300,
+        "cantClasses": 2
       },
       {
-        "number": 4,
+        "moduleNumber": 4,
         "title": "Module 4",
-        "durationMinutes": 119,
-        "classes": [{ "number": 1, "name": "Class 1", "durationMinutes": 150 }],
+        "description": "Other stimulant use, unspecified with other stimulant-induced disorder",
+        "classes": [{ "classNumber": 1, "name": "Class 1", "durationMinutes": 280 }],
+        "durationMinutes": 280,
         "cantClasses": 1
       },
       {
-        "number": 5,
+        "moduleNumber": 5,
         "title": "Module 5",
-        "durationMinutes": 682,
+        "description": "Adult osteochondrosis of spine, cervicothoracic region",
         "classes": [
-          { "number": 1, "name": "Class 1", "durationMinutes": 443 },
-          { "number": 2, "name": "Class 2", "durationMinutes": 87 },
-          { "number": 3, "name": "Class 3", "durationMinutes": 168 },
-          { "number": 4, "name": "Class 4", "durationMinutes": 500 },
-          { "number": 5, "name": "Class 5", "durationMinutes": 611 },
-          { "number": 6, "name": "Class 6", "durationMinutes": 259 },
-          { "number": 7, "name": "Class 7", "durationMinutes": 250 },
-          { "number": 8, "name": "Class 8", "durationMinutes": 884 }
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 162 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 154 },
+          { "classNumber": 3, "name": "Class 3", "durationMinutes": 260 }
         ],
-        "cantClasses": 8
+        "durationMinutes": 576,
+        "cantClasses": 3
+      },
+      {
+        "moduleNumber": 6,
+        "title": "Module 6",
+        "description": "Person on outside of heavy transport vehicle injured in collision with other nonmotor vehicle in traffic accident, subsequent encounter",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 285 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 120 },
+          { "classNumber": 3, "name": "Class 3", "durationMinutes": 247 }
+        ],
+        "durationMinutes": 652,
+        "cantClasses": 3
+      },
+      {
+        "moduleNumber": 7,
+        "title": "Module 7",
+        "description": "Poisoning by other opioids, assault, initial encounter",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 282 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 162 }
+        ],
+        "durationMinutes": 444,
+        "cantClasses": 2
+      },
+      {
+        "moduleNumber": 8,
+        "title": "Module 8",
+        "description": "Cicatricial entropion of right upper eyelid",
+        "classes": [{ "classNumber": 1, "name": "Class 1", "durationMinutes": 95 }],
+        "durationMinutes": 95,
+        "cantClasses": 1
+      },
+      {
+        "moduleNumber": 9,
+        "title": "Module 9",
+        "description": "Corrosion of second degree of right knee, initial encounter",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 117 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 194 }
+        ],
+        "durationMinutes": 311,
+        "cantClasses": 2
+      },
+      {
+        "moduleNumber": 10,
+        "title": "Module 10",
+        "description": "Swimming pool (public) as the place of occurrence of the external cause",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 270 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 6 },
+          { "classNumber": 3, "name": "Class 3", "durationMinutes": 159 }
+        ],
+        "durationMinutes": 435,
+        "cantClasses": 3
       }
     ],
-    "cantModules": 5,
-    "cantClasses": 32
+    "cantModules": 10,
+    "cantClasses": 23,
+    "courseDurationMinutes": 3890
   },
   {
     "title": "Bootstrap",
-    "description": "Open fracture of phalanx or phalanges of hand, unspecified",
-    "price": 540.11,
-    "certification": true,
-    "difficulty": "expert",
-    "category": "Data Science",
-    "language": "Portuguese",
-    "courseDurationMinutes": 181,
-    "courseModality": "activities",
-    "creator": "9b9268fe-5ae0-49fb-bd9c-fd82e25337c1",
-    "instructors": ["d2d8e074-6a9a-4e77-881d-199963f9e1b7"],
-    "createdAt": "9/5/2023",
-    "updatedAt": "6/16/2023",
-    "numberOfStudents": 596,
-    "rating": 1,
-    "image": "http://dummyimage.com/203x100.png/5fa2dd/ffffff",
-    "modules": [
-      {
-        "number": 1,
-        "title": "Module 1",
-        "durationMinutes": 961,
-        "classes": [
-          { "number": 1, "name": "Class 1", "durationMinutes": 949 },
-          { "number": 2, "name": "Class 2", "durationMinutes": 563 },
-          { "number": 3, "name": "Class 3", "durationMinutes": 581 },
-          { "number": 4, "name": "Class 4", "durationMinutes": 84 }
-        ],
-        "cantClasses": 4
-      },
-      {
-        "number": 2,
-        "title": "Module 2",
-        "durationMinutes": 668,
-        "classes": [
-          { "number": 1, "name": "Class 1", "durationMinutes": 15 },
-          { "number": 2, "name": "Class 2", "durationMinutes": 857 },
-          { "number": 3, "name": "Class 3", "durationMinutes": 958 },
-          { "number": 4, "name": "Class 4", "durationMinutes": 619 },
-          { "number": 5, "name": "Class 5", "durationMinutes": 564 },
-          { "number": 6, "name": "Class 6", "durationMinutes": 638 },
-          { "number": 7, "name": "Class 7", "durationMinutes": 109 }
-        ],
-        "cantClasses": 7
-      }
-    ],
-    "cantModules": 2,
-    "cantClasses": 11
-  },
-  {
-    "title": "C++",
-    "description": "Aftercare for healing traumatic fracture of other bone",
-    "price": 172.27,
-    "certification": true,
-    "difficulty": "expert",
-    "category": "Web Development",
-    "language": "Korean",
-    "courseDurationMinutes": 662,
-    "courseModality": "activities",
-    "creator": "9e2e923f-569b-4145-8f09-44559636f6b8",
-    "instructors": [
-      "eeda4045-a5da-45db-be8a-df683ee7f8b3",
-      "aa8bf21f-7bb4-4e96-87d5-86e0d2ed959d",
-      "1e9f1791-c5c7-4db1-8fd9-048d3f0e7dfb",
-      "8ddc8ac6-bba1-40f3-b389-d45c20dcc837",
-      "29857cf5-a254-4900-a287-36f116d32369"
-    ],
-    "createdAt": "6/23/2023",
-    "updatedAt": "5/31/2023",
-    "numberOfStudents": 529,
-    "rating": 0,
-    "image": "http://dummyimage.com/192x100.png/5fa2dd/ffffff",
-    "modules": [
-      {
-        "number": 1,
-        "title": "Module 1",
-        "durationMinutes": 62,
-        "classes": [
-          { "number": 1, "name": "Class 1", "durationMinutes": 156 },
-          { "number": 2, "name": "Class 2", "durationMinutes": 8 },
-          { "number": 3, "name": "Class 3", "durationMinutes": 466 },
-          { "number": 4, "name": "Class 4", "durationMinutes": 205 },
-          { "number": 5, "name": "Class 5", "durationMinutes": 979 },
-          { "number": 6, "name": "Class 6", "durationMinutes": 548 },
-          { "number": 7, "name": "Class 7", "durationMinutes": 760 },
-          { "number": 8, "name": "Class 8", "durationMinutes": 200 },
-          { "number": 9, "name": "Class 9", "durationMinutes": 19 }
-        ],
-        "cantClasses": 9
-      },
-      {
-        "number": 2,
-        "title": "Module 2",
-        "durationMinutes": 28,
-        "classes": [
-          { "number": 1, "name": "Class 1", "durationMinutes": 800 },
-          { "number": 2, "name": "Class 2", "durationMinutes": 911 },
-          { "number": 3, "name": "Class 3", "durationMinutes": 994 },
-          { "number": 4, "name": "Class 4", "durationMinutes": 120 }
-        ],
-        "cantClasses": 4
-      }
-    ],
-    "cantModules": 2,
-    "cantClasses": 13
-  },
-  {
-    "title": "C#",
-    "description": "Arsenical anti-infectives causing adverse effects in therapeutic use",
-    "price": 286.71,
+    "description": "Crushing injury of unspecified site of upper limb",
+    "price": 220.47,
     "certification": true,
     "difficulty": "advanced",
     "category": "Data Science",
-    "language": "Macedonian",
-    "courseDurationMinutes": 124,
-    "courseModality": "activities",
-    "creator": "b84dab75-3fe1-46c4-882d-da20011e0426",
-    "instructors": ["b4bf1686-bc3c-4390-850c-a4fdcf0b1717", "9fad7697-b69a-4fd1-aa19-3abf11619555"],
-    "createdAt": "8/18/2023",
-    "updatedAt": "7/7/2023",
-    "numberOfStudents": 734,
-    "rating": 0,
-    "image": "http://dummyimage.com/180x100.png/dddddd/000000",
+    "language": "Nepali",
+    "courseModality": "quiz",
+    "creator": "373a04d1-361a-42fb-a0e8-bb2acae0645c",
+    "instructors": ["5461226c-45b2-41e6-a0c3-0e6bfb776384"],
+    "createdAt": "2018-07-28",
+    "updatedAt": "2018-08-11",
+    "numberOfStudents": 754,
+    "rating": 3,
+    "image": "http://dummyimage.com/141x100.png/dddddd/000000",
     "modules": [
       {
-        "number": 1,
+        "moduleNumber": 1,
         "title": "Module 1",
-        "durationMinutes": 521,
+        "description": "Fall while being carried or supported by other persons, sequela",
         "classes": [
-          { "number": 1, "name": "Class 1", "durationMinutes": 553 },
-          { "number": 2, "name": "Class 2", "durationMinutes": 259 },
-          { "number": 3, "name": "Class 3", "durationMinutes": 572 },
-          { "number": 4, "name": "Class 4", "durationMinutes": 511 },
-          { "number": 5, "name": "Class 5", "durationMinutes": 828 },
-          { "number": 6, "name": "Class 6", "durationMinutes": 831 },
-          { "number": 7, "name": "Class 7", "durationMinutes": 194 }
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 201 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 155 },
+          { "classNumber": 3, "name": "Class 3", "durationMinutes": 156 }
         ],
-        "cantClasses": 7
+        "durationMinutes": 512,
+        "cantClasses": 3
       },
       {
-        "number": 2,
+        "moduleNumber": 2,
         "title": "Module 2",
-        "durationMinutes": 916,
+        "description": "Unspecified open wound of unspecified part of thorax, subsequent encounter",
         "classes": [
-          { "number": 1, "name": "Class 1", "durationMinutes": 233 },
-          { "number": 2, "name": "Class 2", "durationMinutes": 927 },
-          { "number": 3, "name": "Class 3", "durationMinutes": 303 },
-          { "number": 4, "name": "Class 4", "durationMinutes": 168 },
-          { "number": 5, "name": "Class 5", "durationMinutes": 113 },
-          { "number": 6, "name": "Class 6", "durationMinutes": 847 },
-          { "number": 7, "name": "Class 7", "durationMinutes": 496 }
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 291 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 218 }
         ],
-        "cantClasses": 7
+        "durationMinutes": 509,
+        "cantClasses": 2
       },
       {
-        "number": 3,
+        "moduleNumber": 3,
         "title": "Module 3",
-        "durationMinutes": 527,
+        "description": "Unstable burst fracture of first lumbar vertebra",
         "classes": [
-          { "number": 1, "name": "Class 1", "durationMinutes": 52 },
-          { "number": 2, "name": "Class 2", "durationMinutes": 115 },
-          { "number": 3, "name": "Class 3", "durationMinutes": 691 },
-          { "number": 4, "name": "Class 4", "durationMinutes": 625 },
-          { "number": 5, "name": "Class 5", "durationMinutes": 135 },
-          { "number": 6, "name": "Class 6", "durationMinutes": 351 },
-          { "number": 7, "name": "Class 7", "durationMinutes": 596 },
-          { "number": 8, "name": "Class 8", "durationMinutes": 345 },
-          { "number": 9, "name": "Class 9", "durationMinutes": 895 },
-          { "number": 10, "name": "Class 10", "durationMinutes": 212 }
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 270 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 136 }
         ],
-        "cantClasses": 10
+        "durationMinutes": 406,
+        "cantClasses": 2
       },
       {
-        "number": 4,
+        "moduleNumber": 4,
         "title": "Module 4",
-        "durationMinutes": 923,
+        "description": "Displaced fracture of capitate [os magnum] bone, left wrist, subsequent encounter for fracture with delayed healing",
         "classes": [
-          { "number": 1, "name": "Class 1", "durationMinutes": 20 },
-          { "number": 2, "name": "Class 2", "durationMinutes": 209 },
-          { "number": 3, "name": "Class 3", "durationMinutes": 958 },
-          { "number": 4, "name": "Class 4", "durationMinutes": 53 }
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 56 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 92 }
         ],
-        "cantClasses": 4
+        "durationMinutes": 148,
+        "cantClasses": 2
       },
       {
-        "number": 5,
+        "moduleNumber": 5,
         "title": "Module 5",
-        "durationMinutes": 737,
+        "description": "Burn of second degree of left ear [any part, except ear drum], sequela",
+        "classes": [{ "classNumber": 1, "name": "Class 1", "durationMinutes": 169 }],
+        "durationMinutes": 169,
+        "cantClasses": 1
+      },
+      {
+        "moduleNumber": 6,
+        "title": "Module 6",
+        "description": "Short Achilles tendon (acquired), left ankle",
+        "classes": [{ "classNumber": 1, "name": "Class 1", "durationMinutes": 3 }],
+        "durationMinutes": 3,
+        "cantClasses": 1
+      },
+      {
+        "moduleNumber": 7,
+        "title": "Module 7",
+        "description": "Pathological fracture in neoplastic disease, unspecified humerus, subsequent encounter for fracture with delayed healing",
         "classes": [
-          { "number": 1, "name": "Class 1", "durationMinutes": 880 },
-          { "number": 2, "name": "Class 2", "durationMinutes": 27 },
-          { "number": 3, "name": "Class 3", "durationMinutes": 414 },
-          { "number": 4, "name": "Class 4", "durationMinutes": 443 }
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 183 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 213 },
+          { "classNumber": 3, "name": "Class 3", "durationMinutes": 260 }
         ],
-        "cantClasses": 4
+        "durationMinutes": 656,
+        "cantClasses": 3
+      },
+      {
+        "moduleNumber": 8,
+        "title": "Module 8",
+        "description": "Disorder of muscle tone of newborn, unspecified",
+        "classes": [{ "classNumber": 1, "name": "Class 1", "durationMinutes": 9 }],
+        "durationMinutes": 9,
+        "cantClasses": 1
+      },
+      {
+        "moduleNumber": 9,
+        "title": "Module 9",
+        "description": "Continuing pregnancy after intrauterine death of one fetus or more, third trimester",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 191 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 80 }
+        ],
+        "durationMinutes": 271,
+        "cantClasses": 2
       }
     ],
-    "cantModules": 5,
-    "cantClasses": 32
+    "cantModules": 9,
+    "cantClasses": 17,
+    "courseDurationMinutes": 2683
   },
   {
-    "title": "CSS",
-    "description": "Aneurysm of artery of lower extremity",
-    "price": 225.67,
+    "title": "C++",
+    "description": "Disease of spleen, unspecified",
+    "price": 590.1,
     "certification": true,
-    "difficulty": "expert",
-    "category": "Web Development",
-    "language": "French",
-    "courseDurationMinutes": 32,
-    "courseModality": "quiz",
-    "creator": "0a5d7c74-f1dd-4d21-9ac8-91f82d42c353",
-    "instructors": ["35496e33-3d47-469e-ac85-09a2d743e922"],
-    "createdAt": "7/8/2023",
-    "updatedAt": "8/14/2023",
-    "numberOfStudents": 351,
-    "rating": 1,
-    "image": "http://dummyimage.com/146x100.png/cc0000/ffffff",
+    "difficulty": "intermediate",
+    "category": "Data Science",
+    "language": "Haitian Creole",
+    "courseModality": "activities",
+    "creator": "cdff0ee9-51e7-4656-ba7c-7ba8bbb41e69",
+    "instructors": [
+      "02234477-1a9e-4d67-8503-9b267daf978e",
+      "02e1dc12-d792-4c84-b85d-a2466e47d96d",
+      "2693881d-7646-4681-897a-1b5d9c14ba17",
+      "1caee7b8-bbdc-4ef6-b35c-95dae42d044d",
+      "1ded9a57-6e4f-466c-9006-43330d0f2455"
+    ],
+    "createdAt": "2021-08-02",
+    "updatedAt": "2021-08-16",
+    "numberOfStudents": 804,
+    "rating": 3,
+    "image": "http://dummyimage.com/134x100.png/5fa2dd/ffffff",
     "modules": [
       {
-        "number": 1,
+        "moduleNumber": 1,
         "title": "Module 1",
-        "durationMinutes": 731,
+        "description": "Inappropriate change in quantitative human chorionic gonadotropin (hCG) in early pregnancy",
         "classes": [
-          { "number": 1, "name": "Class 1", "durationMinutes": 205 },
-          { "number": 2, "name": "Class 2", "durationMinutes": 782 },
-          { "number": 3, "name": "Class 3", "durationMinutes": 541 },
-          { "number": 4, "name": "Class 4", "durationMinutes": 40 },
-          { "number": 5, "name": "Class 5", "durationMinutes": 164 },
-          { "number": 6, "name": "Class 6", "durationMinutes": 359 },
-          { "number": 7, "name": "Class 7", "durationMinutes": 555 }
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 156 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 167 }
         ],
-        "cantClasses": 7
+        "durationMinutes": 323,
+        "cantClasses": 2
       },
       {
-        "number": 2,
+        "moduleNumber": 2,
         "title": "Module 2",
-        "durationMinutes": 348,
-        "classes": [
-          { "number": 1, "name": "Class 1", "durationMinutes": 926 },
-          { "number": 2, "name": "Class 2", "durationMinutes": 523 },
-          { "number": 3, "name": "Class 3", "durationMinutes": 919 },
-          { "number": 4, "name": "Class 4", "durationMinutes": 219 },
-          { "number": 5, "name": "Class 5", "durationMinutes": 117 },
-          { "number": 6, "name": "Class 6", "durationMinutes": 381 },
-          { "number": 7, "name": "Class 7", "durationMinutes": 375 },
-          { "number": 8, "name": "Class 8", "durationMinutes": 974 },
-          { "number": 9, "name": "Class 9", "durationMinutes": 408 }
-        ],
-        "cantClasses": 9
+        "description": "Enterostomy complication, unspecified",
+        "classes": [{ "classNumber": 1, "name": "Class 1", "durationMinutes": 103 }],
+        "durationMinutes": 103,
+        "cantClasses": 1
       },
       {
-        "number": 3,
+        "moduleNumber": 3,
         "title": "Module 3",
-        "durationMinutes": 54,
+        "description": "Unspecified car occupant injured in collision with fixed or stationary object in nontraffic accident, initial encounter",
         "classes": [
-          { "number": 1, "name": "Class 1", "durationMinutes": 535 },
-          { "number": 2, "name": "Class 2", "durationMinutes": 919 },
-          { "number": 3, "name": "Class 3", "durationMinutes": 313 },
-          { "number": 4, "name": "Class 4", "durationMinutes": 423 },
-          { "number": 5, "name": "Class 5", "durationMinutes": 959 }
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 15 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 234 },
+          { "classNumber": 3, "name": "Class 3", "durationMinutes": 288 }
         ],
-        "cantClasses": 5
+        "durationMinutes": 537,
+        "cantClasses": 3
       },
       {
-        "number": 4,
+        "moduleNumber": 4,
         "title": "Module 4",
-        "durationMinutes": 508,
-        "classes": [{ "number": 1, "name": "Class 1", "durationMinutes": 728 }],
+        "description": "Salpingitis and oophoritis, unspecified",
+        "classes": [{ "classNumber": 1, "name": "Class 1", "durationMinutes": 272 }],
+        "durationMinutes": 272,
         "cantClasses": 1
       }
     ],
     "cantModules": 4,
-    "cantClasses": 22
+    "cantClasses": 7,
+    "courseDurationMinutes": 1235
   },
   {
-    "title": "Web Design",
-    "description": "Cervical incompetence, unspecified as to episode of care or not applicable",
-    "price": 431.31,
+    "title": "C#",
+    "description": "Malignant neoplasm of brain, unspecified",
+    "price": 410.15,
     "certification": true,
-    "difficulty": "advanced",
-    "category": "Web Development",
-    "language": "Arabic",
-    "courseDurationMinutes": 76,
-    "courseModality": "quiz",
-    "creator": "fb6d0042-bedb-48b0-a610-b36854da5212",
-    "instructors": [
-      "8b967a4e-7a41-4580-9491-20e9a33b9e19",
-      "b23b82d1-a2b1-4ec7-92a8-6c7d474caf3f",
-      "21056c44-01e3-4ae7-a2c7-63fd28c362ba"
-    ],
-    "createdAt": "8/30/2023",
-    "updatedAt": "7/1/2023",
-    "numberOfStudents": 592,
-    "rating": 1,
-    "image": "http://dummyimage.com/141x100.png/cc0000/ffffff",
-    "modules": [
-      {
-        "number": 1,
-        "title": "Module 1",
-        "durationMinutes": 530,
-        "classes": [
-          { "number": 1, "name": "Class 1", "durationMinutes": 17 },
-          { "number": 2, "name": "Class 2", "durationMinutes": 918 },
-          { "number": 3, "name": "Class 3", "durationMinutes": 102 },
-          { "number": 4, "name": "Class 4", "durationMinutes": 445 },
-          { "number": 5, "name": "Class 5", "durationMinutes": 417 },
-          { "number": 6, "name": "Class 6", "durationMinutes": 144 },
-          { "number": 7, "name": "Class 7", "durationMinutes": 578 },
-          { "number": 8, "name": "Class 8", "durationMinutes": 130 },
-          { "number": 9, "name": "Class 9", "durationMinutes": 147 }
-        ],
-        "cantClasses": 9
-      },
-      {
-        "number": 2,
-        "title": "Module 2",
-        "durationMinutes": 396,
-        "classes": [
-          { "number": 1, "name": "Class 1", "durationMinutes": 561 },
-          { "number": 2, "name": "Class 2", "durationMinutes": 533 },
-          { "number": 3, "name": "Class 3", "durationMinutes": 697 }
-        ],
-        "cantClasses": 3
-      }
-    ],
-    "cantModules": 2,
-    "cantClasses": 12
-  },
-  {
-    "title": "Django",
-    "description": "Carbuncle and furuncle of hand",
-    "price": 885.68,
-    "certification": false,
-    "difficulty": "expert",
-    "category": "Web Development",
-    "language": "Irish Gaelic",
-    "courseDurationMinutes": 999,
-    "courseModality": "quiz",
-    "creator": "7a050b04-c297-4be1-ba9d-3ddaa3356d77",
-    "instructors": [
-      "73143f5b-72cc-4f86-a72c-88e22cb03865",
-      "4293699c-125b-4ec4-9186-ee8ff7293ef3",
-      "2be60137-5f85-4e55-a14f-00610a6e804a",
-      "55374428-266d-4b94-a8ac-18586c961641"
-    ],
-    "createdAt": "7/9/2023",
-    "updatedAt": "6/9/2023",
-    "numberOfStudents": 290,
-    "rating": 1,
-    "image": "http://dummyimage.com/143x100.png/dddddd/000000",
-    "modules": [
-      {
-        "number": 1,
-        "title": "Module 1",
-        "durationMinutes": 977,
-        "classes": [
-          { "number": 1, "name": "Class 1", "durationMinutes": 102 },
-          { "number": 2, "name": "Class 2", "durationMinutes": 891 },
-          { "number": 3, "name": "Class 3", "durationMinutes": 652 },
-          { "number": 4, "name": "Class 4", "durationMinutes": 820 },
-          { "number": 5, "name": "Class 5", "durationMinutes": 504 }
-        ],
-        "cantClasses": 5
-      },
-      {
-        "number": 2,
-        "title": "Module 2",
-        "durationMinutes": 380,
-        "classes": [
-          { "number": 1, "name": "Class 1", "durationMinutes": 360 },
-          { "number": 2, "name": "Class 2", "durationMinutes": 514 },
-          { "number": 3, "name": "Class 3", "durationMinutes": 670 },
-          { "number": 4, "name": "Class 4", "durationMinutes": 562 },
-          { "number": 5, "name": "Class 5", "durationMinutes": 245 },
-          { "number": 6, "name": "Class 6", "durationMinutes": 769 },
-          { "number": 7, "name": "Class 7", "durationMinutes": 233 },
-          { "number": 8, "name": "Class 8", "durationMinutes": 2 }
-        ],
-        "cantClasses": 8
-      },
-      {
-        "number": 3,
-        "title": "Module 3",
-        "durationMinutes": 578,
-        "classes": [
-          { "number": 1, "name": "Class 1", "durationMinutes": 630 },
-          { "number": 2, "name": "Class 2", "durationMinutes": 950 },
-          { "number": 3, "name": "Class 3", "durationMinutes": 949 },
-          { "number": 4, "name": "Class 4", "durationMinutes": 842 },
-          { "number": 5, "name": "Class 5", "durationMinutes": 215 }
-        ],
-        "cantClasses": 5
-      },
-      {
-        "number": 4,
-        "title": "Module 4",
-        "durationMinutes": 280,
-        "classes": [
-          { "number": 1, "name": "Class 1", "durationMinutes": 568 },
-          { "number": 2, "name": "Class 2", "durationMinutes": 818 },
-          { "number": 3, "name": "Class 3", "durationMinutes": 502 },
-          { "number": 4, "name": "Class 4", "durationMinutes": 839 },
-          { "number": 5, "name": "Class 5", "durationMinutes": 140 }
-        ],
-        "cantClasses": 5
-      },
-      {
-        "number": 5,
-        "title": "Module 5",
-        "durationMinutes": 401,
-        "classes": [
-          { "number": 1, "name": "Class 1", "durationMinutes": 961 },
-          { "number": 2, "name": "Class 2", "durationMinutes": 796 },
-          { "number": 3, "name": "Class 3", "durationMinutes": 417 },
-          { "number": 4, "name": "Class 4", "durationMinutes": 81 },
-          { "number": 5, "name": "Class 5", "durationMinutes": 921 },
-          { "number": 6, "name": "Class 6", "durationMinutes": 940 },
-          { "number": 7, "name": "Class 7", "durationMinutes": 950 },
-          { "number": 8, "name": "Class 8", "durationMinutes": 614 },
-          { "number": 9, "name": "Class 9", "durationMinutes": 919 },
-          { "number": 10, "name": "Class 10", "durationMinutes": 497 }
-        ],
-        "cantClasses": 10
-      }
-    ],
-    "cantModules": 5,
-    "cantClasses": 33
-  },
-  {
-    "title": "HTML",
-    "description": "Traumatic amputation of other finger(s) (complete) (partial), complicated",
-    "price": 912.64,
-    "certification": false,
     "difficulty": "intermediate",
-    "category": "Data Science",
-    "language": "Kurdish",
-    "courseDurationMinutes": 714,
-    "courseModality": "quiz",
-    "creator": "f0fba5b5-723f-4bab-b81f-282e9b3d6229",
+    "category": "Web Development",
+    "language": "Tok Pisin",
+    "courseModality": "video",
+    "creator": "e3b1aea1-b07c-4018-a7a8-bc0a95d14612",
     "instructors": [
-      "2d51de82-29fd-48a2-b80f-4ffa19a6192c",
-      "f080bf2f-7428-4e0f-97d1-3098b9b2cc92",
-      "914315db-ddee-45f5-ba25-e18ced0e804c"
+      "8d57a076-d49d-476d-ad06-26c0f1b5dacf",
+      "3967b853-a103-4e18-a1b4-eaa1df67ea52",
+      "0fd65042-2e50-4737-9a06-e49e5f9899d9",
+      "99298a0e-73fa-43e7-aa80-7fd1933e6de7"
     ],
-    "createdAt": "6/15/2023",
-    "updatedAt": "8/16/2023",
-    "numberOfStudents": 266,
-    "rating": 4,
-    "image": "http://dummyimage.com/246x100.png/ff4444/ffffff",
+    "createdAt": "2021-08-31",
+    "updatedAt": "2021-09-14",
+    "numberOfStudents": 672,
+    "rating": 1,
+    "image": "http://dummyimage.com/215x100.png/cc0000/ffffff",
     "modules": [
       {
-        "number": 1,
+        "moduleNumber": 1,
         "title": "Module 1",
-        "durationMinutes": 81,
+        "description": "Venous engorgement, unspecified eye",
         "classes": [
-          { "number": 1, "name": "Class 1", "durationMinutes": 901 },
-          { "number": 2, "name": "Class 2", "durationMinutes": 747 },
-          { "number": 3, "name": "Class 3", "durationMinutes": 231 }
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 205 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 115 },
+          { "classNumber": 3, "name": "Class 3", "durationMinutes": 91 }
         ],
+        "durationMinutes": 411,
         "cantClasses": 3
-      }
-    ],
-    "cantModules": 1,
-    "cantClasses": 3
-  },
-  {
-    "title": "Java",
-    "description": "Secondary malignant neoplasm of genital organs",
-    "price": 803.6,
-    "certification": false,
-    "difficulty": "beginner",
-    "category": "Mobile App Development",
-    "language": "Swati",
-    "courseDurationMinutes": 88,
-    "courseModality": "quiz",
-    "creator": "be6e3a20-494d-4370-b2a8-cb3731aa96c4",
-    "instructors": [
-      "145c1a3b-d545-43dd-b726-5612a4cf9245",
-      "902b5b57-01c0-4875-8fe6-3c7e152bcd23",
-      "a33eb1a3-6824-44bc-945a-ed866ce2f382",
-      "22389fc3-875e-4b8f-9903-48bafe469d16"
-    ],
-    "createdAt": "8/31/2023",
-    "updatedAt": "8/25/2023",
-    "numberOfStudents": 770,
-    "rating": 2,
-    "image": "http://dummyimage.com/122x100.png/5fa2dd/ffffff",
-    "modules": [
-      {
-        "number": 1,
-        "title": "Module 1",
-        "durationMinutes": 214,
-        "classes": [
-          { "number": 1, "name": "Class 1", "durationMinutes": 470 },
-          { "number": 2, "name": "Class 2", "durationMinutes": 493 },
-          { "number": 3, "name": "Class 3", "durationMinutes": 99 },
-          { "number": 4, "name": "Class 4", "durationMinutes": 115 },
-          { "number": 5, "name": "Class 5", "durationMinutes": 743 },
-          { "number": 6, "name": "Class 6", "durationMinutes": 890 },
-          { "number": 7, "name": "Class 7", "durationMinutes": 417 }
-        ],
-        "cantClasses": 7
       },
       {
-        "number": 2,
+        "moduleNumber": 2,
         "title": "Module 2",
-        "durationMinutes": 125,
-        "classes": [{ "number": 1, "name": "Class 1", "durationMinutes": 990 }],
+        "description": "Underdosing of sulfonamides, subsequent encounter",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 254 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 242 }
+        ],
+        "durationMinutes": 496,
+        "cantClasses": 2
+      },
+      {
+        "moduleNumber": 3,
+        "title": "Module 3",
+        "description": "Unspecified injury of fallopian tube, bilateral, initial encounter",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 102 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 227 }
+        ],
+        "durationMinutes": 329,
+        "cantClasses": 2
+      },
+      {
+        "moduleNumber": 4,
+        "title": "Module 4",
+        "description": "Other injury due to other accident to sailboat, sequela",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 35 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 212 }
+        ],
+        "durationMinutes": 247,
+        "cantClasses": 2
+      },
+      {
+        "moduleNumber": 5,
+        "title": "Module 5",
+        "description": "Underdosing of other general anesthetics, subsequent encounter",
+        "classes": [{ "classNumber": 1, "name": "Class 1", "durationMinutes": 105 }],
+        "durationMinutes": 105,
         "cantClasses": 1
       },
       {
-        "number": 3,
-        "title": "Module 3",
-        "durationMinutes": 336,
+        "moduleNumber": 6,
+        "title": "Module 6",
+        "description": "Mild hypoxic ischemic encephalopathy [HIE]",
         "classes": [
-          { "number": 1, "name": "Class 1", "durationMinutes": 447 },
-          { "number": 2, "name": "Class 2", "durationMinutes": 989 },
-          { "number": 3, "name": "Class 3", "durationMinutes": 181 }
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 216 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 5 },
+          { "classNumber": 3, "name": "Class 3", "durationMinutes": 124 }
         ],
+        "durationMinutes": 345,
         "cantClasses": 3
       },
       {
-        "number": 4,
-        "title": "Module 4",
-        "durationMinutes": 839,
+        "moduleNumber": 7,
+        "title": "Module 7",
+        "description": "Osteonecrosis due to drugs, unspecified humerus",
         "classes": [
-          { "number": 1, "name": "Class 1", "durationMinutes": 513 },
-          { "number": 2, "name": "Class 2", "durationMinutes": 489 },
-          { "number": 3, "name": "Class 3", "durationMinutes": 653 },
-          { "number": 4, "name": "Class 4", "durationMinutes": 243 },
-          { "number": 5, "name": "Class 5", "durationMinutes": 435 },
-          { "number": 6, "name": "Class 6", "durationMinutes": 861 },
-          { "number": 7, "name": "Class 7", "durationMinutes": 69 },
-          { "number": 8, "name": "Class 8", "durationMinutes": 517 }
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 4 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 3 }
         ],
-        "cantClasses": 8
-      },
-      {
-        "number": 5,
-        "title": "Module 5",
-        "durationMinutes": 82,
-        "classes": [
-          { "number": 1, "name": "Class 1", "durationMinutes": 894 },
-          { "number": 2, "name": "Class 2", "durationMinutes": 177 },
-          { "number": 3, "name": "Class 3", "durationMinutes": 140 },
-          { "number": 4, "name": "Class 4", "durationMinutes": 830 }
-        ],
-        "cantClasses": 4
+        "durationMinutes": 7,
+        "cantClasses": 2
       }
     ],
-    "cantModules": 5,
-    "cantClasses": 23
+    "cantModules": 7,
+    "cantClasses": 15,
+    "courseDurationMinutes": 1940
+  },
+  {
+    "title": "CSS",
+    "description": "Concussion with loss of consciousness of unspecified duration",
+    "price": 968.74,
+    "certification": true,
+    "difficulty": "expert",
+    "category": "Database Management",
+    "language": "Chinese",
+    "courseModality": "activities",
+    "creator": "99016cf3-4b29-4919-bbcc-8c3d3f20f0d6",
+    "instructors": [
+      "c679c4d6-ff96-4961-91ee-1bb54b74857f",
+      "1e779dc9-56a9-4314-aef9-57a68941f4c0",
+      "eb80ea47-575e-4177-a79c-0c47143fd8d3",
+      "e69f58ad-ab0e-4ecf-9dba-5cd9b6eae0cf"
+    ],
+    "createdAt": "2020-06-04",
+    "updatedAt": "2020-06-18",
+    "numberOfStudents": 769,
+    "rating": 2,
+    "image": "http://dummyimage.com/211x100.png/dddddd/000000",
+    "modules": [
+      {
+        "moduleNumber": 1,
+        "title": "Module 1",
+        "description": "Other unilateral secondary osteoarthritis of hip",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 290 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 109 }
+        ],
+        "durationMinutes": 399,
+        "cantClasses": 2
+      }
+    ],
+    "cantModules": 1,
+    "cantClasses": 2,
+    "courseDurationMinutes": 399
+  },
+  {
+    "title": "Web Design",
+    "description": "Closed fracture of C5-C7 level with anterior cord syndrome",
+    "price": 721.81,
+    "certification": false,
+    "difficulty": "beginner",
+    "category": "Web Development",
+    "language": "Swedish",
+    "courseModality": "video",
+    "creator": "7bca01f0-9c8a-4052-bef0-d3ef597ec3c6",
+    "instructors": [
+      "93ffab44-d075-4dd8-9d6b-93b2fac0435c",
+      "83512d63-5722-4172-b472-37c6b46c8662",
+      "a671e864-3567-4320-a938-b1c27a17b875"
+    ],
+    "createdAt": "2022-12-13",
+    "updatedAt": "2022-12-27",
+    "numberOfStudents": 813,
+    "rating": 0,
+    "image": "http://dummyimage.com/236x100.png/cc0000/ffffff",
+    "modules": [
+      {
+        "moduleNumber": 1,
+        "title": "Module 1",
+        "description": "Unspecified fracture of calcaneus",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 279 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 68 }
+        ],
+        "durationMinutes": 347,
+        "cantClasses": 2
+      },
+      {
+        "moduleNumber": 2,
+        "title": "Module 2",
+        "description": "Palindromic rheumatism, wrist",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 14 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 240 },
+          { "classNumber": 3, "name": "Class 3", "durationMinutes": 197 }
+        ],
+        "durationMinutes": 451,
+        "cantClasses": 3
+      },
+      {
+        "moduleNumber": 3,
+        "title": "Module 3",
+        "description": "Hydrocephalus in diseases classified elsewhere",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 266 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 235 }
+        ],
+        "durationMinutes": 501,
+        "cantClasses": 2
+      },
+      {
+        "moduleNumber": 4,
+        "title": "Module 4",
+        "description": "Legal intervention involving other blunt objects",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 123 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 293 }
+        ],
+        "durationMinutes": 416,
+        "cantClasses": 2
+      }
+    ],
+    "cantModules": 4,
+    "cantClasses": 9,
+    "courseDurationMinutes": 1715
+  },
+  {
+    "title": "Django",
+    "description": "Benign neoplasm of larynx",
+    "price": 689.68,
+    "certification": false,
+    "difficulty": "advanced",
+    "category": "Web Development",
+    "language": "Lao",
+    "courseModality": "video",
+    "creator": "d10b39fa-e839-430d-bb48-53ea8436d664",
+    "instructors": ["3966e481-9d00-421f-b74e-a2c9ffc7376d", "52baac69-ed05-4ea9-a194-1b94873770ff"],
+    "createdAt": "2018-01-09",
+    "updatedAt": "2018-01-23",
+    "numberOfStudents": 889,
+    "rating": 1,
+    "image": "http://dummyimage.com/151x100.png/5fa2dd/ffffff",
+    "modules": [
+      {
+        "moduleNumber": 1,
+        "title": "Module 1",
+        "description": "Poisoning by antidiarrheal drugs, undetermined",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 168 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 1 }
+        ],
+        "durationMinutes": 169,
+        "cantClasses": 2
+      },
+      {
+        "moduleNumber": 2,
+        "title": "Module 2",
+        "description": "Laceration of muscle and tendon of long extensor muscle of toe at ankle and foot level, right foot",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 286 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 71 }
+        ],
+        "durationMinutes": 357,
+        "cantClasses": 2
+      },
+      {
+        "moduleNumber": 3,
+        "title": "Module 3",
+        "description": "Nondisplaced fracture (avulsion) of lateral epicondyle of left humerus, initial encounter for closed fracture",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 262 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 268 }
+        ],
+        "durationMinutes": 530,
+        "cantClasses": 2
+      },
+      {
+        "moduleNumber": 4,
+        "title": "Module 4",
+        "description": "Poisoning by emetics, undetermined, sequela",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 31 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 126 },
+          { "classNumber": 3, "name": "Class 3", "durationMinutes": 110 }
+        ],
+        "durationMinutes": 267,
+        "cantClasses": 3
+      },
+      {
+        "moduleNumber": 5,
+        "title": "Module 5",
+        "description": "Nondisplaced supracondylar fracture with intracondylar extension of lower end of left femur, subsequent encounter for closed fracture with nonunion",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 141 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 92 }
+        ],
+        "durationMinutes": 233,
+        "cantClasses": 2
+      },
+      {
+        "moduleNumber": 6,
+        "title": "Module 6",
+        "description": "Insect bite (nonvenomous) of left index finger, sequela",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 18 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 165 }
+        ],
+        "durationMinutes": 183,
+        "cantClasses": 2
+      },
+      {
+        "moduleNumber": 7,
+        "title": "Module 7",
+        "description": "Breakdown (mechanical) of other specified internal prosthetic devices, implants and grafts, initial encounter",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 49 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 65 },
+          { "classNumber": 3, "name": "Class 3", "durationMinutes": 210 }
+        ],
+        "durationMinutes": 324,
+        "cantClasses": 3
+      }
+    ],
+    "cantModules": 7,
+    "cantClasses": 16,
+    "courseDurationMinutes": 2063
+  },
+  {
+    "title": "HTML",
+    "description": "Foreign object left in body during infusion or transfusion",
+    "price": 30.44,
+    "certification": false,
+    "difficulty": "intermediate",
+    "category": "Web Development",
+    "language": "Northern Sotho",
+    "courseModality": "activities",
+    "creator": "2d83b78a-8d3e-4148-8588-5e61034bc370",
+    "instructors": ["8600120d-5e4f-4609-a5df-035db3f2cdcd"],
+    "createdAt": "2021-08-29",
+    "updatedAt": "2021-09-12",
+    "numberOfStudents": 270,
+    "rating": 2,
+    "image": "http://dummyimage.com/152x100.png/dddddd/000000",
+    "modules": [
+      {
+        "moduleNumber": 1,
+        "title": "Module 1",
+        "description": "Acute disseminated demyelination, unspecified",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 221 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 126 }
+        ],
+        "durationMinutes": 347,
+        "cantClasses": 2
+      },
+      {
+        "moduleNumber": 2,
+        "title": "Module 2",
+        "description": "Other osteoporosis with current pathological fracture, unspecified humerus, initial encounter for fracture",
+        "classes": [{ "classNumber": 1, "name": "Class 1", "durationMinutes": 96 }],
+        "durationMinutes": 96,
+        "cantClasses": 1
+      }
+    ],
+    "cantModules": 2,
+    "cantClasses": 3,
+    "courseDurationMinutes": 443
+  },
+  {
+    "title": "Java",
+    "description": "Open fracture of carpal bone, unspecified",
+    "price": 724.02,
+    "certification": true,
+    "difficulty": "intermediate",
+    "category": "Mobile App Development",
+    "language": "Lao",
+    "courseModality": "activities",
+    "creator": "cbe898f1-1f0c-4bb8-904e-b3aa3eea5e5b",
+    "instructors": ["ef45326c-b230-4b3d-b06f-ccc2352cfa4b"],
+    "createdAt": "2021-10-25",
+    "updatedAt": "2021-11-08",
+    "numberOfStudents": 230,
+    "rating": 0,
+    "image": "http://dummyimage.com/238x100.png/dddddd/000000",
+    "modules": [
+      {
+        "moduleNumber": 1,
+        "title": "Module 1",
+        "description": "Displaced fracture of medial condyle of unspecified tibia, subsequent encounter for open fracture type I or II with malunion",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 190 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 298 }
+        ],
+        "durationMinutes": 488,
+        "cantClasses": 2
+      },
+      {
+        "moduleNumber": 2,
+        "title": "Module 2",
+        "description": "Other superficial bite of right ring finger, sequela",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 282 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 105 }
+        ],
+        "durationMinutes": 387,
+        "cantClasses": 2
+      }
+    ],
+    "cantModules": 2,
+    "cantClasses": 4,
+    "courseDurationMinutes": 875
   },
   {
     "title": "JavaScript",
-    "description": "Syphilis, unspecified",
-    "price": 554.72,
+    "description": "Other acquired deformities of ankle and foot",
+    "price": 214.72,
+    "certification": true,
+    "difficulty": "beginner",
+    "category": "Mobile App Development",
+    "language": "Montenegrin",
+    "courseModality": "quiz",
+    "creator": "b098437a-50a5-4cba-8e38-f1d7871e5796",
+    "instructors": ["9ba534e4-7c15-4c20-be72-1dcaabb3ed0b"],
+    "createdAt": "2018-11-13",
+    "updatedAt": "2018-11-27",
+    "numberOfStudents": 896,
+    "rating": 2,
+    "image": "http://dummyimage.com/119x100.png/dddddd/000000",
+    "modules": [
+      {
+        "moduleNumber": 1,
+        "title": "Module 1",
+        "description": "Strain of extensor muscle, fascia and tendon of right little finger at wrist and hand level, sequela",
+        "classes": [{ "classNumber": 1, "name": "Class 1", "durationMinutes": 266 }],
+        "durationMinutes": 266,
+        "cantClasses": 1
+      },
+      {
+        "moduleNumber": 2,
+        "title": "Module 2",
+        "description": "Superficial frostbite of unspecified foot, subsequent encounter",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 217 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 43 },
+          { "classNumber": 3, "name": "Class 3", "durationMinutes": 15 }
+        ],
+        "durationMinutes": 275,
+        "cantClasses": 3
+      },
+      {
+        "moduleNumber": 3,
+        "title": "Module 3",
+        "description": "Performance of wrong procedure (operation) on correct patient",
+        "classes": [{ "classNumber": 1, "name": "Class 1", "durationMinutes": 225 }],
+        "durationMinutes": 225,
+        "cantClasses": 1
+      },
+      {
+        "moduleNumber": 4,
+        "title": "Module 4",
+        "description": "Bus occupant (driver) (passenger) injured in unspecified nontraffic accident, subsequent encounter",
+        "classes": [{ "classNumber": 1, "name": "Class 1", "durationMinutes": 169 }],
+        "durationMinutes": 169,
+        "cantClasses": 1
+      },
+      {
+        "moduleNumber": 5,
+        "title": "Module 5",
+        "description": "Unspecified open wound of nose, sequela",
+        "classes": [{ "classNumber": 1, "name": "Class 1", "durationMinutes": 191 }],
+        "durationMinutes": 191,
+        "cantClasses": 1
+      }
+    ],
+    "cantModules": 5,
+    "cantClasses": 7,
+    "courseDurationMinutes": 1126
+  },
+  {
+    "title": "Laravel",
+    "description": "Aftercare for healing pathologic fracture of hip",
+    "price": 565.63,
+    "certification": false,
+    "difficulty": "beginner",
+    "category": "Data Science",
+    "language": "Maltese",
+    "courseModality": "video",
+    "creator": "26f5f3b2-3da4-4045-9f28-7e48284d663f",
+    "instructors": [
+      "c894665c-e3a9-46e0-b676-6a9a658cd29a",
+      "5508d632-e75d-471f-ba68-f21e47e6ceaf",
+      "5892f167-f676-4cdd-8fa5-231490257a39"
+    ],
+    "createdAt": "2018-06-04",
+    "updatedAt": "2018-06-18",
+    "numberOfStudents": 220,
+    "rating": 5,
+    "image": "http://dummyimage.com/250x100.png/ff4444/ffffff",
+    "modules": [
+      {
+        "moduleNumber": 1,
+        "title": "Module 1",
+        "description": "Fracture of neck, unspecified, subsequent encounter",
+        "classes": [{ "classNumber": 1, "name": "Class 1", "durationMinutes": 49 }],
+        "durationMinutes": 49,
+        "cantClasses": 1
+      },
+      {
+        "moduleNumber": 2,
+        "title": "Module 2",
+        "description": "NIHSS score 16",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 218 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 265 },
+          { "classNumber": 3, "name": "Class 3", "durationMinutes": 79 }
+        ],
+        "durationMinutes": 562,
+        "cantClasses": 3
+      },
+      {
+        "moduleNumber": 3,
+        "title": "Module 3",
+        "description": "Vesicoureteral-reflux with reflux nephropathy with hydroureter, unspecified",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 181 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 238 },
+          { "classNumber": 3, "name": "Class 3", "durationMinutes": 85 }
+        ],
+        "durationMinutes": 504,
+        "cantClasses": 3
+      },
+      {
+        "moduleNumber": 4,
+        "title": "Module 4",
+        "description": "Preauricular sinus and cyst",
+        "classes": [{ "classNumber": 1, "name": "Class 1", "durationMinutes": 216 }],
+        "durationMinutes": 216,
+        "cantClasses": 1
+      },
+      {
+        "moduleNumber": 5,
+        "title": "Module 5",
+        "description": "Poisoning by keratolytics, keratoplastics, and other hair treatment drugs and preparations, assault, sequela",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 157 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 7 }
+        ],
+        "durationMinutes": 164,
+        "cantClasses": 2
+      },
+      {
+        "moduleNumber": 6,
+        "title": "Module 6",
+        "description": "Displaced transverse fracture of shaft of unspecified tibia, subsequent encounter for open fracture type IIIA, IIIB, or IIIC with delayed healing",
+        "classes": [{ "classNumber": 1, "name": "Class 1", "durationMinutes": 125 }],
+        "durationMinutes": 125,
+        "cantClasses": 1
+      },
+      {
+        "moduleNumber": 7,
+        "title": "Module 7",
+        "description": "Toxic effect of carbon monoxide from incomplete combustion of other domestic fuels, accidental (unintentional), subsequent encounter",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 76 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 295 },
+          { "classNumber": 3, "name": "Class 3", "durationMinutes": 59 }
+        ],
+        "durationMinutes": 430,
+        "cantClasses": 3
+      },
+      {
+        "moduleNumber": 8,
+        "title": "Module 8",
+        "description": "Displaced avulsion fracture (chip fracture) of unspecified talus",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 231 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 124 }
+        ],
+        "durationMinutes": 355,
+        "cantClasses": 2
+      },
+      {
+        "moduleNumber": 9,
+        "title": "Module 9",
+        "description": "Sprain of tibiofibular ligament of left ankle",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 15 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 194 }
+        ],
+        "durationMinutes": 209,
+        "cantClasses": 2
+      },
+      {
+        "moduleNumber": 10,
+        "title": "Module 10",
+        "description": "Traumatic rupture of palmar ligament of left ring finger at metacarpophalangeal and interphalangeal joint",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 63 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 132 }
+        ],
+        "durationMinutes": 195,
+        "cantClasses": 2
+      }
+    ],
+    "cantModules": 10,
+    "cantClasses": 20,
+    "courseDurationMinutes": 2809
+  },
+  {
+    "title": "MEAN",
+    "description": "Pyogenic arthritis, shoulder region",
+    "price": 338.88,
     "certification": false,
     "difficulty": "expert",
     "category": "Data Science",
     "language": "Pashto",
-    "courseDurationMinutes": 214,
-    "courseModality": "activities",
-    "creator": "2d763a87-9e9d-47b9-9f5b-ddc7511072ae",
+    "courseModality": "video",
+    "creator": "c03d92be-774c-4a90-9a75-5a2a125e9fe4",
     "instructors": [
-      "c52e8529-c756-4b9c-8f39-b02820671a30",
-      "f0659c3c-9e01-4557-86c2-27fde595af86",
-      "bc48283d-c855-4fd1-a9eb-f68c7c116f36"
+      "fe6e9b55-0f37-4aa2-af70-c26e1300c720",
+      "253e2a5e-7714-45f6-8c0e-690d067d1d95",
+      "f68b1526-4361-40ef-8512-91b3ef745675"
     ],
-    "createdAt": "6/4/2023",
-    "updatedAt": "9/8/2023",
-    "numberOfStudents": 433,
-    "rating": 4,
-    "image": "http://dummyimage.com/216x100.png/dddddd/000000",
+    "createdAt": "2021-06-02",
+    "updatedAt": "2021-06-16",
+    "numberOfStudents": 292,
+    "rating": 0,
+    "image": "http://dummyimage.com/218x100.png/ff4444/ffffff",
     "modules": [
       {
-        "number": 1,
+        "moduleNumber": 1,
         "title": "Module 1",
-        "durationMinutes": 420,
+        "description": "Displaced fracture of olecranon process with intraarticular extension of unspecified ulna, subsequent encounter for open fracture type IIIA, IIIB, or IIIC with routine healing",
         "classes": [
-          { "number": 1, "name": "Class 1", "durationMinutes": 166 },
-          { "number": 2, "name": "Class 2", "durationMinutes": 74 },
-          { "number": 3, "name": "Class 3", "durationMinutes": 742 },
-          { "number": 4, "name": "Class 4", "durationMinutes": 836 },
-          { "number": 5, "name": "Class 5", "durationMinutes": 470 },
-          { "number": 6, "name": "Class 6", "durationMinutes": 426 },
-          { "number": 7, "name": "Class 7", "durationMinutes": 27 },
-          { "number": 8, "name": "Class 8", "durationMinutes": 178 },
-          { "number": 9, "name": "Class 9", "durationMinutes": 509 },
-          { "number": 10, "name": "Class 10", "durationMinutes": 642 }
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 105 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 95 }
         ],
-        "cantClasses": 10
+        "durationMinutes": 200,
+        "cantClasses": 2
+      },
+      {
+        "moduleNumber": 2,
+        "title": "Module 2",
+        "description": "Nondisplaced fracture of medial wall of right acetabulum, initial encounter for open fracture",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 80 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 165 }
+        ],
+        "durationMinutes": 245,
+        "cantClasses": 2
+      },
+      {
+        "moduleNumber": 3,
+        "title": "Module 3",
+        "description": "Dracunculiasis",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 130 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 230 },
+          { "classNumber": 3, "name": "Class 3", "durationMinutes": 264 }
+        ],
+        "durationMinutes": 624,
+        "cantClasses": 3
+      },
+      {
+        "moduleNumber": 4,
+        "title": "Module 4",
+        "description": "Oligospermia due to other extratesticular causes",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 36 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 90 },
+          { "classNumber": 3, "name": "Class 3", "durationMinutes": 246 }
+        ],
+        "durationMinutes": 372,
+        "cantClasses": 3
+      },
+      {
+        "moduleNumber": 5,
+        "title": "Module 5",
+        "description": "Puncture wound without foreign body of unspecified elbow, subsequent encounter",
+        "classes": [{ "classNumber": 1, "name": "Class 1", "durationMinutes": 257 }],
+        "durationMinutes": 257,
+        "cantClasses": 1
+      },
+      {
+        "moduleNumber": 6,
+        "title": "Module 6",
+        "description": "Type III occipital condyle fracture, unspecified side, subsequent encounter for fracture with routine healing",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 4 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 64 },
+          { "classNumber": 3, "name": "Class 3", "durationMinutes": 160 }
+        ],
+        "durationMinutes": 228,
+        "cantClasses": 3
+      },
+      {
+        "moduleNumber": 7,
+        "title": "Module 7",
+        "description": "Thyrotoxicosis with toxic multinodular goiter without thyrotoxic crisis or storm",
+        "classes": [{ "classNumber": 1, "name": "Class 1", "durationMinutes": 77 }],
+        "durationMinutes": 77,
+        "cantClasses": 1
+      }
+    ],
+    "cantModules": 7,
+    "cantClasses": 15,
+    "courseDurationMinutes": 2003
+  },
+  {
+    "title": "MongoDB",
+    "description": "Injury to other gastrointestinal sites, without mention of open wound into cavity",
+    "price": 460.44,
+    "certification": false,
+    "difficulty": "intermediate",
+    "category": "Web Development",
+    "language": "Montenegrin",
+    "courseModality": "video",
+    "creator": "376a6531-28a9-4160-8b76-e6785b849831",
+    "instructors": [
+      "76d3a662-9642-4c2a-91bd-2a881edc244a",
+      "9cfdf62b-198b-4924-ba33-e59b017945be",
+      "7d12e3cb-e930-4bb9-88a9-326ddf533890"
+    ],
+    "createdAt": "2021-07-29",
+    "updatedAt": "2021-08-12",
+    "numberOfStudents": 419,
+    "rating": 5,
+    "image": "http://dummyimage.com/242x100.png/cc0000/ffffff",
+    "modules": [
+      {
+        "moduleNumber": 1,
+        "title": "Module 1",
+        "description": "Long term (current) use of selective estrogen receptor modulators (SERMs)",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 6 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 117 },
+          { "classNumber": 3, "name": "Class 3", "durationMinutes": 215 }
+        ],
+        "durationMinutes": 338,
+        "cantClasses": 3
       }
     ],
     "cantModules": 1,
-    "cantClasses": 10
+    "cantClasses": 3,
+    "courseDurationMinutes": 338
+  },
+  {
+    "title": "MySQL",
+    "description": "Abdominal rigidity, generalized",
+    "price": 405.4,
+    "certification": false,
+    "difficulty": "advanced",
+    "category": "Mobile App Development",
+    "language": "Moldovan",
+    "courseModality": "video",
+    "creator": "4a1b037e-2d65-4808-ad1d-d2530064b421",
+    "instructors": [
+      "e76d75b7-c06a-4e67-b156-c6c42a073838",
+      "5b7b14c1-e91f-4043-ad25-adbf97196e3b",
+      "22950380-1d60-40ec-bdd1-15f381d6b055",
+      "3fde69d6-7632-4151-8ba0-1e2e372134d1"
+    ],
+    "createdAt": "2020-05-12",
+    "updatedAt": "2020-05-26",
+    "numberOfStudents": 574,
+    "rating": 1,
+    "image": "http://dummyimage.com/227x100.png/5fa2dd/ffffff",
+    "modules": [
+      {
+        "moduleNumber": 1,
+        "title": "Module 1",
+        "description": "Person on outside of three-wheeled motor vehicle injured in collision with two- or three-wheeled motor vehicle in nontraffic accident, sequela",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 64 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 275 },
+          { "classNumber": 3, "name": "Class 3", "durationMinutes": 111 }
+        ],
+        "durationMinutes": 450,
+        "cantClasses": 3
+      },
+      {
+        "moduleNumber": 2,
+        "title": "Module 2",
+        "description": "Laceration with foreign body of unspecified elbow",
+        "classes": [{ "classNumber": 1, "name": "Class 1", "durationMinutes": 118 }],
+        "durationMinutes": 118,
+        "cantClasses": 1
+      },
+      {
+        "moduleNumber": 3,
+        "title": "Module 3",
+        "description": "Imperforate hymen",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 61 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 276 }
+        ],
+        "durationMinutes": 337,
+        "cantClasses": 2
+      },
+      {
+        "moduleNumber": 4,
+        "title": "Module 4",
+        "description": "Basal cell carcinoma of skin of right upper limb, including shoulder",
+        "classes": [{ "classNumber": 1, "name": "Class 1", "durationMinutes": 276 }],
+        "durationMinutes": 276,
+        "cantClasses": 1
+      },
+      {
+        "moduleNumber": 5,
+        "title": "Module 5",
+        "description": "Unspecified injury of muscle, fascia and tendon of unspecified hip, subsequent encounter",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 183 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 11 },
+          { "classNumber": 3, "name": "Class 3", "durationMinutes": 160 }
+        ],
+        "durationMinutes": 354,
+        "cantClasses": 3
+      },
+      {
+        "moduleNumber": 6,
+        "title": "Module 6",
+        "description": "Poisoning by other anti-common-cold drugs, accidental (unintentional), subsequent encounter",
+        "classes": [{ "classNumber": 1, "name": "Class 1", "durationMinutes": 117 }],
+        "durationMinutes": 117,
+        "cantClasses": 1
+      },
+      {
+        "moduleNumber": 7,
+        "title": "Module 7",
+        "description": "Corneal disorder due to contact lens, left eye",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 85 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 92 }
+        ],
+        "durationMinutes": 177,
+        "cantClasses": 2
+      },
+      {
+        "moduleNumber": 8,
+        "title": "Module 8",
+        "description": "Osteitis deformans in neoplastic diseases, unspecified upper arm",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 21 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 198 },
+          { "classNumber": 3, "name": "Class 3", "durationMinutes": 86 }
+        ],
+        "durationMinutes": 305,
+        "cantClasses": 3
+      }
+    ],
+    "cantModules": 8,
+    "cantClasses": 16,
+    "courseDurationMinutes": 2134
+  },
+  {
+    "title": "Nodejs",
+    "description": "Meconium aspiration without respiratory symptoms",
+    "price": 863.23,
+    "certification": false,
+    "difficulty": "advanced",
+    "category": "Mobile App Development",
+    "language": "Yiddish",
+    "courseModality": "activities",
+    "creator": "a4084157-8f99-4ff1-ad48-9ff8ff6f3583",
+    "instructors": [
+      "35f2f0c7-8cb9-4463-9670-255ef5fd3469",
+      "b884615a-e168-4544-b6d6-95368512336e",
+      "363ab5a7-4359-4616-a600-8df6746135f2",
+      "2f12dd78-e854-43a5-ae31-32ca96440758",
+      "1ff03c63-eb8c-4cea-84fd-d0549537cdfd"
+    ],
+    "createdAt": "2017-04-21",
+    "updatedAt": "2017-05-05",
+    "numberOfStudents": 330,
+    "rating": 5,
+    "image": "http://dummyimage.com/108x100.png/cc0000/ffffff",
+    "modules": [
+      {
+        "moduleNumber": 1,
+        "title": "Module 1",
+        "description": "Unspecified physeal fracture of phalanx of left toe, initial encounter for closed fracture",
+        "classes": [{ "classNumber": 1, "name": "Class 1", "durationMinutes": 70 }],
+        "durationMinutes": 70,
+        "cantClasses": 1
+      },
+      {
+        "moduleNumber": 2,
+        "title": "Module 2",
+        "description": "Nondisplaced fracture of base of third metacarpal bone, left hand, subsequent encounter for fracture with malunion",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 258 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 69 },
+          { "classNumber": 3, "name": "Class 3", "durationMinutes": 1 }
+        ],
+        "durationMinutes": 328,
+        "cantClasses": 3
+      },
+      {
+        "moduleNumber": 3,
+        "title": "Module 3",
+        "description": "Displaced transverse fracture of shaft of right radius, subsequent encounter for open fracture type I or II with malunion",
+        "classes": [{ "classNumber": 1, "name": "Class 1", "durationMinutes": 272 }],
+        "durationMinutes": 272,
+        "cantClasses": 1
+      },
+      {
+        "moduleNumber": 4,
+        "title": "Module 4",
+        "description": "Episcleritis periodica fugax",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 298 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 59 }
+        ],
+        "durationMinutes": 357,
+        "cantClasses": 2
+      }
+    ],
+    "cantModules": 4,
+    "cantClasses": 7,
+    "courseDurationMinutes": 1027
+  },
+  {
+    "title": "PHP",
+    "description": "Other specified crystal arthropathies, forearm",
+    "price": 234.21,
+    "certification": true,
+    "difficulty": "expert",
+    "category": "Mobile App Development",
+    "language": "Hiri Motu",
+    "courseModality": "activities",
+    "creator": "1d2a1945-48ec-483f-97e4-412a5da76a5e",
+    "instructors": ["8d44a05e-3443-449e-82c7-751858c5e3db"],
+    "createdAt": "2023-01-31",
+    "updatedAt": "2023-02-14",
+    "numberOfStudents": 219,
+    "rating": 2,
+    "image": "http://dummyimage.com/243x100.png/ff4444/ffffff",
+    "modules": [
+      {
+        "moduleNumber": 1,
+        "title": "Module 1",
+        "description": "Infection and inflammatory reaction due to internal fixation device of left radius, subsequent encounter",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 245 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 180 }
+        ],
+        "durationMinutes": 425,
+        "cantClasses": 2
+      },
+      {
+        "moduleNumber": 2,
+        "title": "Module 2",
+        "description": "Displaced intertrochanteric fracture of right femur, subsequent encounter for open fracture type I or II with nonunion",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 71 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 87 }
+        ],
+        "durationMinutes": 158,
+        "cantClasses": 2
+      },
+      {
+        "moduleNumber": 3,
+        "title": "Module 3",
+        "description": "Unspecified fracture of head of left femur, initial encounter for open fracture type I or II",
+        "classes": [{ "classNumber": 1, "name": "Class 1", "durationMinutes": 86 }],
+        "durationMinutes": 86,
+        "cantClasses": 1
+      },
+      {
+        "moduleNumber": 4,
+        "title": "Module 4",
+        "description": "Folds and rupture in Bowman's membrane, unspecified eye",
+        "classes": [{ "classNumber": 1, "name": "Class 1", "durationMinutes": 294 }],
+        "durationMinutes": 294,
+        "cantClasses": 1
+      },
+      {
+        "moduleNumber": 5,
+        "title": "Module 5",
+        "description": "Papyraceous fetus, unspecified trimester",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 41 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 17 }
+        ],
+        "durationMinutes": 58,
+        "cantClasses": 2
+      },
+      {
+        "moduleNumber": 6,
+        "title": "Module 6",
+        "description": "Intracerebral (nontraumatic) hemorrhage of newborn",
+        "classes": [{ "classNumber": 1, "name": "Class 1", "durationMinutes": 14 }],
+        "durationMinutes": 14,
+        "cantClasses": 1
+      },
+      {
+        "moduleNumber": 7,
+        "title": "Module 7",
+        "description": "Laceration with foreign body, left foot",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 225 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 18 },
+          { "classNumber": 3, "name": "Class 3", "durationMinutes": 122 }
+        ],
+        "durationMinutes": 365,
+        "cantClasses": 3
+      },
+      {
+        "moduleNumber": 8,
+        "title": "Module 8",
+        "description": "Unspecified subluxation of right shoulder joint, sequela",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 88 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 132 }
+        ],
+        "durationMinutes": 220,
+        "cantClasses": 2
+      }
+    ],
+    "cantModules": 8,
+    "cantClasses": 14,
+    "courseDurationMinutes": 1620
+  },
+  {
+    "title": "PostgresSQL",
+    "description": "Poisoning by anterior pituitary hormones",
+    "price": 898.13,
+    "certification": false,
+    "difficulty": "advanced",
+    "category": "Data Science",
+    "language": "Dari",
+    "courseModality": "activities",
+    "creator": "ff7c5210-ca33-43cf-a846-d8a3fc91492a",
+    "instructors": [
+      "161b5c52-ba1b-4512-a409-6a964a79ceca",
+      "7a0a569e-88f2-4e79-b508-b2841a51d442",
+      "2a3ec9e9-b00d-4adb-8dce-5953e82e23af"
+    ],
+    "createdAt": "2020-10-19",
+    "updatedAt": "2020-11-02",
+    "numberOfStudents": 461,
+    "rating": 1,
+    "image": "http://dummyimage.com/244x100.png/cc0000/ffffff",
+    "modules": [
+      {
+        "moduleNumber": 1,
+        "title": "Module 1",
+        "description": "Glaucoma secondary to eye inflammation, bilateral",
+        "classes": [{ "classNumber": 1, "name": "Class 1", "durationMinutes": 169 }],
+        "durationMinutes": 169,
+        "cantClasses": 1
+      },
+      {
+        "moduleNumber": 2,
+        "title": "Module 2",
+        "description": "Adverse effect of aspirin, initial encounter",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 189 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 165 }
+        ],
+        "durationMinutes": 354,
+        "cantClasses": 2
+      },
+      {
+        "moduleNumber": 3,
+        "title": "Module 3",
+        "description": "Toxic effect of venom of other snake, intentional self-harm, subsequent encounter",
+        "classes": [{ "classNumber": 1, "name": "Class 1", "durationMinutes": 155 }],
+        "durationMinutes": 155,
+        "cantClasses": 1
+      }
+    ],
+    "cantModules": 3,
+    "cantClasses": 4,
+    "courseDurationMinutes": 678
+  },
+  {
+    "title": "Python",
+    "description": "Diastolic heart failure, unspecified",
+    "price": 438.43,
+    "certification": true,
+    "difficulty": "expert",
+    "category": "Data Science",
+    "language": "Croatian",
+    "courseModality": "quiz",
+    "creator": "cf5211be-b215-42f5-bcea-49aabd47600f",
+    "instructors": [
+      "563e30a9-7e67-46c2-97b6-a3d0ad631f1b",
+      "f68c637b-5074-40e7-a3b9-d3b07ba3bffe",
+      "3c187eba-c92d-40f9-bf97-f5585bad7dec"
+    ],
+    "createdAt": "2018-03-18",
+    "updatedAt": "2018-04-01",
+    "numberOfStudents": 140,
+    "rating": 0,
+    "image": "http://dummyimage.com/166x100.png/5fa2dd/ffffff",
+    "modules": [
+      {
+        "moduleNumber": 1,
+        "title": "Module 1",
+        "description": "Mediastinal (thymic) large B-cell lymphoma",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 177 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 160 }
+        ],
+        "durationMinutes": 337,
+        "cantClasses": 2
+      },
+      {
+        "moduleNumber": 2,
+        "title": "Module 2",
+        "description": "Massive umbilical hemorrhage of newborn",
+        "classes": [{ "classNumber": 1, "name": "Class 1", "durationMinutes": 268 }],
+        "durationMinutes": 268,
+        "cantClasses": 1
+      },
+      {
+        "moduleNumber": 3,
+        "title": "Module 3",
+        "description": "Malignant neoplasm of left renal pelvis",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 291 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 14 }
+        ],
+        "durationMinutes": 305,
+        "cantClasses": 2
+      },
+      {
+        "moduleNumber": 4,
+        "title": "Module 4",
+        "description": "Machupo hemorrhagic fever",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 262 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 285 }
+        ],
+        "durationMinutes": 547,
+        "cantClasses": 2
+      },
+      {
+        "moduleNumber": 5,
+        "title": "Module 5",
+        "description": "Hit or struck by falling object due to accident to unspecified watercraft",
+        "classes": [{ "classNumber": 1, "name": "Class 1", "durationMinutes": 208 }],
+        "durationMinutes": 208,
+        "cantClasses": 1
+      },
+      {
+        "moduleNumber": 6,
+        "title": "Module 6",
+        "description": "Burn of first degree of unspecified scapular region, initial encounter",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 103 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 97 }
+        ],
+        "durationMinutes": 200,
+        "cantClasses": 2
+      },
+      {
+        "moduleNumber": 7,
+        "title": "Module 7",
+        "description": "Xanthelasma of right eye, unspecified eyelid",
+        "classes": [{ "classNumber": 1, "name": "Class 1", "durationMinutes": 154 }],
+        "durationMinutes": 154,
+        "cantClasses": 1
+      },
+      {
+        "moduleNumber": 8,
+        "title": "Module 8",
+        "description": "Laceration with foreign body of scalp, subsequent encounter",
+        "classes": [{ "classNumber": 1, "name": "Class 1", "durationMinutes": 133 }],
+        "durationMinutes": 133,
+        "cantClasses": 1
+      },
+      {
+        "moduleNumber": 9,
+        "title": "Module 9",
+        "description": "Endometriosis of fallopian tube",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 150 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 126 }
+        ],
+        "durationMinutes": 276,
+        "cantClasses": 2
+      },
+      {
+        "moduleNumber": 10,
+        "title": "Module 10",
+        "description": "Underdosing of antidiarrheal drugs, subsequent encounter",
+        "classes": [{ "classNumber": 1, "name": "Class 1", "durationMinutes": 141 }],
+        "durationMinutes": 141,
+        "cantClasses": 1
+      }
+    ],
+    "cantModules": 10,
+    "cantClasses": 15,
+    "courseDurationMinutes": 2569
+  },
+  {
+    "title": "React",
+    "description": "Suicide and self-inflicted poisoning by gas distributed by pipeline",
+    "price": 265.12,
+    "certification": false,
+    "difficulty": "expert",
+    "category": "Data Science",
+    "language": "Lithuanian",
+    "courseModality": "activities",
+    "creator": "cb2449f6-e74f-4430-aa86-f9f6893b394d",
+    "instructors": [
+      "407def80-2b2a-44e2-852c-c2cd237726b3",
+      "2e2086a4-8e84-406d-8701-20dd15f9abd7",
+      "afcf857f-654b-4a93-a848-902b66a8586e",
+      "7d4b879e-130c-4d10-aa91-b0234c1989d7",
+      "218c4984-1a1a-475a-94eb-c96e50ecc471"
+    ],
+    "createdAt": "2020-12-11",
+    "updatedAt": "2020-12-25",
+    "numberOfStudents": 355,
+    "rating": 4,
+    "image": "http://dummyimage.com/104x100.png/ff4444/ffffff",
+    "modules": [
+      {
+        "moduleNumber": 1,
+        "title": "Module 1",
+        "description": "Displaced fracture of body of hamate [unciform] bone, left wrist, initial encounter for closed fracture",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 97 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 176 }
+        ],
+        "durationMinutes": 273,
+        "cantClasses": 2
+      },
+      {
+        "moduleNumber": 2,
+        "title": "Module 2",
+        "description": "Minor laceration of right vertebral artery, subsequent encounter",
+        "classes": [{ "classNumber": 1, "name": "Class 1", "durationMinutes": 67 }],
+        "durationMinutes": 67,
+        "cantClasses": 1
+      },
+      {
+        "moduleNumber": 3,
+        "title": "Module 3",
+        "description": "Unspecified open wound of unspecified back wall of thorax with penetration into thoracic cavity, initial encounter",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 115 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 299 }
+        ],
+        "durationMinutes": 414,
+        "cantClasses": 2
+      },
+      {
+        "moduleNumber": 4,
+        "title": "Module 4",
+        "description": "Other accident to commercial fixed-wing aircraft injuring occupant",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 286 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 129 },
+          { "classNumber": 3, "name": "Class 3", "durationMinutes": 94 }
+        ],
+        "durationMinutes": 509,
+        "cantClasses": 3
+      }
+    ],
+    "cantModules": 4,
+    "cantClasses": 8,
+    "courseDurationMinutes": 1263
+  },
+  {
+    "title": "Sring Boot",
+    "description": "Angioneurotic edema, not elsewhere classified",
+    "price": 890.46,
+    "certification": false,
+    "difficulty": "advanced",
+    "category": "Database Management",
+    "language": "Tsonga",
+    "courseModality": "video",
+    "creator": "1bae17ec-faa0-4ce3-9aab-842779e23204",
+    "instructors": ["8f9d8365-1b8e-4576-8c69-21b80e698799", "b542f3dd-3b38-44e4-99c4-fddebd965944"],
+    "createdAt": "2017-09-21",
+    "updatedAt": "2017-10-05",
+    "numberOfStudents": 656,
+    "rating": 4,
+    "image": "http://dummyimage.com/120x100.png/ff4444/ffffff",
+    "modules": [
+      {
+        "moduleNumber": 1,
+        "title": "Module 1",
+        "description": "Laceration with foreign body of abdominal wall, epigastric region with penetration into peritoneal cavity, sequela",
+        "classes": [{ "classNumber": 1, "name": "Class 1", "durationMinutes": 174 }],
+        "durationMinutes": 174,
+        "cantClasses": 1
+      },
+      {
+        "moduleNumber": 2,
+        "title": "Module 2",
+        "description": "Pregnancy related conditions, unspecified, unspecified trimester",
+        "classes": [{ "classNumber": 1, "name": "Class 1", "durationMinutes": 298 }],
+        "durationMinutes": 298,
+        "cantClasses": 1
+      },
+      {
+        "moduleNumber": 3,
+        "title": "Module 3",
+        "description": "Unspecified injury of blood vessel of right ring finger, initial encounter",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 1 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 136 }
+        ],
+        "durationMinutes": 137,
+        "cantClasses": 2
+      },
+      {
+        "moduleNumber": 4,
+        "title": "Module 4",
+        "description": "Displaced segmental fracture of shaft of left tibia, subsequent encounter for open fracture type I or II with nonunion",
+        "classes": [{ "classNumber": 1, "name": "Class 1", "durationMinutes": 35 }],
+        "durationMinutes": 35,
+        "cantClasses": 1
+      },
+      {
+        "moduleNumber": 5,
+        "title": "Module 5",
+        "description": "Insect bite (nonvenomous) of left ring finger, sequela",
+        "classes": [{ "classNumber": 1, "name": "Class 1", "durationMinutes": 262 }],
+        "durationMinutes": 262,
+        "cantClasses": 1
+      },
+      {
+        "moduleNumber": 6,
+        "title": "Module 6",
+        "description": "Impetigo",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 147 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 137 }
+        ],
+        "durationMinutes": 284,
+        "cantClasses": 2
+      },
+      {
+        "moduleNumber": 7,
+        "title": "Module 7",
+        "description": "Kitchen in mobile home as the place of occurrence of the external cause",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 121 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 247 }
+        ],
+        "durationMinutes": 368,
+        "cantClasses": 2
+      },
+      {
+        "moduleNumber": 8,
+        "title": "Module 8",
+        "description": "Subluxation of T10/T11 thoracic vertebra, initial encounter",
+        "classes": [{ "classNumber": 1, "name": "Class 1", "durationMinutes": 185 }],
+        "durationMinutes": 185,
+        "cantClasses": 1
+      },
+      {
+        "moduleNumber": 9,
+        "title": "Module 9",
+        "description": "State road as the place of occurrence of the external cause",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 244 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 78 }
+        ],
+        "durationMinutes": 322,
+        "cantClasses": 2
+      },
+      {
+        "moduleNumber": 10,
+        "title": "Module 10",
+        "description": "Pulmonary mucormycosis",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 215 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 74 }
+        ],
+        "durationMinutes": 289,
+        "cantClasses": 2
+      }
+    ],
+    "cantModules": 10,
+    "cantClasses": 15,
+    "courseDurationMinutes": 2354
+  },
+  {
+    "title": "SQL Server",
+    "description": "Early congenital syphilis, symptomatic",
+    "price": 633.58,
+    "certification": true,
+    "difficulty": "beginner",
+    "category": "Mobile App Development",
+    "language": "Tok Pisin",
+    "courseModality": "video",
+    "creator": "2a455c66-e33c-482b-a29c-6c907b23efbb",
+    "instructors": [
+      "b84052ab-a42c-4a24-bc3e-d09d0c033ef3",
+      "7e1ebf88-4295-4170-849d-dfc1416789a0",
+      "1c7244fc-931c-4223-b1c1-a5a63cbee9ee",
+      "5085ff9d-3a04-4141-89dd-a5b456e5e1f6",
+      "75b42c9a-a353-447f-b21b-765fd2dcd413"
+    ],
+    "createdAt": "2020-10-03",
+    "updatedAt": "2020-10-17",
+    "numberOfStudents": 359,
+    "rating": 2,
+    "image": "http://dummyimage.com/117x100.png/dddddd/000000",
+    "modules": [
+      {
+        "moduleNumber": 1,
+        "title": "Module 1",
+        "description": "Calcification and ossification of muscles associated with burns, unspecified upper arm",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 175 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 40 },
+          { "classNumber": 3, "name": "Class 3", "durationMinutes": 5 }
+        ],
+        "durationMinutes": 220,
+        "cantClasses": 3
+      },
+      {
+        "moduleNumber": 2,
+        "title": "Module 2",
+        "description": "Contusion of unspecified middle finger without damage to nail, subsequent encounter",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 138 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 256 }
+        ],
+        "durationMinutes": 394,
+        "cantClasses": 2
+      },
+      {
+        "moduleNumber": 3,
+        "title": "Module 3",
+        "description": "Other fracture of shaft of right fibula, subsequent encounter for open fracture type IIIA, IIIB, or IIIC with malunion",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 56 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 202 },
+          { "classNumber": 3, "name": "Class 3", "durationMinutes": 174 }
+        ],
+        "durationMinutes": 432,
+        "cantClasses": 3
+      },
+      {
+        "moduleNumber": 4,
+        "title": "Module 4",
+        "description": "Nonexudative age-related macular degeneration, unspecified eye, advanced atrophic without subfoveal involvement",
+        "classes": [{ "classNumber": 1, "name": "Class 1", "durationMinutes": 75 }],
+        "durationMinutes": 75,
+        "cantClasses": 1
+      },
+      {
+        "moduleNumber": 5,
+        "title": "Module 5",
+        "description": "Barrett's esophagus with dysplasia",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 221 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 204 }
+        ],
+        "durationMinutes": 425,
+        "cantClasses": 2
+      }
+    ],
+    "cantModules": 5,
+    "cantClasses": 11,
+    "courseDurationMinutes": 1546
+  },
+  {
+    "title": "Vue.js",
+    "description": "Other injury to pelvic organs, delivered, with or without mention of antepartum condition",
+    "price": 416.73,
+    "certification": false,
+    "difficulty": "expert",
+    "category": "Web Development",
+    "language": "Haitian Creole",
+    "courseModality": "quiz",
+    "creator": "4055071b-f0b5-444f-9b2a-98c21b82b9c0",
+    "instructors": ["e5c6c890-4334-4c8a-bdb7-8f2782df437d"],
+    "createdAt": "2020-10-06",
+    "updatedAt": "2020-10-20",
+    "numberOfStudents": 816,
+    "rating": 2,
+    "image": "http://dummyimage.com/242x100.png/5fa2dd/ffffff",
+    "modules": [
+      {
+        "moduleNumber": 1,
+        "title": "Module 1",
+        "description": "Strain of intrinsic muscle, fascia and tendon of other finger at wrist and hand level",
+        "classes": [
+          { "classNumber": 1, "name": "Class 1", "durationMinutes": 117 },
+          { "classNumber": 2, "name": "Class 2", "durationMinutes": 43 },
+          { "classNumber": 3, "name": "Class 3", "durationMinutes": 125 }
+        ],
+        "durationMinutes": 285,
+        "cantClasses": 3
+      }
+    ],
+    "cantModules": 1,
+    "cantClasses": 3,
+    "courseDurationMinutes": 285
   }
 ]
